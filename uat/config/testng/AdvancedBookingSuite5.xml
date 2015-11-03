@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Advanced booking - Test Suite" verbose="1">
+
+    <test name="Making an order with `Blind Ad` checked">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964378_MakingOrderWithBlindAdChecked"/>
+        </classes>
+    </test>
+
+    <test name="Verify `Administrative` (valid)">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964147_VerifyAdministrativeValid"/>
+        </classes>
+    </test>
+
+    <test name=" Verify coping of `Profit Center` to new order (yellow menu) ">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964455_VerifyProfitCenterCopingToNewOrderYellowMenu"/>
+        </classes>
+    </test>
+
+    <test name=" Verify coping of `Profit Center` to new order (blue button) ">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964454_VerifyProfitCenterCopingToNewOrderBlueButton"/>
+        </classes>
+    </test>
+
+    <test name="Save order with valid data">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964136_SaveOrderWithValidData"/>
+        </classes>
+    </test>
+
+    <test name="Verify rules for `Free` checkbox and dropdown in `Rate` window">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T965195_VerifyRulesForFreeCheckboxAndDropdownInRateWindow"/>
+        </classes>
+    </test>
+
+
+</suite>

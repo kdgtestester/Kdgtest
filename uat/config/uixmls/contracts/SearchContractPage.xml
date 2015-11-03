@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--=============================================================================================-->
+    <!-- Search contract area-->
+    <!--=============================================================================================-->
+
+
+    <WebElement name="pageLabel">
+        <css>label[data-field_label='typeprint']</css>
+    </WebElement>
+
+    <WebElement name="searchByPartnerInput">
+        <css>#contract-orderer .ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <css>.crm_search_button .ui-button:not([aria-disabled='true'])</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Search results table-->
+    <!--=============================================================================================-->
+
+    <WebElement name="contractLinkByPartnerNamePattern">
+        <xpath>//tr[td/a[contains(text(), '%s')]]/td/a[contains(@href, 'contract')]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+
+
+</Elements>

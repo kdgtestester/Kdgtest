@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="pageLabel">
+        <xpath>//table[contains(@class, "orders")]//h1[text() = "Orders"]</xpath>
+    </WebElement>
+
+    <WebElement name="orderByIdPattern">
+        <id>%s</id>
+    </WebElement>
+
+    <WebElement name="searchResultsWaitLoader">
+        <css>#resultsWaitSign img</css>
+    </WebElement>
+
+    <WebElement name="orderStatus">
+        <xpath>//span[contains(text(), 'Status')]//..//..//td[2]/span</xpath>
+    </WebElement>
+
+</Elements>

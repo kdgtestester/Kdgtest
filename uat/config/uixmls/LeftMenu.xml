@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="createPartnerButton">
+        <css>.crm_a-newCustomer a</css>
+    </WebElement>
+
+    <WebElement name="createContractButton">
+        <css>.crm_a-create-contract a</css>
+    </WebElement>
+
+    <WebElement name="createActivityButton">
+        <css>.crm_a-create-activity a</css>
+    </WebElement>
+
+</Elements>

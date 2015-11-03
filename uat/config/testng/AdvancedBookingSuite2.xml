@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Advanced booking - Test Suite" verbose="1">
+
+    <test name="Place Order after changes on `Ad space` zone ">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964850_PlaceOrderAfterChangesOnAdSpaceZone"/>
+        </classes>
+    </test>
+
+    <test name="Saving order with multiple products">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964289_SavingOrderWithMultipleProducts"/>
+        </classes>
+    </test>
+
+    <test name="Verify changes after forcing Rate">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964202_VerifyChangesAfterForcingRate"/>
+        </classes>
+    </test>
+
+    <test name=" Place order with standard circulation">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964351_PlaceOrderWithStandardCirculation"/>
+        </classes>
+    </test>
+
+    <test name="Make a booking with an upsell product">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964391_MakeBookingWithUpsellProduct"/>
+        </classes>
+    </test>
+
+    <test name="Verify that 'Size', 'Dates' and 'AdSpace' Fields Care copied to Upsell Product">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964324_VerifySizeDateAdSpaceFieldsCopiedToUpsellProduct"/>
+        </classes>
+    </test>
+
+
+
+</suite>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="pageLabel">
+        <css>.crm_layout_name</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Search contract area-->
+    <!--=============================================================================================-->
+
+    <WebElement name="partnerSelector">
+        <css>#Contract-orderer .ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="productSelector">
+        <css>#Contract-ContractExtension-product .ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="dateBoxButton">
+        <css>#Contract-startDateView .datebox</css>
+    </WebElement>
+
+    <WebElement name="monthSelector">
+        <css>select.ui-datepicker-month'</css>
+    </WebElement>
+
+    <WebElement name="activeDatesLink">
+        <css>td[data-handler="selectDay"][class=" "] a</css>
+    </WebElement>
+
+    <WebElement name="firstDayOfMonthLink">
+        <xpath>//td[@data-handler='selectDay' and @data-year='%d' and @data-month='%d']/a[text() = '1']</xpath>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <css>#Contract-searchButton span.ui-button-text</css>
+    </WebElement>
+
+    <WebElement name="discountScaleList">
+        <id>Contract-templateSearchResult</id>
+    </WebElement>
+
+    <WebElement name="discountScaleItem">
+        <css>#Contract-templateSearchResult table tr.xwidget_grid_row</css>
+    </WebElement>
+
+
+    <WebElement name="createContractButton">
+        <css>#Contract-createContract span.ui-button-text</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Create contract area-->
+    <!--=============================================================================================-->
+
+    <WebElement name="savingIsInProgressMessage">
+        <css>.crm_messages .crm_message</css>
+    </WebElement>
+
+
+    <WebElement name="assignmentNameInput">
+        <css>input[name="field[assignmentName]"]</css>
+    </WebElement>
+
+    <WebElement name="discountLevelSelector">
+        <css>#Contract-ContractExtension-discountScaleLevel .ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="saveContractButton">
+        <css>#Contract-saveButton span.ui-button-text</css>
+    </WebElement>
+
+    <WebElement name="approveButton">
+        <css>#Contract-approveButton span.ui-button-text</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Notes-->
+    <!--=============================================================================================-->
+
+    <WebElement name="notesHeader">
+        <xpath>//div[contains(@id, 'Contract-splitter')]//div[span[text() = 'Notes']]</xpath>
+    </WebElement>
+
+    <WebElement name="descriptionInput">
+        <css>#Contract-ContractExtension-notes textarea</css>
+    </WebElement>
+
+
+    <!--=============================================================================================-->
+    <!-- Holding information-->
+    <!--=============================================================================================-->
+
+    <WebElement name="holdingInformationHeader">
+        <css>#Contract-splitterHolding .field-splitter</css>
+    </WebElement>
+
+    <WebElement name="holdingContractCheckbox">
+        <css>#Contract-ContractExtension-holding input[type="checkbox"]</css>
+    </WebElement>
+
+    <WebElement name="followHoldingRulesCheckbox">
+        <css>#Contract-ContractExtension-followsHoldingRules input[type="checkbox"]</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Final Adjustment-->
+    <!--=============================================================================================-->
+
+    <WebElement name="finalAdjustmentHeader">
+        <xpath>//div[contains(@id, 'Contract-splitter')]//div[span[text() = 'Final Adjustment']]</xpath>
+    </WebElement>
+
+    <WebElement name="standardFinalAdjustmentCheckbox">
+        <css>#Contract-ContractExtension-isStandardFinalAdjustment input[type="checkbox"]</css>
+    </WebElement>
+
+    <WebElement name="withCorrectivesCheckbox">
+        <css>#Contract-ContractExtension-isStandardFinalAdjustmentWithCorrectives input[type="checkbox"]</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="productNameWithUniqueID">
+        <xpath>//a[contains(.,'%s') and contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="errors">
+        <css>.crm_error li</css>
+    </WebElement>
+
+</Elements>

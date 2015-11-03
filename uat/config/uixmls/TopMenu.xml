@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="logoutButton">
+        <css>a[title='Logout']</css>
+    </WebElement>
+
+    <WebElement name="partnersLink">
+        <xpath>//a[@href="/crm2/controller/customers"]</xpath>
+    </WebElement>
+
+    <WebElement name="dashboardLink">
+        <xpath>//a[@href= "/adsalespro"]</xpath>
+    </WebElement>
+
+    <WebElement name="billingLink">
+        <css>a[href*='Transaction']</css>
+    </WebElement>
+
+    <WebElement name="contractsLink">
+        <css>a[href$='contracts']</css>
+    </WebElement>
+
+    <WebElement name="approvalsLink">
+        <css>a[href$='Orderqueues']</css>
+    </WebElement>
+
+    <WebElement name="approvalsLink">
+        <css>a[href$='Orderqueues']</css>
+    </WebElement>
+
+</Elements>

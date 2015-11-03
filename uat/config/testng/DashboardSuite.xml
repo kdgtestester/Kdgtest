@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dashboard - Test Suite" verbose="1">
+
+    <test name="Quick search of order by valid name">
+        <classes>
+            <class name="com.mediaspectrum.tests.dashboard.T964380_QuickSearchOrderByValidName"/>
+        </classes>
+    </test>
+
+    <test name="Search orders by valid creation date, using listed days">
+        <classes>
+            <class name="com.mediaspectrum.tests.dashboard.T964075_SearchOrderByCreationDay"/>
+        </classes>
+    </test>
+
+</suite>

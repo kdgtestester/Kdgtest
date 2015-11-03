@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="reportPageHeader">
+        <xpath>//h1</xpath>
+    </WebElement>
+
+    <WebElement name="runReportsButton">
+        <xpath>//a[@ng-click="goto('/reports/run')"]</xpath>
+    </WebElement>
+
+</Elements>

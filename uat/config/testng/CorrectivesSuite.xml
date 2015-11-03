@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login - Test Suite" verbose="1">
+
+    <test name="Correctives form (contract INTERMEDIATE adjustment)">
+        <classes>
+            <class name="com.mediaspectrum.tests.correctives.T964928_CorrectivesFormContractIntermediateAdjustment"/>
+        </classes>
+    </test>
+
+    <test name="Separate Correctives Generated w/ Order Update">
+        <classes>
+            <class name="com.mediaspectrum.tests.correctives.T964871_SeparateCorrectivesGeneratedWhileOrderUpdate"/>
+        </classes>
+    </test>
+
+    <test name="Leased product Exception Surcharge">
+        <classes>
+            <class name="com.mediaspectrum.tests.correctives.T965533_LeasedProductExceptionSurcharge"/>
+        </classes>
+    </test>
+
+</suite>

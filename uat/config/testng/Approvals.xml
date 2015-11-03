@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Approvals - Test Suite" verbose="1">
+
+    <test name="Refusing of the order in Pending Credit status">
+        <classes>
+            <class name="com.mediaspectrum.tests.approvals.T31784_RefusingOfTheOrderInPendingCreditStatus"/>
+        </classes>
+    </test>
+
+    <test name="Approving of the order in Pending Credit status">
+        <classes>
+            <class name="com.mediaspectrum.tests.approvals.T31723_ApprovingOfTheOrderInPendingCreditStatus"/>
+        </classes>
+    </test>
+
+</suite>

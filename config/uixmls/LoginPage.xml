@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Login form elements-->
+
+    <WebElement name="loginWithGoogleButton">
+        <xpath>//a[@id='login-page-google-login']</xpath>
+    </WebElement>
+
+</Elements>

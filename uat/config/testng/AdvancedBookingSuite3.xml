@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Advanced booking - Test Suite" verbose="1">
+
+
+    <test name="Add a surcharge manually">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964388_AddSurchargeManually"/>
+        </classes>
+    </test>
+
+    <test name="Add a surcharge with the limit (mm)">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964187_AddSurchargeWithTheLimit"/>
+        </classes>
+    </test>
+
+    <test name="Verify 'Base charge' in 'Price management' tab">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964292_VerifyBaseChargeInPriceManagementTab"/>
+        </classes>
+    </test>
+
+    <test name="Place order with Extended circulation">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964181_PlaceOrderWithExtendedCirculation"/>
+        </classes>
+    </test>
+
+    <test name="Add a discount scale">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964203_AddDiscountScale"/>
+        </classes>
+    </test>
+
+    <test name="Advanced Booking - Verify that `Product Name` is shown in Dashboard when booking 8/2 product with prescription">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T966071_VerifyProductNameIsShownInDashboardWhenBooking8per2ProductWithPrescription"/>
+        </classes>
+    </test>
+
+</suite>

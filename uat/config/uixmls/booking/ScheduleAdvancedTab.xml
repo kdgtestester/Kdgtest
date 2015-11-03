@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+
+    <WebElement name="scheduleBookingTab">
+        <xpath>//table[.//span[contains(.,'Schedule Advanced')]]</xpath>
+    </WebElement>
+
+    <WebElement name="advertiserYellowMenuHeader">
+        <id>advertiser</id>
+    </WebElement>
+
+    <WebElement name="yellowMenuItem">
+        <xpath>//td[@id='advertiser']//a[contains(text(),'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="productSearchInput">
+        <css>#bookingContent > div:not([style*='none']) #dataBeanProduct-lookup-search input</css>
+    </WebElement>
+
+    <!--As pattern requires product unique id-->
+    <WebElement name="selectedProduct">
+        <xpath>//div[@id='bookingContent']/div[not(contains(@style,'none'))]//a[span[contains(@id, '%s')]]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Schedule Advanced tab-->
+    <!--=============================================================================================-->
+
+    <WebElement name="productTypeSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="dataBeanAdtype"] input</css>
+    </WebElement>
+
+    <WebElement name="voucherCheckbox">
+        <xpath>//div[@id='bookingContent']/div[not(@style)]//div[input[contains(@widget-options, 'Voucher')]]/a</xpath>
+    </WebElement>
+
+    <WebElement name="productHeaderSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="Heading"]:not([class*="Sub"]) input</css>
+    </WebElement>
+
+    <WebElement name="productTextBorderSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="dataBeanTextBorder"] input</css>
+    </WebElement>
+
+    <WebElement name="productSubHeaderSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[widget-options*="subheadingname"] input</css>
+    </WebElement>
+
+    <WebElement name="productCompositePositionSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="compositePosition"] input</css>
+    </WebElement>
+
+    <WebElement name="productAdStructureSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="dataBeanAdStructure"] input</css>
+    </WebElement>
+
+    <WebElement name="productBleedSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="dataBeanBleed"] input</css>
+    </WebElement>
+
+    <WebElement name="productRateTypeSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="RateType"] input</css>
+    </WebElement>
+
+    <WebElement name="productClientTypeSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="dataBeanClientType"] input</css>
+    </WebElement>
+
+    <WebElement name="productColorSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="dataBeanColor"] input</css>
+    </WebElement>
+
+    <WebElement name="productSizeSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="dbsize_widget"] input</css>
+    </WebElement>
+
+    <WebElement name="productSizeHeight">
+        <css>#bookingContent > div:not([class*='as_lock']) tr[widget-options*='dbsizeHeight'] input.as_dbsizeHeight_widget_tmpl</css>
+    </WebElement>
+
+    <WebElement name="productSizeLinesInput">
+        <css>#bookingContent > div:not([style*='none']) tr[widget-options*='dbsizeTotal'] input.as_dbsizeTotal_widget_tmpl</css>
+    </WebElement>
+
+    <WebElement name="prescriptionSizeSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="prescriptionSize"] input</css>
+    </WebElement>
+
+    <WebElement name="orderDatesSelector">
+        <css>#bookingContent > div:not([style*="none"]) tbody[class*="dpOCStartDate"] .as_calendar_ico, #bookingContent > div:not([style*="none"]) table[class*="multiline_calendar"] div[path="datesMap"]</css>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- Calendar form-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="calendarView">
+        <xpath>//div[@id='bookingContent']/div[not(contains(@style, 'display: none'))]//td[@view='calendarView']//div[contains(@style, 'display: block') and contains(@class, 'datepicker')]</xpath>
+    </WebElement>
+
+    <WebElement name="calendarActiveElement">
+        <css>#bookingContent > div:not([style*="none"]) td[class$="as_packageDate"] > a</css>
+    </WebElement>
+
+    <WebElement name="calendarExtendedActiveElement">
+        <css>#bookingContent > div:not([style*="none"]) td[class$="as_packageDate datetype_extended"] > a</css>
+    </WebElement>
+
+    <WebElement name="calendarDayElementWithPattern">
+        <css>#bookingContent > div:not([style*="none"]) td[class$="as_packageDate"] a[year="%d"][month="%d"][day="%d"]</css>
+    </WebElement>
+
+    <!--will use as counter for selected days-->
+    <WebElement name="calendarSelectedDayElement">
+        <css>td[class$="as_selectedDay"] a</css>
+    </WebElement>
+
+    <WebElement name="calendarItemForOnlineProduct">
+        <css>div:not([style*="none"]) td[class$="as_monthDay"] a</css>
+    </WebElement>
+
+    <WebElement name="applyDatesButton">
+        <css>a[class*="as_btn-apply"] span</css>
+    </WebElement>
+
+    <WebElement name="clearDatesButton">
+        <css>a[class*="as_btn-clear-dates"] span</css>
+    </WebElement>
+
+    <WebElement name="cancelSelectingDates">
+        <css>a[class*="as_btn-cancel"] span</css>
+    </WebElement>
+
+    <WebElement name="lastCalendarMonth">
+        <css>.ui-datepicker .ui-datepicker-multi div.ui-datepicker-group:last-child .ui-datepicker-month</css>
+    </WebElement>
+
+    <WebElement name="lastCalendarYear">
+        <css>.ui-datepicker .ui-datepicker-multi div.ui-datepicker-group:last-child .ui-datepicker-year</css>
+    </WebElement>
+
+    <WebElement name="moveCalendarFormBackButton">
+        <css>div[widget-options*='handleMonthBack']</css>
+    </WebElement>
+
+    <WebElement name="moveCalendarFormForwardButton">
+        <css>div[widget-options*='handleMonthForward']</css>
+    </WebElement>
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="reservationOnlyCheckbox">
+        <css>#bookingContent > div:not([style*="none"]) tr[class*="isReservedOnly"] input</css>
+    </WebElement>
+
+    <WebElement name="specialRequestCheckbox">
+        <css>#bookingContent > div:not([style*="none"]) tr[class*="isSpecialRequest"] input</css>
+    </WebElement>
+
+    <WebElement name="specialRequestDescriptionInput">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="specialRequestDetails"] textarea</css>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- Content form-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="productContentTypeSelector">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="selectTextType"] input</css>
+    </WebElement>
+
+    <WebElement name="contentTypeDescription">
+        <css>#bookingContent > div:not([style*="none"]) tr[class*="description_row"] textarea</css>
+    </WebElement>
+
+    <WebElement name="productContentLanguage">
+        <css>#bookingContent > div:not([style*="none"]) div[class*="codeLanguage"] input</css>
+    </WebElement>
+
+    <WebElement name="productContentDescriptionInput">
+        <css>#bookingContent > div:not([style*="none"]) div[path="description"] textarea</css>
+    </WebElement>
+
+    <WebElement name="productBindAdCheckBox">
+        <xpath>//div[@id='bookingContent']/div[not(contains(@style, 'none'))]//div[input[contains(@widget-options, 'Blind Ad')]]/a</xpath>
+    </WebElement>
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="removeProductButton">
+        <css>#feedbacksTd .bookingFormButtonRemoveFromOrder span</css>
+    </WebElement>
+
+    <WebElement name="addProductToOrderButton">
+        <css>#feedbacksTd .bookingFormButtonAddToOrder span</css>
+    </WebElement>
+
+    <WebElement name="addNewProductButton">
+        <css>#feedbacksTd a.bookingFormButtonAdd</css>
+    </WebElement>
+
+    <WebElement name="uieditorButton">
+        <css>a[widget-options*="Ueditor online"]</css>
+    </WebElement>
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="loaderWidget">
+        <css>.as_dialog_content img</css>
+    </WebElement>
+
+    <WebElement name="dropdownOption">
+        <xpath>//div[@class='as_dropdown_sub' and contains(@style, 'display: block')]//div[@class='as_menu']/a[contains(text(), '%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="productNameWithUniqueID">
+        <xpath>//a[contains(.,'%s') and contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Information popup-->
+    <!--=============================================================================================-->
+
+    <WebElement name="informationPopup">
+        <css>.as_cust_dialog div.as_dialog_icon.as_information</css>
+    </WebElement>
+
+    <WebElement name="popupLoader">
+        <css>.as_cust_dialog div[class*='loader'] img[src*='loader']</css>
+    </WebElement>
+
+    <WebElement name="confirmButton">
+        <css>.as_cust_dialog .as_buttons a[widget-options*='OK']</css>
+    </WebElement>
+
+    <WebElement name="orderDraftStatusMessage">
+        <xpath>//td[@id='feedbacksTd']//div[contains(text(), 'Order successfully saved as Draft')]</xpath>
+    </WebElement>
+</Elements>

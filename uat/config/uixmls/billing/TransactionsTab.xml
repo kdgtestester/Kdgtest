@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="invoicesTabLink">
+        <xpath>//a[contains(text(), 'Invoices')]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Search form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="partnerIdInput">
+        <css>#ARTransactionForm-search_customer_number input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="partnerInputIDLoader">
+        <css>#ARTransactionForm-search_customer_number input.ui-autocomplete-loading</css>
+    </WebElement>
+
+    <WebElement name="orderIDInput">
+        <css>#ARTransactionForm-transaction_search_order_number input[name*="search_order"]</css>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <css>#ARTransactionForm-button_search span.ui-button-text</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Buttons area-->
+    <!--=============================================================================================-->
+
+    <WebElement name="invoiceNowButton">
+        <css>#ARTransactionForm-button_generate_invoice span.ui-button-text</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Search results areaa-->
+    <!--=============================================================================================-->
+
+    <WebElement name="orderItemByIDPattern">
+        <xpath>//div[@id='ARTransactionForm-grid_orders']//tr[td/a[text() = '%s']]</xpath>
+    </WebElement>
+
+    <WebElement name="expandOrderItemButtonByIDpattern">
+        <xpath>//div[@id='ARTransactionForm-grid_orders']//tr[td/a[text() = '%s']]/td/a[@class='xwidget_grid_details_link']</xpath>
+    </WebElement>
+
+    <WebElement name="selectAllCheckboxByOrderIDPattern">
+        <xpath>//div[@id='ARTransactionForm-grid_orders']//tr[td/a[text() = '%s']]/following-sibling::tr//input[@class='xeditableGrid_selectAll_checkbox']</xpath>
+    </WebElement>
+
+    <WebElement name="successInvoiceGeneratingMessage">
+        <xpath>//div[@class='crm_message']/ul/li[contains(text(), 'generated')]</xpath>
+    </WebElement>
+
+    <WebElement name="orderLoader">
+        <css>.loading_mask</css>
+    </WebElement>
+
+    <WebElement name="searchingLoader">
+        <css>#ARTransactionForm-grid_orders .xwidget_loading_overlay</css>
+    </WebElement>
+
+</Elements>

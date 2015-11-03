@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="uiEditorFrame">
+        <css>iframe[src*="UEOnlineForm"]</css>
+    </WebElement>
+
+    <WebElement name="pageLabel">
+        <css>//div[text()="Content"]</css>
+    </WebElement>
+
+    <WebElement name="languageSelector">
+        <css>select[name*="LANGUAGE"]</css>
+    </WebElement>
+
+    <WebElement name="operationSelector">
+        <css>select[name*="OPERATIONID"]</css>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- Job information area-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="jobInfoFrame">
+        <css>iframe[title="Rich Text Editor, editor2"]</css>
+    </WebElement>
+
+    <WebElement name="jobTitleInput">
+        <css>input[name*="OBJECTTITLE"]</css>
+    </WebElement>
+
+    <WebElement name="jobDescriptionInput">
+        <css>body</css>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- Address form-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="countrySelector">
+        <css>select[name*="COUNTRYCODE"]</css>
+    </WebElement>
+
+    <WebElement name="zipInput">
+        <css>input[name*="ZIPPOSTALCODE</css>
+    </WebElement>
+
+    <WebElement name="cityInput">
+        <css>input[name*="CITY"]</css>
+    </WebElement>
+
+    <WebElement name="streetInput">
+        <css>input[name*="CATEGORIZATION_PHYSICALADDRESS_STREETNAME"]</css>
+    </WebElement>
+
+    <WebElement name="streetNumberInput">
+        <css>input[name*="CATEGORIZATION_PHYSICALADDRESS_STREETNUMBER"]</css>
+    </WebElement>
+
+
+    <WebElement name="nextButton">
+        <xpath>//span[text()="Next"]</xpath>
+    </WebElement>
+
+</Elements>

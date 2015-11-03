@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Login form elements-->
+
+    <WebElement name="organizationNameField">
+        <xpath>//div[@class='form-group']/*/input[@name='orgName' and @id='org-setup-searchname']</xpath>
+    </WebElement>
+
+    <WebElement name="organizationStateOrProvince">
+        <xpath>//div[@class='col-sm-8']/select[@name='state' and @id='org-setup-searchstate']</xpath>
+    </WebElement>
+
+    <WebElement name="findMyOrganizationButton">
+        <xpath>//button[@id='org-setup-find-org-button']</xpath>
+    </WebElement>
+
+    <WebElement name="createOrganizationButton">
+        <xpath>//a[@id='org-setup-create-organization-button']</xpath>
+    </WebElement>
+
+    <WebElement name="warningSetupCheckBox">
+        <xpath>//label[@for='org-setup-warning-check']</xpath>
+    </WebElement>
+
+    <WebElement name="startButton">
+        <xpath>//button[@id='org-setup-next-button']</xpath>
+    </WebElement>
+
+    <WebElement name="setupTypeOrganization">
+        <xpath>//label[@for='org-setup-is_applicant']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupNextButton">
+        <xpath>//button[@id='org-setup-next-button']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupAddressStreetField">
+        <xpath>//form[@name='orgSetupForm2']//input[@id='org-setup-addr_street']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupCityField">
+        <xpath>//form[@name='orgSetupForm2']//input[@id='org-setup-city']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupAddressStateField">
+        <xpath>//select[@id='org-setup-addr_state']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupAddressZipField">
+        <xpath>//form[@name='orgSetupForm2']//input[@id='org-setup-addr_zip']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupCountryField">
+        <xpath>//select[@id='county']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupAddressCountryField">
+        <xpath>//form[@name='orgSetupForm2']//select[@id='org-setup-addr_country']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupPhoneField">
+        <xpath>//form[@name='orgSetupForm2']//input[@id='org-setup-phone']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupPocCheckBox">
+        <xpath>//label[@for='org-setup-poc-checkbox']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupPocTitleField">
+        <xpath>//form[@name='orgSetupForm4']//input[@id='org-setup-poc-title']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupPocPhoneField">
+        <xpath>//form[@name='orgSetupForm4']//input[@id='org-setup-poc-phone']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupFiscalYearEndMonthField">
+        <xpath>//form[@name='orgSetupForm5']//select[@id='orgSetup_fiscalYearEndMonth']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupFiscalYearEndDayField">
+        <xpath>//form[@name='orgSetupForm5']//select[@id='orgSetup_fiscalYearEndDay']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupFinishButton">
+        <xpath>//button[@id='org-setup-finish-button']</xpath>
+    </WebElement>
+
+    <WebElement name="continueButtonAfterSuccessCreation">
+        <xpath>//button[@ng-click="okThenRedirect('/dashboard')"]</xpath>
+    </WebElement>
+
+    <WebElement name="startNewSurveyButton">
+        <xpath>//button[@ng-click="goto('profile-wizard')" and text()='Start a survey']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupForm2">
+        <xpath>//form[@name='orgSetupForm2']</xpath>
+    </WebElement>
+
+    <WebElement name="cityCouncilDistrictLabel">
+        <xpath>//label[@for="orgSetup_cityCouncilDistrict"]</xpath>
+    </WebElement>
+
+
+
+</Elements>

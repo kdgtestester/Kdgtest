@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="viewAsSelector">
+        <css>#priceManagementView input</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Buttons place-->
+    <!--=============================================================================================-->
+
+    <WebElement name="rateButton">
+        <css>.as_price_management a.as_btn-rate</css>
+    </WebElement>
+
+    <WebElement name="surchargeButton">
+        <css>.as_price_management a.as_btn-discount</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Change rate dialog-->
+    <!--=============================================================================================-->
+
+    <WebElement name="rateDialogLabel">
+        <css>#rate-dialog .as_title</css>
+    </WebElement>
+
+    <WebElement name="selectAllProductsCheckbox">
+        <xpath>//td[input[@id='rateSelectAll']]/a</xpath>
+    </WebElement>
+
+    <WebElement name="rateInput">
+        <xpath>//input[@id='ratesRate']</xpath>
+    </WebElement>
+
+    <WebElement name="rateItemSelector">
+        <css>#rateUnit input</css>
+    </WebElement>
+
+    <WebElement name="freeCheckbox">
+        <xpath>//span[input[@id='free']]/a</xpath>
+    </WebElement>
+
+    <WebElement name="changeRateReason">
+        <css>#ratesCodeReason input</css>
+    </WebElement>
+
+    <WebElement name="changeRateDetails">
+        <css>#ratesCodeDetail input</css>
+    </WebElement>
+
+    <WebElement name="saveChangesButton">
+        <css>#rate-dialog a[widget-options*='Save']</css>
+    </WebElement>
+
+    <WebElement name="forcedValueField">
+        <css>.as_value_forced:first-child</css>
+    </WebElement>
+
+    <WebElement name="contractDiscount">
+        <id>ratesContractDiscount</id>
+    </WebElement>
+
+    <WebElement name="discountContractSelector">
+        <css>span[widget-options*='contractName'] input</css>
+    </WebElement>
+
+    <WebElement name="closeDialogButton">
+        <css>#rate-dialog a[widget-options*='Close']</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Surcharge dialog-->
+    <!--=============================================================================================-->
+
+    <WebElement name="surchargeDialogLabel">
+        <css>#surcharge-dialog .as_title</css>
+    </WebElement>
+
+    <WebElement name="surchargeListItemByNamePattern">
+        <xpath>(//tbody[@id='priceManagementAvailableSurcharges']/tr/td[text() = '%s'])[1]</xpath>
+    </WebElement>
+
+    <WebElement name="availableSurcharges">
+        <css>#priceManagementAvailableSurcharges tr td:nth-child(2)</css>
+    </WebElement>
+
+    <WebElement name="calculationCheckbox">
+        <id>calculationGross</id>
+    </WebElement>
+
+    <WebElement name="calculationCheckboxLink">
+        <xpath>//span[input[@id="calculationGross"]]/a</xpath>
+    </WebElement>
+
+    <WebElement name="addSurchargeButton">
+        <id>addSurchargeButton</id>
+    </WebElement>
+
+    <WebElement name="appliedSurchargeListByNamePattern">
+        <xpath>//tbody[@id='priceManagementAppliedSurcharges']/tr/td[text() = '%s']</xpath>
+    </WebElement>
+
+    <WebElement name="saveSurchargesChangesButton">
+        <css>#surcharge-dialog a[widget-options*='Save']</css>
+    </WebElement>
+
+    <WebElement name="saveSurchargesChangesButtonEnabled">
+        <xpath>//div[@id='surcharge-dialog']//a[contains(@widget-options, 'Save') and @aria-disabled='false']</xpath>
+    </WebElement>
+
+
+    <WebElement name="closeSurchargesDialogButton">
+        <css>#surcharge-dialog a[widget-options*='Close']</css>
+    </WebElement>
+
+    <WebElement name="selectAllProductsForSurchargeCheckbox">
+        <xpath>//td[input[@id='surchargeSelectAll']]/a</xpath>
+    </WebElement>
+
+    <WebElement name="surchargeReasonSelector">
+        <css>#surchargesCodeReason input</css>
+    </WebElement>
+
+    <WebElement name="surchargesDetailSelector">
+        <css>#surchargesCodeDetail input</css>
+    </WebElement>
+
+
+    <!--=============================================================================================-->
+    <!-- Order information table-->
+    <!--=============================================================================================-->
+
+    <WebElement name="expandedOrders">
+        <xpath>//tbody[@id="priceManagementPriceElements"]/tr//td[contains(@class,'expanded')]/a[contains(@class, "as_expand")]</xpath>
+    </WebElement>
+
+    <WebElement name="expandOrderButton">
+        <xpath>//tbody[@id="priceManagementPriceElements"]/tr[td[contains(.,"%s")]]/td/a[contains(@class, "as_expand")]</xpath>
+    </WebElement>
+
+    <WebElement name="expandedProductOrderInfo">
+        <xpath>//tbody[@id="priceManagementPriceElements"]/tr[contains(@class, "as_tr_expanded ")]</xpath>
+    </WebElement>
+
+    <WebElement name="productCheckboxByName">
+        <xpath>//tbody[@id='priceManagementPriceElements']/tr[td[contains(text(), '%s')]]/td/span[input]/a</xpath>
+    </WebElement>
+
+    <WebElement name="baseChargePrice">
+        <xpath>//tr[td[contains(.,"Base Charge")]]/td[contains(@widget-options, "price")]</xpath>
+    </WebElement>
+
+    <WebElement name="discountScalePrice">
+        <xpath>//tr[td[contains(.,"Discount") and contains(@widget-options, "description")]]/td[contains(@widget-options, "price")]</xpath>
+    </WebElement>
+
+    <WebElement name="orderSurcharge">
+        <xpath>//tbody[@id="priceManagementPriceElements"]/tr[td[text() =  "%s"]]/td[contains(@widget-options, "priceFormatter")]</xpath>
+    </WebElement>
+
+    <WebElement name="surchargeAmountTextbox">
+        <xpath>//tbody[@id="priceManagementPriceElements"]/tr[td[contains(text(), "Surcharge")]]/td[contains(@widget-options, "amount")]/span</xpath>
+    </WebElement>
+
+    <WebElement name="discountAmount">
+        <xpath>//tr[td[contains(.,"Discount") and contains(@widget-options, "description")]]/td[contains(@widget-options, "amount")]</xpath>
+    </WebElement>
+
+    <WebElement name="showCorrectivesLinkByProductNamePattern">
+        <xpath>//tbody[@id='priceManagementPriceElements']/tr[td[contains(.,'%s')]]/following-sibling::tr[1]/td/a[contains(@href, 'Correctives')]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Correctives form -->
+    <!--=============================================================================================-->
+
+    <WebElement name="correctivesFrame">
+        <css>.ui-dialog[style*='display: block'] iframe[src*='Correctives']</css>
+    </WebElement>
+
+    <WebElement name="correctivesItem">
+        <css>#Correctives-correctivesGrid .xwidget_grid_row </css>
+    </WebElement>
+
+    <WebElement name="expandContractAdjustmentCorrectiveLik">
+        <xpath>//tr[td[contains(text(), 'Contract adjustment')]]/td/a[@class='xwidget_grid_details_link']</xpath>
+    </WebElement>
+
+    <WebElement name="oldPriceDiscountValueTextbox">
+        <xpath>//tr[td[contains(text(), 'Discount Contract')]]/td[count(//th[contains(text(), 'oldprice')]/preceding-sibling::*)+1]</xpath>
+    </WebElement>
+
+    <WebElement name="newPriceDiscountValueTextbox">
+        <xpath>//tr[td[contains(text(), 'Discount Contract')]]/td[count(//th[contains(text(), 'newprice')]/preceding-sibling::*)+1]</xpath>
+    </WebElement>
+
+    <WebElement name="oldAmountDiscountValueTextbox">
+        <xpath>//tr[td[contains(text(), 'Discount Contract')]]/td[count(//th[contains(text(), 'oldamount')]/preceding-sibling::*)+1]</xpath>
+    </WebElement>
+
+    <WebElement name="newAmountDiscountValueTextbox">
+        <xpath>//tr[td[contains(text(), 'Discount Contract')]]/td[count(//th[contains(text(), 'newamount')]/preceding-sibling::*)+1]</xpath>
+    </WebElement>
+
+    <WebElement name="diffAmountDiscountValueTextbox">
+        <xpath>//tr[td[contains(text(), 'Discount Contract')]]/td[count(//th[contains(text(), 'diffamount')]/preceding-sibling::*)+1]</xpath>
+    </WebElement>
+
+    <WebElement name="closeCorrectivesDialogButton">
+        <xpath>//div[contains(@class, 'ui-dialog') and contains(@style, 'display: block')]//button[span[text()='Close']]</xpath>
+    </WebElement>
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="loader">
+        <css>img[src*='loader_wait']</css>
+    </WebElement>
+
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="orderInformationTab">
+        <css>.as_order_info_tab a</css>
+    </WebElement>
+
+    <WebElement name="checkedCheckboxes">
+        <css>#priceManagementPriceElements .as_td_checkbox span:not(.as_invisible_div) input[checked]</css>
+    </WebElement>
+
+    <WebElement name="availableCheckboxes">
+        <xpath>//tbody[@id='priceManagementPriceElements']//span[not(contains(@class, 'as_invisible_div')) and input[@type='checkbox']]/a</xpath>
+    </WebElement>
+
+</Elements>

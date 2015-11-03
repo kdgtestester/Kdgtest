@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login - Test Suite" verbose="1">
+
+    <test name="Login with existing account (valid)">
+        <classes>
+            <class name="com.mediaspectrum.tests.login.T964337_LoginWithExistingAccount"/>
+        </classes>
+    </test>
+
+    <test name="Create 'Central Team' ('senior') account on Webadmin and verify it ">
+        <classes>
+            <class name="com.mediaspectrum.tests.login.T964938_CreateCentralTeamSeniorAccountOnWebadminAndVerifyIt"/>
+        </classes>
+    </test>
+
+    <test name="Create `Standard` (`junior`) account on Webadmin and verify it">
+        <classes>
+            <class name="com.mediaspectrum.tests.login.T964939_CreateCentralTeamJuniourAccountOnWebadminAndVerifyIt"/>
+        </classes>
+    </test>
+
+    <test name="Create activity - UI - Verify the `Filtered by` field">
+        <classes>
+            <class name="com.mediaspectrum.tests.activities.T964593_VerifyFilteredByField"/>
+        </classes>
+    </test>
+
+
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Billing - Test billing" verbose="1">
+
+    <test name="Verify, that `Invoices` view checks AREXCEPTIONS table ">
+        <classes>
+            <class name="com.mediaspectrum.tests.billing.T965287_VerifyInvoicesViewChecksArexceptionsTable"/>
+        </classes>
+    </test>
+
+    <test name="Verify manual invoicing of an order with agency billing address">
+        <classes>
+            <class name="com.mediaspectrum.tests.billing.T965342_VerifyManuaInvoicingOfOrderWithAgencyBillingAddress"/>
+        </classes>
+    </test>
+
+    <test name="Billing - Verify the taxCode from XSAP2 for private customer (foreign)">
+        <classes>
+            <class name="com.mediaspectrum.tests.billing.T966090_VerifyTheTaxCodeFromXSAP2ForPrivateCustomer_Foreign"/>
+        </classes>
+    </test>
+
+    <test name="Billing - Verify the taxCode from XSAP2 for private customer (foreign) with Agency">
+        <classes>
+            <class name="com.mediaspectrum.tests.billing.T966091_VerifyTheTaxCodeFromXSAP2ForPrivateCustomerForeignWithAgency"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="languageSelector">
+        <css>a[title="%s"]</css>
+    </WebElement>
+
+    <WebElement name="loginInput">
+        <id>j_username</id>
+    </WebElement>
+
+    <WebElement name="passwordInput">
+        <id>j_password</id>
+    </WebElement>
+
+    <WebElement name="loginButton">
+        <css>.saveButton</css>
+    </WebElement>
+
+</Elements>

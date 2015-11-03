@@ -1,0 +1,59 @@
+package com.mediaspectrum.tests.partners;
+
+import com.mediaspectrum.control.Actions;
+import com.mediaspectrum.control.PartnersPages;
+import com.mediaspectrum.utils.CustomerData;
+import com.mediaspectrum.utils.CustomerType;
+import com.qatestlab.base.BaseTest;
+import com.qatestlab.utils.Constants;
+import com.qatestlab.utils.DataFactory;
+import com.qatestlab.utils.SerializeHelper;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import java.io.File;
+
+/**
+ * @author Kostia Zavgorodniy
+ * Email: konstantin.zavgorodniy@testmatick.com
+ * Test Name: Partner search - Search Partner by valid name
+ * Test Case: https://mediaspectrum.testrail.net/index.php?/tests/view/964065
+ */
+
+public class T964065_QuickSearchPartnerViaName extends BaseTest{
+
+    CustomerData customerData;
+
+    @DataProvider
+    public Object[][] loginData() throws Exception {
+        return super.getTableArray(System.getProperties().getProperty("config.dir")	+ File.separatorChar + "data"
+                + File.separatorChar + "DataPool.xls", "LoginData", "loginData1");
+    }
+
+    @Test(dataProvider = "loginData")
+    public void loginTest(String login, String password) {
+        Actions.loginActions().openLoginPage();
+        Actions.loginActions().doLogin(login, password, Constants.DEFAULT_SYSTEM_LANGUAGE);
+    }
+
+    @Test(dependsOnMethods = "loginTest")
+    public void searchPartnerTest(){
+
+        customerData = SerializeHelper.deserializeObject(CustomerData.class, Constants.CUSTOMER_SERIALIZE_FILENAME);
+
+        if(customerData == null){
+            customerData = DataFactory.generateDefaultCustomer(CustomerType.PROF_ADVERTISER);
+            Actions.partnerActions().createCustomer(customerData);
+            SerializeHelper.serializeObject(customerData, Constants.CUSTOMER_SERIALIZE_FILENAME);
+        }
+
+        Actions.partnerActions().searchPartnerByName(customerData.getCompanyName());
+    }
+
+    @Test(dependsOnMethods = "searchPartnerTest")
+    public void checkPartnerFound() {
+        Assert.assertTrue(PartnersPages.partnersPage().isPartnerFound(customerData.getCompanyName()),
+                "Partner is not found!");
+    }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+
+    <!--=============================================================================================-->
+    <!-- Search form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="switchCompanySelector">
+        <css>#CustomerCRM-switchCompany input</css>
+    </WebElement>
+
+
+    <WebElement name="searchNameInput">
+        <css>#CustomerCRM-name .xwidget_value</css>
+    </WebElement>
+
+    <WebElement name="searchPartnerIDInput">
+        <css>#CustomerCRM-CustomerCRM_accountnumber input[name*="accountnumber"]</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Buttons-->
+    <!--=============================================================================================-->
+
+    <WebElement name="createPartnerButton">
+        <css>#CustomerCRM-createPartnerButton .crm_button</css>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <css>.crm_search_button .crm_button</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Customers table-->
+    <!--=============================================================================================-->
+
+    <WebElement name="customersTable">
+        <css>.xwidget_grid_table</css>
+    </WebElement>
+
+    <WebElement name="tableRowByContentPattern">
+        <xpath>//div[@id='crm_customers_gird']//tr[td[contains(., '%s')]]</xpath>
+    </WebElement>
+
+    <WebElement name="partnerLinkByItemContentPartner">
+        <xpath>//div[@id='crm_customers_gird']//tr[td[contains(., '%s')]]/td/a[@href]</xpath>
+    </WebElement>
+
+    <WebElement name="expandPartnerItemArrowByContent">
+        <xpath>//tbody/tr[td[a[ contains(.,'%s')]]]/td/a</xpath>
+    </WebElement>
+
+    <WebElement name="tableAdvancedBookingLink">
+        <css>tr[class*="expanded"] + tr #CustomerCRM-advancedBookLink a</css>
+    </WebElement>
+
+    <WebElement name="searchResultsLoader">
+        <css>.xwidget_loading_overlay</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+
+</Elements>

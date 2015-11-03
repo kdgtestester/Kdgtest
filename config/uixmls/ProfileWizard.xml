@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="headerProfileWizard">
+        <xpath>//profile-wizard[@class='ng-scope']//h1</xpath>
+    </WebElement>
+
+    <WebElement name="listFiscalYear">
+        <xpath>//select[@id='pw-fiscal-year-select']</xpath>
+    </WebElement>
+
+    <WebElement name="startButton">
+        <xpath>//button[@ng-click="nextStep()"]</xpath>
+    </WebElement>
+
+    <WebElement name="confirmWizardCheckbox">
+        <xpath>//label[@for='checkbox_confirmWizardStart']</xpath>
+    </WebElement>
+
+    <WebElement name="listOrganizationType">
+        <xpath>//form[@name="orgTypeForm"]/div[@class='form-group']//select[@name="orgType"]</xpath>
+    </WebElement>
+
+    <WebElement name="formSummaryOrgType">
+        <xpath>//form[@name='summaryOrgType']</xpath>
+    </WebElement>
+
+    <!--<WebElement name="startSurveyButton">-->
+        <!--<xpath>//button[@ng-click="completeWizard()" and contains(., 'Start Survey') or contains(., 'Save &amp; Finish')]</xpath>-->
+    <!--</WebElement>-->
+    <!-- -->
+    <WebElement name="startSurveyButton">
+        <xpath>//button[@ng-click="completeWizard()"][2]</xpath>
+    </WebElement>
+
+    <WebElement name="saveFinisButton">
+        <xpath>//button[@ng-click="completeWizard()" and contains(., 'Save &amp; Finish')]</xpath>
+    </WebElement>
+
+    <WebElement name="goToDashboardButton">
+        <xpath>//a[@class='primary-link' and contains(@ng-click, 'okThenDo(data)')]</xpath>
+    </WebElement>
+
+    <WebElement name="surveyProvidersItem">
+        <xpath>//pw-04-partner-surveys//div[1]/label</xpath>
+    </WebElement>
+
+    <WebElement name="nteeClassificationList">
+        <xpath>//form[@name='classificationForm']//select[@id='wizardQuestions_ntee']</xpath>
+    </WebElement>
+
+    <WebElement name="disciplineList">
+        <xpath>//form[@name='disciplineForm']//select[@id='wizardQuestions_nispClassification']</xpath>
+    </WebElement>
+
+    <WebElement name="institutionTypeList">
+        <xpath>//form[@name='disciplineForm']//select[@id='wizardQuestions_nispInstitution']</xpath>
+    </WebElement>
+
+    <WebElement name="specialtyList">
+        <xpath>//form[@name='disciplineForm']//select[@id='wizardQuestions_nispSpecialty']</xpath>
+    </WebElement>
+
+    <WebElement name="programActivityHeader">
+        <xpath>//pw-06-program-activity/h2</xpath>
+    </WebElement>
+
+    <WebElement name="501cTypeField">
+        <xpath>//label[@for='wizardQuestions_type_501c']</xpath>
+    </WebElement>
+
+    <WebElement name="sameParentNameYesRadio">
+        <xpath>//div[@class='form-group']/div/label[@for='sameParentNameYes']</xpath>
+    </WebElement>
+
+    <WebElement name="sameParentNameNoRadio">
+        <xpath>//div[@class='form-group']/div/label[@for='sameParentNameNo']</xpath>
+    </WebElement>
+
+    <WebElement name="parentOrganizationNameField">
+        <xpath>//div[@class='form-group']//input[@id='wizardQuestions_parentName']</xpath>
+    </WebElement>
+
+    <WebElement name="underParentNameField">
+        <xpath>//div[@class='form-group']//input[@id='wizardQuestions_underParentName']</xpath>
+    </WebElement>
+
+    <WebElement name="financialInfoHeader">
+        <xpath>//pw-07-financial-info1/h2</xpath>
+    </WebElement>
+
+    <WebElement name="auditedCompleteTrueRadio">
+        <xpath>//div[@class='form-group']/div/label[@for='wizardQuestions_auditedTrue']</xpath>
+    </WebElement>
+
+    <WebElement name="restrictedRevenueCheck">
+        <xpath>//label[@for='wizardQuestions_restrictedRevenueCheck']</xpath>
+    </WebElement>
+
+    <WebElement name="nonOperatingRevenueCheckTrue">
+        <xpath>//label[@for='wizardQuestions_nonOperatingRevenueCheckTrue']</xpath>
+    </WebElement>
+
+    <WebElement name="nonOperatingExpenseCheckTrue">
+        <xpath>//label[@for='wizardQuestions_nonOperatingExpenseCheckTrue']</xpath>
+    </WebElement>
+
+    <WebElement name="endowmentReserveCheckTrue">
+        <xpath>//label[@for='wizardQuestions_endowmentReserveCheckTrue']</xpath>
+    </WebElement>
+
+    <WebElement name="membershipProgramCheckTrue">
+        <xpath>//label[@for='wizardQuestions_membershipProgramCheckTrue']</xpath>
+    </WebElement>
+
+    <WebElement name="membershipProgramCheckTrue">
+        <xpath>//label[@for='wizardQuestions_membershipProgramCheckTrue']</xpath>
+    </WebElement>
+
+    <WebElement name="continueButton">
+        <xpath>//div[@id="loading"]//button</xpath>
+    </WebElement>
+
+
+
+
+
+</Elements>

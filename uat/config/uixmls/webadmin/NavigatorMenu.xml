@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="navigatorPanel">
+        <id>navigatorPanel</id>
+    </WebElement>
+
+    <WebElement name="listElementHeader">
+        <xpath>//span[text() = "%s"]</xpath>
+    </WebElement>
+
+    <WebElement name="listElementSubHeader">
+        <css>li[data-name="Users"] a.navigatorItem</css>
+    </WebElement>
+
+</Elements>

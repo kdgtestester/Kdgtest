@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Contracts - Test Suite" verbose="1">
+
+    <test name="Create Contract page for Senior user ">
+        <classes>
+            <class name="com.mediaspectrum.tests.contracts.T964741_CreateContractPageForSeniorUser"/>
+        </classes>
+    </test>
+
+    <test name="Create Contract page for JUNIOR user ">
+        <classes>
+            <class name="com.mediaspectrum.tests.contracts.T964126_CreateContractPageForJuniorUser"/>
+        </classes>
+    </test>
+
+    <test name="Verify Adjustment History Tab">
+        <classes>
+            <class name="com.mediaspectrum.tests.contracts.T1391049_VerifyAdjustmentHistoryTab"/>
+        </classes>
+    </test>
+
+</suite>

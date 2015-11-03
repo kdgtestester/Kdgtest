@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="pageLabel">
+        <css>#Activity .crm_layout_name</css>
+    </WebElement>
+
+    <WebElement name="filteredByInput">
+        <css>#Activity-ActivityCalendarFilterByUser input[type="text"]</css>
+    </WebElement>
+
+    <WebElement name="userActivityCalendarItem">
+        <css>.crm_activities-calendar-container .fc-event-title</css>
+    </WebElement>
+
+    <WebElement name="profitCenterSelector">
+        <css>#Activity-switchCompany input.ui-autocomplete-input</css>
+    </WebElement>
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="errors">
+        <css>.crm_error</css>
+    </WebElement>
+
+
+</Elements>

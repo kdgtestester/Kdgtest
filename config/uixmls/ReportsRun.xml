@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="reportRunPageHeader">
+        <xpath>//h1</xpath>
+    </WebElement>
+
+    <WebElement name="annualReportType">
+        <xpath>//label[@id='pick-annual']</xpath>
+    </WebElement>
+
+    <WebElement name="trendReportType">
+        <xpath>//label[@ng-click="reportRun.type.set('trend')"]</xpath>
+    </WebElement>
+
+    <WebElement name="comparisonReportType">
+        <xpath>//label[@ng-click="reportRun.type.set('comparison')"]</xpath>
+    </WebElement>
+
+    <WebElement name="iconReportChoose">
+        <xpath>//span[@class="fa fa-check"]</xpath>
+    </WebElement>
+
+
+    
+
+</Elements>

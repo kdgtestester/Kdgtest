@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="pageLabel">
+        <xpath>//div[text()="Contact"]</xpath>
+    </WebElement>
+
+    <WebElement name="nextButton">
+        <xpath>//span[text()="Next"]</xpath>
+    </WebElement>
+
+
+
+</Elements>

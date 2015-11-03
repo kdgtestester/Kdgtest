@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="profilePicture">
+        <xpath>//div[@class='profile-picture']</xpath>
+    </WebElement>
+
+    <WebElement name="userLogin">
+        <xpath>//a[contains(., 'Qa Tester')]</xpath>
+    </WebElement>
+
+    <WebElement name="grantNonprofitItem">
+        <xpath>//a[contains(., 'Grant + Nonprofit')]</xpath>
+    </WebElement>
+
+    <WebElement name="firstItemMenuWithOrg">
+        <xpath>//app-user-menu/ul/li[5]/a</xpath>
+    </WebElement>
+
+    <WebElement name="modalBody">
+        <xpath>//div[@id='loading']</xpath>
+    </WebElement>
+
+    <WebElement name="joinOrCreateNewOrgItem">
+        <xpath>//ul[@class='dropdown-menu']//a[contains(., 'Join or Create New Organization')]</xpath>
+    </WebElement>
+
+    <WebElement name="startSurveyButton">
+        <xpath>//section[1]//button[@ng-click="goto('profile-wizard')"]</xpath>
+    </WebElement>
+
+    <WebElement name="newSurveyButton">
+        <xpath>//section[contains(@class, 'dashboard-window')]//button[@ng-click="goto('profile-wizard')"]</xpath>
+    </WebElement>
+
+    <WebElement name="firstItemSurvey">
+        <xpath>//div[@class='survey-list']/div[1]/div[1]/div[2]/span[1]</xpath>
+    </WebElement>
+
+    <WebElement name="reportsTab">
+        <xpath>//a[@ng-click="goto('/reports')"]</xpath>
+    </WebElement>
+
+
+
+</Elements>

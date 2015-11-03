@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--=============================================================================================-->
+    <!-- Search form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="searchCriteriaSelector">
+        <css>td[id*="FieldSelector"] input</css>
+    </WebElement>
+
+    <WebElement name="searchTypeSelector">
+        <css>td[id*="CriteriaSelector"] input</css>
+    </WebElement>
+
+    <WebElement name="searchKeyWordsInput">
+        <css>td[id*="InputText"] input</css>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <xpath>//td[img[@title="Search"]]</xpath>
+    </WebElement>
+
+    <WebElement name="selectDateButton">
+        <WebElement name="selectDateButton">
+            <xpath>//img[@class='ui-datepicker-trigger']</xpath>
+        </WebElement>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- Calendar form-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="firstMonthTable">
+        <css>.ui-datepicker-group-first .ui-datepicker-month</css>
+    </WebElement>
+
+    <WebElement name="previousMonthButton">
+        <css>#ui-datepicker-div a.ui-datepicker-prev</css>
+    </WebElement>
+
+    <WebElement name="dateItem">
+        <css>.ui-datepicker-group-first td:not([class*="ui"])</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Orders list-->
+    <!--=============================================================================================-->
+
+    <WebElement name="orderByIdPattern">
+        <id>%s</id>
+    </WebElement>
+
+    <WebElement name="orders">
+        <css>tr[id*="order"] .as_customization_orderNumber</css>
+    </WebElement>
+
+    <WebElement name="ordersCreationTime">
+        <css>#searchResult .as_tr_meta .asp_td_created</css>
+    </WebElement>
+
+    <WebElement name="nextResultsPageButton">
+        <id>asp_resultsPagingPattern_RightButton</id>
+    </WebElement>
+
+    <WebElement name="orderedProductByNamePattern">
+        <xpath>//tr[contains(@id, 'details')]//span[@class='as_span as_parametr' and contains(text(), '%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="orderInfoTitle">
+        <css>table.as_summaryview-schedules .as_title</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Expanded order form-->
+    <!--=============================================================================================-->
+
+    <WebElement name = "editOrderButton">
+        <id>asp_s_edit</id>
+    </WebElement>
+
+    <WebElement name="orderStatus">
+        <xpath>//span[contains(text(), 'Status')]//..//..//td[2]/span</xpath>
+    </WebElement>
+
+
+    <WebElement name="orderStatus">
+        <xpath>//span[contains(text(), 'Status')]//..//..//td[2]/span</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+    <WebElement name="searchResultsWaitLoader">
+        <css>#resultsWaitSign img</css>
+    </WebElement>
+
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="criteriaTypeDropdownOption">
+        <xpath>//div[not(contains(@class, 'hidden'))]/a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="searchOrderNumTypeOption">
+        <xpath>//div[@listalias="ordernumx" and not(contains(@class, "as_hidden_div"))]/a[contains(.,"=")]</xpath>
+    </WebElement>
+
+</Elements>

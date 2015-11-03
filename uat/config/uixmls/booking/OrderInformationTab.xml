@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="priceManagementTab">
+        <css>.as_price_management_tab a</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Order summary area-->
+    <!--=============================================================================================-->
+
+    <WebElement name="oderNumber">
+        <css>td[path="orderNumber"] span</css>
+    </WebElement>
+
+    <WebElement name="internalProvenanceInput">
+        <xpath>//div[@id='internalProvenance-lookup-search']//input</xpath>
+    </WebElement>
+
+    <WebElement name="internalProvenanceValue">
+        <xpath>//div[@id='internalProvenance-lookup-search']//a[.='%s']</xpath>
+    </WebElement>
+
+    <WebElement name="agencyDropdownHeader">
+        <css>div[class*="primaryAgency"] input.as_input</css>
+    </WebElement>
+
+    <WebElement name="paymentDropDownHeader">
+        <css>div[class*="paymentMethod"] input</css>
+    </WebElement>
+
+    <WebElement name="profitCenterSelector">
+        <css>div.as_listProfitCenter_widget_tmpl input</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Buttons area-->
+    <!--=============================================================================================-->
+
+    <WebElement name="saveOrderButton">
+        <css>#saveasdraft span</css>
+    </WebElement>
+
+    <WebElement name="placeOrderButton">
+        <id>placeorder</id>
+    </WebElement>
+
+    <WebElement name="prescriptionsButton">
+        <id>prescriptionbutton</id>
+    </WebElement>
+
+    <WebElement name="administrativeButton">
+        <id>administrativebutton</id>
+    </WebElement>
+
+    <WebElement name="newOrderButton">
+        <id>neworderbutton</id>
+    </WebElement>
+    <!--=============================================================================================-->
+    <!-- Shopping cart-->
+    <!--=============================================================================================-->
+
+    <WebElement name="shoppingCardProductByNamePattern">
+        <xpath>//td[div/span[contains(@id, "shoppingCartSubProduct") and contains(text(), "%s")]]</xpath>
+    </WebElement>
+
+    <WebElement name="shoppingCartProductByNameAndPosition">
+        <xpath>//tr[td[contains(@class, 'as_td_xenContentId')]/span[contains(text(), '%d')]]/td[div/span[contains(text(), '%s')]]</xpath>
+    </WebElement>
+
+    <WebElement name="shoppingCartProductPriceByNamePattern">
+        <xpath>//tr[td/div/span[contains(@id, "shoppingCartSubProduct") and contains(text(), "%s")]]/td//td/span[@class="as_price"]</xpath>
+    </WebElement>
+
+    <WebElement name="loadingOrderProduct">
+        <css>tr[class*="order_details"][class*="as_schedule_progress"]</css>
+    </WebElement>
+
+    <WebElement name="totalPriceArea">
+        <css>td[path="netAmount"] span</css>
+    </WebElement>
+
+    <WebElement name="totalPriceLoader">
+        <css>#bookingShoppingCartExtraRows img.as_booking_net_amount_loader</css>
+    </WebElement>
+
+    <WebElement name="errorMessage">
+        <xpath>//div[contains(text(), "ERROR:")]</xpath>
+    </WebElement>
+
+    <WebElement name="expandOrderInfoByProductName">
+        <xpath>//table[@id='QA_Xentive_print_table_freeSchedulesContainer']/tbody/tr[td/div/span[contains(text(), '%s')]]/td/a[contains(@class, 'as_expand')]</xpath>
+    </WebElement>
+
+    <WebElement name="datesCheckboxes">
+        <xpath>//tr[contains(@class, 'as_shedule_dates')]//td[contains(@class, 'as_td_checkbox')]/a</xpath>
+    </WebElement>
+
+    <WebElement name="splitWithContentButton">
+        <xpath>//a[@id='splitButton']//span[contains(text(), 'with content')]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Prescriptions dialog-->
+    <!--=============================================================================================-->
+
+    <WebElement name="prescriptionsDialogTitle">
+        <css>.ui-dialog .prescriptionTitle</css>
+    </WebElement>
+
+    <WebElement name="productCheckboxByNameIDPattern">
+        <xpath>//div[@class = 'multiselect_item as_td_radio']/a[contains(text(), '%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="prescriptionGroupSelector">
+        <css>div[path='prescriptionGroup'] input</css>
+    </WebElement>
+
+    <WebElement name="prescriptionSelector">
+        <css>div[path='prescription'] input</css>
+    </WebElement>
+
+    <WebElement name="addPrescriptionButton">
+        <css>a[widget-options*='Add Prescription']</css>
+    </WebElement>
+
+    <WebElement name="addedPrescriptionByProductPattern">
+        <xpath>//div/div[@class = 'multiselect_item as_td_radio' and a[contains(text(), '%s')]]/following-sibling::div[1]/a/span</xpath>
+    </WebElement>
+
+    <WebElement name="closePopupDialogButton">
+        <xpath>//div[contains(@class, 'ui-dialog') and div[@class='content']//div[@class='prescriptionTitle']]/a</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Administrative dialog-->
+    <!--=============================================================================================-->
+
+    <WebElement name="administrativeDialogTitle">
+        <xpath>//div[contains(@class, 'as_custom_details_dialog ')]//div[@class='formTitle' and text() = 'Addresses']</xpath>
+    </WebElement>
+
+    <WebElement name="proposalAddressSelector">
+        <xpath>//div[@path='proposalAddress']/input</xpath>
+    </WebElement>
+
+    <WebElement name="billingAddressSelector">
+        <css>.as_billingAddress_widget_tmpl input</css>
+    </WebElement>
+
+    <WebElement name="applyAdministrativeButton">
+        <css>a[widget-options*='Apply']</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="loaderWidget">
+        <css>.as_dialog_content img</css>
+    </WebElement>
+
+    <WebElement name="dropdownOption">
+        <xpath>//div[@class='as_dropdown_sub' and contains(@style, 'display: block')]//div[@class='as_menu']/a[contains(text(), '%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="prescriptionDropDownOption">
+        <xpath>//div[contains(@class, 'as_prescription_widget_tmpl')]/div[@class='as_dropdown_sub']//a[contains(text(), '%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="prescriptionGroupDropDownOption">
+        <xpath>//div[contains(@class, 'as_prescriptionGroup_widget_tmpl')]/div[@class='as_dropdown_sub']//a[contains(text(), '%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="confirmPopupButton">
+        <css>a[widget-options*="dialogApprove"]</css>
+    </WebElement>
+
+
+</Elements>

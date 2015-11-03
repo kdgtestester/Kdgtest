@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="signInGoogleAccountHeader">
+        <xpath>//div[@class='banner']/h2</xpath>
+    </WebElement>
+
+    <WebElement name="emailField">
+        <xpath>//input[@id='Email']</xpath>
+    </WebElement>
+
+    <WebElement name="nextButton">
+        <xpath>//input[@id='next']</xpath>
+    </WebElement>
+
+    <WebElement name="passwordField">
+        <xpath>//input[@id='Passwd']</xpath>
+    </WebElement>
+
+    <WebElement name="singInButtonByGoogleAcc">
+        <xpath>//input[@id='signIn']</xpath>
+    </WebElement>
+
+    <WebElement name="approveAccessButton">
+        <xpath>//button[@id='submit_approve_access']</xpath>
+    </WebElement>
+
+</Elements>

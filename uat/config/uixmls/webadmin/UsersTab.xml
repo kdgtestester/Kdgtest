@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="usersTab">
+        <xpath>//div[@class = "panelTitle" and text() = "Users"]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Account info form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="fnameInput">
+        <id>firstName</id>
+    </WebElement>
+
+    <WebElement name="lnameInput">
+        <id>lastName</id>
+    </WebElement>
+
+    <WebElement name="loginInput">
+        <id>loginName</id>
+    </WebElement>
+
+    <WebElement name="loginPasswordInput">
+        <id>loginPassword</id>
+    </WebElement>
+
+    <WebElement name="confirmPasswordInput">
+        <id>confirmPassword</id>
+    </WebElement>
+
+    <WebElement name="ignorePasswordAgingCheckbox">
+        <id>ignoreAging</id>
+    </WebElement>
+
+    <WebElement name="companySelector">
+        <id>company</id>
+    </WebElement>
+
+    <WebElement name="jobFunctionSelector">
+        <id>jobFunction</id>
+    </WebElement>
+
+    <WebElement name="saveButton">
+        <css>.saveButton</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Buttons place-->
+    <!--=============================================================================================-->
+
+    <WebElement name="viewPrivilegesButton">
+        <css>input[name="viewPrivileges"]</css>
+    </WebElement>
+
+    <WebElement name="setAccessButton">
+        <css>input[name="setAccess"]</css>
+    </WebElement>
+
+    <WebElement name="setGroupsButton">
+        <css>input[name="setGroups"]</css>
+    </WebElement>
+
+    <WebElement name="syncGroupsAccessButton">
+        <css>input[name="syncGroupsAccess"]</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Set access form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="setDataForm">
+        <id>selectForm</id>
+    </WebElement>
+
+    <WebElement name="saveSettings">
+        <css>#selectForm .saveButton</css>
+    </WebElement>
+
+    <WebElement name="availibleListItem">
+        <xpath>//select[@id='availableList']/option[contains(text(),'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="addItemButton">
+        <css>a[alt="Add"]</css>
+    </WebElement>
+
+    <WebElement name="removeItemButton">
+        <css>a[alt="Remove"]</css>
+    </WebElement>
+
+    <WebElement name="selectedListItem">
+        <xpath>//select[@id="selectedList"]/option[contains(text(), "%s")]</xpath>
+    </WebElement>
+
+
+</Elements>

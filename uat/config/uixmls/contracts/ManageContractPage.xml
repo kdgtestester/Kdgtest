@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--=============================================================================================-->
+    <!-- Search contract area-->
+    <!--=============================================================================================-->
+
+    <WebElement name="pageLabel">
+        <id>Contract-splitterBasicContractInfo</id>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Discount Specifications form -->
+    <!--=============================================================================================-->
+
+    <WebElement name="appliedDiscountTextbox">
+        <css>#Contract-ContractExtension-discountScaleLevel .xwidget_readonly_value</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Booked Print Insertions form -->
+    <!--=============================================================================================-->
+
+    <WebElement name="insertionsOrderIDTextBox">
+        <css>#Contract-printInsertions .xwidget_grid_row td:nth-child(2) </css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Manual Adjustments form -->
+    <!--=============================================================================================-->
+
+    <WebElement name="runAdjustmentCheckbox">
+        <css>#Contract-AdjustmentRequest-AR_isRun input[type='checkbox']</css>
+    </WebElement>
+
+    <WebElement name="adjustmentFormLabel">
+        <id>Contract-AdjustmentRequest-AR_adjustmentType</id>
+    </WebElement>
+
+    <WebElement name="intermediateAdjustmentRadioButton">
+        <css>input[value='intermediate']</css>
+    </WebElement>
+
+    <WebElement name="generateCorrectivesCheckbox">
+        <css>#Contract-AdjustmentRequest-isCorrective input[type='checkbox']</css>
+    </WebElement>
+
+    <WebElement name="discountLevelSelector">
+        <css>#Contract-AR_discountLevelView input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="adjustmentDatePickerButton">
+        <css>#Contract-AdjustmentRequest-AR_intermediateAdjustmentDate input.datebox</css>
+    </WebElement>
+
+    <WebElement name="todayDateItem">
+        <css>a.ui-state-default.ui-state-highlight</css>
+    </WebElement>
+
+    <WebElement name="closeDatePickerFormButton">
+        <css>.ui-datepicker-close</css>
+    </WebElement>
+
+    <WebElement name="adjustmentNotesInput">
+        <css>#Contract-AdjustmentRequest-AR_notes textarea</css>
+    </WebElement>
+
+    <WebElement name="saveChangesButton">
+        <css>#Contract-saveButton .ui-button</css>
+    </WebElement>
+
+    <!-- contract tabs -->
+    <!--=============================================================================================-->
+
+    <WebElement name="adjustmentHistory">
+        <xpath>//a[@item='crm_contract_adj']</xpath>
+    </WebElement>
+
+    <WebElement name="downloadLink">
+        <xpath>//div[@data-field-id='adjgrid']//a[@target]</xpath>
+    </WebElement>
+
+    <WebElement name="oldDiscount">
+        <xpath>//div[@data-field-id='adjgrid']//tbody//td[4]</xpath>
+    </WebElement>
+
+    <WebElement name="newDiscount">
+        <xpath>//div[@data-field-id='adjgrid']//tbody//td[5]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+
+
+</Elements>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="pageLabel">
+        <xpath>//div[text()="Media Criteria"]</xpath>
+    </WebElement>
+
+    <WebElement name="categorySelector">
+        <css>select[name="Rubrik"]</css>
+    </WebElement>
+
+    <WebElement name="subCategorySelector">
+        <xpath>//div[div/div/div/span[text() = "1. Sub-category"] and not(@style)]//select[@name="RUBRIKID"]</xpath>
+    </WebElement>
+
+    <WebElement name="saveButton">
+        <xpath>//span[text()="Save"]</xpath>
+    </WebElement>
+
+
+
+</Elements>

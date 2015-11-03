@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Advanced booking - Test Suite" verbose="1">
+
+    <test name="Make a booking for the mono-product">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964386_MakeBookingForMonoProduct"/>
+        </classes>
+    </test>
+
+    <test name="Make a booking for the 1/8 product">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964387_MakeBookingFor1per8Product"/>
+        </classes>
+    </test>
+
+    <test name="Make a booking for the 2/8 product">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964389_MakeBookingFor2per8Product"/>
+        </classes>
+    </test>
+
+    <test name="Make a booking for online product">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964328_AddOnlineClassifiedProduct"/>
+        </classes>
+    </test>
+
+    <test name="Make a booking for the 8/3 product">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964390_MakeBookingFor8per3Product"/>
+        </classes>
+    </test>
+
+    <test name=" Verify dates on the child and head level">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964420_VerifyDatesOnTheChildAndHeadLevel"/>
+        </classes>
+    </test>
+
+</suite>

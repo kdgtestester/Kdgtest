@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="orderNumberSearchField">
+        <xpath>//div[@id='Orderqueues-orderid']//input</xpath>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <xpath>//div[@id='Orderqueues-searchresultgrid']//div[contains(@class,'crm_search_button')]//div[contains(@class, 'ui-button')]</xpath>
+    </WebElement>
+
+    <WebElement name="searchDropdownOption">
+        <xpath>//li[@class='ui-menu-item']/a[contains(text(),'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="expandOrder">
+        <xpath>//a[@class='xwidget_grid_details_link']</xpath>
+    </WebElement>
+
+    <WebElement name="orderApprovalsTab">
+        <xpath>//a[@href='#crm_approvals']</xpath>
+    </WebElement>
+
+    <WebElement name="creditCheckbox">
+        <xpath>//input[@class='queueSelected_checkbox']</xpath>
+    </WebElement>
+
+    <WebElement name="rejectButton">
+        <xpath>//div[@data-field-id='rejectButton']//div[contains(@class, 'ui-button')]</xpath>
+    </WebElement>
+
+    <WebElement name="approveButton">
+        <xpath>//div[@data-field-id='approveButton']//div[contains(@class, 'ui-button')]</xpath>
+    </WebElement>
+
+    <WebElement name="loadingOverlay">
+        <xpath>//div[@class='xwidget_loading_overlay']</xpath>
+    </WebElement>
+
+    <WebElement name="approvalRemoveReasonDropdown">
+        <xpath>//div[contains(@id, 'rejectReasons')]//input</xpath>
+    </WebElement>
+
+    <WebElement name="approvalRemoveReasonDropdownOptions">
+        <xpath>//li//a[contains(text(), '%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="approvalRemoveDetails">
+        <xpath>//div[contains(@id, 'rejectReasonDetails')]//textarea</xpath>
+    </WebElement>
+
+    <WebElement name="approvalRemoveConfirm">
+        <xpath>//div[@data-field-id='rejectCompleteButton']//div[contains(@class, 'ui-button')]</xpath>
+    </WebElement>
+
+    <WebElement name="orderPresentOnDashboard">
+        <xpath>//div[@data-container-id='FieldsBottom']//td[contains(text(), '%s')]</xpath>
+    </WebElement>
+
+
+</Elements>

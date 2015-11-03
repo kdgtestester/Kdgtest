@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="customerTypeDropdown">
+        <css>#CustomerCRM-typeid .ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="saveCustomerButton">
+        <css>#CustomerCRM-saveButton .crm_button</css>
+    </WebElement>
+
+   <!--=============================================================================================-->
+   <!-- Top links-->
+   <!--=============================================================================================-->
+
+    <WebElement name="viewContactsLink">
+        <css>td[data-container-id='LinksTop'] .xwidget_link_CustomerCRM-contactsLink a</css>
+    </WebElement>
+
+    <WebElement name="viewContractsLink">
+        <css>td[data-container-id='LinksTop'] .xwidget_link_CustomerCRM-contractsLink a</css>
+    </WebElement>
+
+    <WebElement name="viewCampaignsLink">
+        <css>td[data-container-id='LinksTop'] .xwidget_link_CustomerCRM-campaignsLink a</css>
+    </WebElement>
+
+    <WebElement name="viewActivitiesHistoryLink">
+        <css>td[data-container-id='LinksTop'] .xwidget_link_CustomerCRM-historyLink a</css>
+    </WebElement>
+
+    <WebElement name="profileHistoryLink">
+        <css>td[data-container-id='LinksTop'] .xwidget_link_CustomerCRM-profileHistoryLink a</css>
+    </WebElement>
+
+    <WebElement name="advancedBookingLink">
+        <css>td[data-container-id='LinksTop'] .xwidget_link_CustomerCRM-advancedBookLink a</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Partner modification request-->
+    <!--=============================================================================================-->
+
+    <WebElement name="addPartnerModificationRequestLink">
+        <css>#CustomerCRM-modRequestForm .xwidget_add_link</css>
+    </WebElement>
+
+    <WebElement name="requestTypeSelector">
+        <css>div[id*='ModificationRequest'][aria-expanded='true'] div[id*='reqType'] input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="requestDescriptionInput">
+        <css>div[id*='ModificationRequest'][aria-expanded='true'] div[id*='requestText'] textarea</css>
+    </WebElement>
+
+    <WebElement name="customerStatusField">
+        <css>#CustomerCRM-statusid span.xwidget_readonly_value</css>
+    </WebElement>
+
+    <WebElement name="processedOptionSelector">
+        <css>div[id*='ModificationRequest'][aria-expanded='true'] div[id*='processed'] input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="modificationRequestItemByTypePattern">
+        <xpath>//div[@id='CustomerCRM-modRequestForm']//div[h3[text() = '%s']]</xpath>
+    </WebElement>
+
+    <WebElement name="unprocessedModificationRequestItemByTypePattern">
+        <xpath>//div[@id='CustomerCRM-modRequestForm']//div[h3[text() = '%s' and contains(@style, 'important')]]</xpath>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Generic partner information tab-->
+    <!--=============================================================================================-->
+
+    <WebElement name="genericInfoTab">
+        <css>li[aria-controls$='generic'] a</css>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- General form-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name ="generalFormHeader">
+        <css>#CustomerCRM-splitterGeneral .field-splitter</css>
+    </WebElement>
+
+    <WebElement name="customerIDField">
+        <css>#CustomerCRM-partnerId span</css>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- Generic partner information form-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="companyHRInformationField">
+        <css>#CustomerCRM-Attributes-CompanyHRInformation span</css>
+    </WebElement>
+
+    <WebElement name="companyFoundingYear">
+        <css>#CustomerCRM-Attributes-Companyyear span</css>
+    </WebElement>
+
+    <WebElement name="mwstRuleSelector">
+        <css>#CustomerCRM-Attributes-MWStNumberRule input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Specific partner information tab-->
+    <!--=============================================================================================-->
+
+    <WebElement name="specificInfoTab">
+        <css>li[aria-controls$='specific'] a</css>
+    </WebElement>
+
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+    <!-- Generic advertiser information form-->
+    <!--= - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - =-->
+
+    <WebElement name="profitCenterSelector">
+        <css>#CustomerCRM-Attributes-PartnerHomeProfitServ input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="advertiserAgencySelector">
+        <css>div[id$='agencyId'] input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!--Financial data tab-->
+    <!--=============================================================================================-->
+
+    <WebElement name="financialTab">
+        <css>li[aria-controls$='financial'] a</css>
+    </WebElement>
+
+    <WebElement name="creditLimitInput">
+        <css>#CustomerCRM-customerCreditInfo-creditLimit input[type='text']</css>
+    </WebElement>
+
+    <WebElement name = "creditBlockedCheckbox">
+        <css>#CustomerCRM-PersonalDetails-creditBlocked input[type='checkbox']</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!--Marketing data tab-->
+    <!--=============================================================================================-->
+
+    <WebElement name="marketingTab">
+        <css>li[aria-controls$='marketing'] a</css>
+    </WebElement>
+
+    <WebElement name="marketingBrunchSelector">
+        <css>#CustomerCRM-Attributes-branch .ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="marketingSegmentSelector">
+        <css>#CustomerCRM-Attributes-advertisersegment .ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="marketingClassificationSelector">
+        <css>#CustomerCRM-PersonalDetails-marketingClassification .ui-autocomplete-input</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Company address form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="addressTypeSelector">
+        <css>.ui-accordion-content-active div[id*='typeId'] input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="companyNameInput">
+        <css>.ui-accordion-content-active input[name*='LCompanyName']</css>
+    </WebElement>
+
+    <WebElement name="countrySelector">
+        <css>.ui-accordion-content-active div[id$='countryId'] input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="regionInput">
+        <css>.ui-accordion-content-active input[name*='state']</css>
+    </WebElement>
+
+    <WebElement name="streetInput">
+        <css>.ui-accordion-content-active input[name*='address1']</css>
+    </WebElement>
+
+    <WebElement name="streetNumberInput">
+        <css>.ui-accordion-content-active input[name*='address2']</css>
+    </WebElement>
+
+    <WebElement name="zipInput">
+        <css>.ui-accordion-content-active input[name*='postalCode']</css>
+    </WebElement>
+
+    <WebElement name="cityInput">
+        <css>.ui-accordion-content-active input[name*='city']</css>
+    </WebElement>
+
+    <WebElement name="laPostValidationButton">
+        <css>td[data-container-id='City'] div[id*='laPost'] .ui-button-text</css>
+    </WebElement>
+
+    <WebElement name="addAddressLink">
+        <xpath>//div[@id='CustomerCRM-locations']/div/a[contains(@class, 'crm_internal_link ')][last()]</xpath>
+    </WebElement>
+    <!--=============================================================================================-->
+    <!-- Company phone form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="phoneTypeSelector">
+        <css>.ui-accordion-content-active div[id$='phoneType'] input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="countryCodeInput">
+        <css>.ui-accordion-content-active input[name*='countryCode']</css>
+    </WebElement>
+
+    <WebElement name="phoneNumberInput">
+        <css>.ui-accordion-content-active div[id*='PhoneForm'] input[name*='phoneNumber']</css>
+    </WebElement>
+
+    <!--=============================================================================================-->
+    <!-- Support locators-->
+    <!--=============================================================================================-->
+
+    <WebElement name="dropdownOption">
+        <xpath>//a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="errors">
+        <css>.crm_error</css>
+    </WebElement>
+
+    <WebElement name="extendedDropdownOption">
+        <xpath>//ul[contains(@style, 'block')]/li/a[contains(.,'%s')]</xpath>
+    </WebElement>
+
+    <WebElement name="errorPopup">
+        <css>.crm_error</css>
+    </WebElement>
+
+    <WebElement name="returnButton">
+        <css>.crm_buttons a</css>
+    </WebElement>
+
+    <WebElement name="blockUI">
+        <xpath>//div[contains(@class, "blockUI")]</xpath>
+    </WebElement>
+
+</Elements>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--=============================================================================================-->
+    <!-- Search form-->
+    <!--=============================================================================================-->
+
+    <WebElement name="partnerIdInput">
+        <css>#ARTransactionForm-invoice_search_customer_number input.ui-autocomplete-input</css>
+    </WebElement>
+
+    <WebElement name="partnerInputIDLoader">
+        <css>#ARTransactionForm-invoice_search_customer_number input.ui-autocomplete-loading</css>
+    </WebElement>
+
+    <WebElement name="orderIDInput">
+        <css>#ARTransactionForm-invoice_search_order_number input[name*="search_order"]</css>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <css>#ARTransactionForm-button_search_invoices span.ui-button-text</css>
+    </WebElement>
+
+
+    <!--=============================================================================================-->
+    <!-- Search results areaa-->
+    <!--=============================================================================================-->
+
+    <WebElement name="invoiceItemStatus">
+        <xpath>//div[@id='ARTransactionForm-grid_invoices']//div[@class='xwidget_grid_table_wrapper']/table/tbody/tr[td[contains(text(), '%s')]]/td[last()]</xpath>
+    </WebElement>
+
+    <WebElement name="searchingLoader">
+        <css>#ARTransactionForm-grid_invoices .xwidget_loading_overlay</css>
+    </WebElement>
+
+    <WebElement name="invoiceNumber">
+        <xpath>//div[@data-field-id='grid_invoices']//tbody//td[@class='xwidget_grid_cell'][1]</xpath>
+    </WebElement>
+
+</Elements>

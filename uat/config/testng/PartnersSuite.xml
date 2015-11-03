@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Partners - Test Suite" verbose="1">
+
+    <test name="Quick search of the partner using valid `Account Number`)">
+        <classes>
+            <class name="com.mediaspectrum.tests.partners.T964382_QuickSearchPartnerViaAccountNumber"/>
+        </classes>
+    </test>
+
+    <test name="Search Partner by valid name">
+        <classes>
+            <class name="com.mediaspectrum.tests.partners.T964065_QuickSearchPartnerViaName"/>
+        </classes>
+    </test>
+
+    <test name="Create new partner">
+        <classes>
+            <class name="com.mediaspectrum.tests.partners.T964104_CreateNewPartner"/>
+        </classes>
+    </test>
+
+    <test name="Create new partner - Validate a valid address with `La Poste`">
+        <classes>
+            <class name="com.mediaspectrum.tests.partners.T964109_CreateNewPartnerAndValidateAddressViaLaPost"/>
+        </classes>
+    </test>
+
+    <test name="Partner Modification request type">
+        <classes>
+            <class name="com.mediaspectrum.tests.partners.T964298_PartnerModificationRequestType"/>
+        </classes>
+    </test>
+
+
+
+
+</suite>

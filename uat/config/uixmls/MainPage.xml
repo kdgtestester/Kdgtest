@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="customersTab">
+        <xpath>//td[@class='as_btn_start']//span[.='Customers']</xpath>
+    </WebElement>
+
+
+    <WebElement name="customerNameInSearchFilter">
+        <xpath>//input[@name='field[name]']</xpath>
+    </WebElement>
+
+    <WebElement name="searchButton">
+        <xpath>//a[@class='crm_button']//span[.='Search']</xpath>
+    </WebElement>
+
+    <WebElement name="allCustomersLoaded">
+        <xpath>//a[@class='xwidget_paging_next']</xpath>
+    </WebElement>
+
+    <WebElement name="advancedBookingLink">
+        <xpath>//div[@id='CustomerCRM-advancedBookLink']//a</xpath>
+    </WebElement>
+
+
+
+</Elements>

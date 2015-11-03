@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Advanced booking - Test Suite" verbose="1">
+
+    <test name="Verify `Surcharge` view">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964411_VerifySurchargeView"/>
+        </classes>
+    </test>
+
+    <test name="Verify Rounding method change (due to Invoicing)">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T965328_VerifyRoundingMethodChangeDueToInvoicing"/>
+        </classes>
+    </test>
+
+    <test name="Verify that there are NO errors after manual rate change">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T965810_VerifyThatNoErrorsAfterManualRateChange"/>
+        </classes>
+    </test>
+
+
+</suite>

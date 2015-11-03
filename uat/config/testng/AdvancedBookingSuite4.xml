@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Advanced booking - Test Suite" verbose="1">
+
+    <test name="Advanced Booking - Verify that `Product Name` is shown in Dashboard when booking 8/3 product with prescription">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T966072_VerifyProductNameIsShownInDashboardWhenBooking8per3ProductWithPrescription"/>
+        </classes>
+    </test>
+
+    <test name="Verify the `Surcharge` button for Insertion and Order Level checkboxes are chosen">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964525_VerifySurchargeButtonForInsertionAndOrderCheckboxesChosen"/>
+        </classes>
+    </test>
+
+    <test name="Verify pricing for the dates for 8.2 package">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964530_VerifyPricingForDatesFor8Per2Package"/>
+        </classes>
+    </test>
+
+    <test name="Verify view for Contract Discount on 8/3 Package ">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964211_VerifyVewForContractDiscountOn8Per3Package"/>
+        </classes>
+    </test>
+
+    <test name="Verify view for Contract Discount on 8/2 Package ">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964409_VerifyVewForContractDiscountOn8Per2Package"/>
+        </classes>
+    </test>
+
+    <test name="Verify view for Contract Discount on 8/1 Package ">
+        <classes>
+            <class name="com.mediaspectrum.tests.advancedbooking.T964369_VerifyVewForContractDiscountOn8Per1Package"/>
+        </classes>
+    </test>
+
+
+
+</suite>

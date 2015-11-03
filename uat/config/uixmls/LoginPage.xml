@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Login form elements-->
+
+    <WebElement name="pageLabel">
+        <xpath>//body/div[not(@role)]</xpath>
+    </WebElement>
+
+    <!--This locator requires additional parameter. This parameter is language witch user -->
+    <!--can set as default before login. Possible options are: English, Deutsche, France, Italian, Latin, Русский.-->
+    <WebElement name="langButton">
+        <xpath>//a[@title='%s']</xpath>
+    </WebElement>
+
+    <WebElement name="selectedLanguage">
+        <css>a.as_lang_active</css>
+    </WebElement>
+
+    <WebElement name="loginField">
+        <id>login</id>
+    </WebElement>
+
+    <WebElement name="passwordField">
+        <id>password</id>
+    </WebElement>
+
+    <WebElement name="forgotPasswordLink">
+        <id>restoreAccessLink</id>
+    </WebElement>
+
+    <WebElement name="loginButton">
+        <xpath>//*[text()='Log in' or @title = 'Log in']</xpath>
+    </WebElement>
+
+</Elements>
