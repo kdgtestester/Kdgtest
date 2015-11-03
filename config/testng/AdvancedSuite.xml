@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login - Test Suite" verbose="1">
+
+    <test name="Login">
+        <classes>
+            <class name="com.cdpapp.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Join or Create a new organization">
+        <classes>
+            <class name="com.cdpapp.tests.JoinOrCreateNewOrganizationTest"/>
+        </classes>
+    </test>
+
+    <test name="StartSurvey">
+        <classes>
+            <class name="com.cdpapp.tests.StartSurveyTest"/>
+        </classes>
+    </test>
+
+    <test name="NewSurvey">
+        <classes>
+            <class name="com.cdpapp.tests.NewSurveyTest"/>
+        </classes>
+    </test>
+
+    <test name="RenReports">
+        <classes>
+            <class name="com.cdpapp.tests.RunReportTest"/>
+        </classes>
+    </test>
+
+
+</suite>

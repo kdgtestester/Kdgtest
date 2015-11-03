@@ -284,7 +284,7 @@
                 useDefaultListeners="false"
                 listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
-            <xmlfileset dir="${testng.dir}" includes="AdvancedBookingSuite1.xml"/>
+            <xmlfileset dir="${testng.dir}" includes="AdvancedSuite.xml"/>
 
             <sysproperty key="org.uncommons.reportng.title" value="Automated Test Report"/>
             <sysproperty key="org.uncommons.reportng.frames" value="false"/>

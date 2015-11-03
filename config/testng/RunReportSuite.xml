@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="NewSurvey - Test Suite" verbose="1">
 
-    <test name="NewSurvey">
+    <test name="RunReports">
         <classes>
             <class name="com.cdpapp.tests.RunReportTest"/>
         </classes>
