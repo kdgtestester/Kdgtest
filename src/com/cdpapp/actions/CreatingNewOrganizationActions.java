@@ -1,6 +1,7 @@
 package com.cdpapp.actions;
 
 import com.cdpapp.control.Pages;
+import com.gargoylesoftware.htmlunit.Page;
 import sun.security.krb5.internal.PAData;
 
 public class CreatingNewOrganizationActions {
@@ -55,6 +56,7 @@ public class CreatingNewOrganizationActions {
 
         Pages.organizationSetup().setStreetAddressOrganization();
         Pages.organizationSetup().setCityOrganization();
+        Pages.organizationSetup().waitStateList();
         Pages.organizationSetup().setStateOrganization();
         Pages.organizationSetup().setZipCodeOrganization();
         Pages.organizationSetup().setCountryOrganization();

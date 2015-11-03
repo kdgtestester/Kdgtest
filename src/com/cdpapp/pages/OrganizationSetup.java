@@ -76,7 +76,11 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void setCityOrganization(){
-        type("Set city organization", Random.genString(5), "orgSetupCityField");
+        type("Set city organization", "City" + Random.genString(5), "orgSetupCityField");
+    }
+
+    public void waitStateList(){
+        waitForElementToBeClickable("orgSetupAddressStateField");
     }
 
     public void setStateOrganization(){
