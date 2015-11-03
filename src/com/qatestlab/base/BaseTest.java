@@ -94,47 +94,6 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(Constants.ELEMENT_TIMEOUT_SECONDS, TimeUnit.SECONDS);
     }
 
-    protected void setupChromeDriver() throws IOException {
-        String platform = System.getProperty("platform");
-
-        String driversFolder = System.getProperties().getProperty("browsers.dir") + File.separatorChar;
-        String pathToDriver = (platform.equals("WINDOWS")) ? driversFolder + "chromedriver.exe" : driversFolder + "chromedriver";
-
-        System.setProperty("webdriver.chrome.driver", pathToDriver);
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-
-        DesiredCapabilities caps = DesiredCapabilities.firefox();
-        caps.setCapability("platform", "Windows 7");
-        caps.setCapability("version", "38.0");
-
-        driver = new RemoteWebDriver(new URL("http://kdgtesautotester:0e23feeb-5e5e-4860-b50a-9de293f4a8b6@ondemand.saucelabs.com:80/wd/hub"), caps);
-
-//        driver = new ChromeDriver(capabilities) {
-//            @Override
-//            public WebElement findElement(By by) {
-//                try {
-//                    return by.findElement(this);
-//                } catch (org.openqa.selenium.NoSuchElementException nse) {
-//                    Field f = null;
-//                    try {
-//                        f = Throwable.class.getDeclaredField("detailMessage");
-//                    } catch (NoSuchFieldException e) {
-//                        throw nse;
-//                    }
-//                    f.setAccessible(true);
-//                    try {
-//                        String error = "\n" + by.toString() + "\n" + f.get(nse);
-//                        f.set(nse, error);
-//                    } catch (IllegalAccessException ia) { }
-//                    throw nse;
-//                }
-//            }
-//        };
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Constants.ELEMENT_TIMEOUT_SECONDS, TimeUnit.SECONDS);
-
-    }
-
 //    protected void setupChromeDriver() throws IOException {
 //        String platform = System.getProperty("platform");
 //
@@ -143,31 +102,74 @@ public class BaseTest {
 //
 //        System.setProperty("webdriver.chrome.driver", pathToDriver);
 //        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-//        driver = new ChromeDriver(capabilities) {
-//            @Override
-//            public WebElement findElement(By by) {
-//                try {
-//                    return by.findElement(this);
-//                } catch (org.openqa.selenium.NoSuchElementException nse) {
-//                    Field f = null;
-//                    try {
-//                        f = Throwable.class.getDeclaredField("detailMessage");
-//                    } catch (NoSuchFieldException e) {
-//                        throw nse;
-//                    }
-//                    f.setAccessible(true);
-//                    try {
-//                        String error = "\n" + by.toString() + "\n" + f.get(nse);
-//                        f.set(nse, error);
-//                    } catch (IllegalAccessException ia) { }
-//                    throw nse;
-//                }
-//            }
-//        };
+//
+//        DesiredCapabilities caps = DesiredCapabilities.firefox();
+//        caps.setCapability("platform", "Windows 7");
+//        caps.setCapability("version", "38.0");
+//        caps.setCapability("name", "Kdgtest");
+//
+//
+//        driver = new RemoteWebDriver(new URL("http://kdgtesautotester:0e23feeb-5e5e-4860-b50a-9de293f4a8b6@ondemand.saucelabs.com:80/wd/hub"), caps);
+//
+////        driver = new ChromeDriver(capabilities) {
+////            @Override
+////            public WebElement findElement(By by) {
+////                try {
+////                    return by.findElement(this);
+////                } catch (org.openqa.selenium.NoSuchElementException nse) {
+////                    Field f = null;
+////                    try {
+////                        f = Throwable.class.getDeclaredField("detailMessage");
+////                    } catch (NoSuchFieldException e) {
+////                        throw nse;
+////                    }
+////                    f.setAccessible(true);
+////                    try {
+////                        String error = "\n" + by.toString() + "\n" + f.get(nse);
+////                        f.set(nse, error);
+////                    } catch (IllegalAccessException ia) { }
+////                    throw nse;
+////                }
+////            }
+////        };
 //        driver.manage().window().maximize();
 //        driver.manage().timeouts().implicitlyWait(Constants.ELEMENT_TIMEOUT_SECONDS, TimeUnit.SECONDS);
 //
 //    }
+
+    protected void setupChromeDriver() throws IOException {
+        String platform = System.getProperty("platform");
+
+        String driversFolder = System.getProperties().getProperty("browsers.dir") + File.separatorChar;
+        String pathToDriver = (platform.equals("WINDOWS")) ? driversFolder + "chromedriver.exe" : driversFolder + "chromedriver";
+
+        System.setProperty("webdriver.chrome.driver", pathToDriver);
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        driver = new ChromeDriver(capabilities) {
+            @Override
+            public WebElement findElement(By by) {
+                try {
+                    return by.findElement(this);
+                } catch (org.openqa.selenium.NoSuchElementException nse) {
+                    Field f = null;
+                    try {
+                        f = Throwable.class.getDeclaredField("detailMessage");
+                    } catch (NoSuchFieldException e) {
+                        throw nse;
+                    }
+                    f.setAccessible(true);
+                    try {
+                        String error = "\n" + by.toString() + "\n" + f.get(nse);
+                        f.set(nse, error);
+                    } catch (IllegalAccessException ia) { }
+                    throw nse;
+                }
+            }
+        };
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Constants.ELEMENT_TIMEOUT_SECONDS, TimeUnit.SECONDS);
+
+    }
 
     protected void setupChromeRemoteDriver(String hubUrl, String platformName) throws IOException {
         Platform platform =  (platformName != null) ? Platform.valueOf(platformName) : Platform.ANY;
