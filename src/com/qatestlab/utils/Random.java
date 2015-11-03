@@ -48,7 +48,7 @@ public class Random {
     }
 
     public static String genPhone() {
-        return "555" + genInt(1000000, 9999999);
+        return "5555" + genInt(1000000, 9999999);
     }
 
     public static String genEmail() {
