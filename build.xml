@@ -187,7 +187,7 @@
         </loadfile>
     </target>
 
-   <target name="sendPDFReport" depends="evalFailure, setVariables, getSuites">
+   <target name="sendPDFReport" depends="setVariables, getSuites">
        <foreach target="convertCharts" param="file">
            <fileset dir="${report.dir}${file.separator}charts" casesensitive="no">
                <include name="**/*.svg"/>
@@ -200,9 +200,8 @@
             <arg value="${report.dir}${file.separator}charts"/>
             <arg value="${config.dir}${file.separator}mailSettings.ini"/>
             <arg value="${executedSuites}"/>
-            <arg value="aleksandrk@qatestlab.com"/>
-            <arg value="evgeniya@qa-testlab.com"/>
-            <arg value="oleg@qa-testlab.com"/>
+            <arg value="gemix.11@mail.ru"/>
+            <arg value="kiryshkin@gmail.com"/>
             <arg value="Test execution on (${platform} - ${browser})"/>
         </java>
     </target>
@@ -220,7 +219,7 @@
             <arg value="${report.dir}${file.separator}charts"/>
             <arg value="${config.dir}${file.separator}mailSettings.ini"/>
             <arg value="${executedSuites}"/>
-            <arg value="aleksandrk@qatestlab.com"/>
+            <arg value="gemix.11@mail.ru"/>
 
             <arg value="Test execution on (${platform} - ${browser})"/>
         </java>
@@ -264,48 +263,6 @@
         </java>
     </target>
 
-    <target name="testApprovals" depends="prepare">
-        <taskdef resource="testngtasks" classpath="${lib.dir}${file.separator}testng-6.8.jar"/>
-
-        <path id="classpath">
-            <fileset dir="${lib.dir}" includes="/*.jar"/>
-            <fileset dir="${lib.dir}" includes="/reporting/*.jar"/>
-            <fileset dir="${lib.dir}${file.separator}testlink" includes="*.jar"/>
-            <fileset dir="${jar.dir}" includes="**/*jar"/>
-        </path>
-
-        <testng classpathref="classpath"
-                outputDir="${report.dir}"
-                workingDir="${report.dir}"
-                failureproperty="testngfail"
-                haltOnfailure="false"
-                delegateCommandSystemProperties="true"
-                useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
-
-            <xmlfileset dir="${testng.dir}" includes="Approvals.xml"/>
-
-            <sysproperty key="org.uncommons.reportng.title" value="Automated Test Report"/>
-            <sysproperty key="org.uncommons.reportng.frames" value="false"/>
-            <sysproperty key="org.uncommons.reportng.stylesheet" value="${reportNGcss}"/>
-            <sysproperty key="org.uncommons.reportng.escape-output" value="false"/>
-
-            <sysproperty key="config.dir"   value="${config.dir}"/>
-            <sysproperty key="build.dir"   value="${build.dir}"/>
-            <sysproperty key="uixmls.dir"   value="${uixmls.dir}"/>
-            <sysproperty key="browsers.dir" value="${browserdrivers.dir}"/>
-            <sysproperty key="report.dir"   value="${report.dir}"/>
-
-            <sysproperty key="platform"     value="${platform}"/>
-            <sysproperty key="browser"      value="${browser}"/>
-            <sysproperty key="baseurl"      value="${baseurl}"/>
-
-            <jvmarg value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5006"/>
-            <jvmarg value="-Dfile.encoding=cp1251"/>
-            <jvmarg value="-Dlog4j.configuration=file:${config.dir}${file.separator}log4j.properties"/>
-        </testng>
-
-    </target>
 
     <!--Test targets-->
    <target name="testAll" depends="prepare, deleteSerializedData">
