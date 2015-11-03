@@ -26,7 +26,7 @@
         </classes>
     </test>
 
-    <test name="RenReports">
+    <test name="RunReports">
         <classes>
             <class name="com.cdpapp.tests.RunReportTest"/>
         </classes>

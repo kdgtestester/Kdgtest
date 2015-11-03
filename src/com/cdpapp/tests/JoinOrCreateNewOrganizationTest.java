@@ -8,10 +8,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.util.Random;
 
 public class JoinOrCreateNewOrganizationTest extends BaseTest {
 
-    private String nameOrg = "Test18";
+    private String nameOrg = "TestOrg" + com.qatestlab.utils.Random.genString(4);
 
     @DataProvider
     public Object[][] loginData() throws Exception {

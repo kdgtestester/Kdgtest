@@ -200,8 +200,9 @@
             <arg value="${report.dir}${file.separator}charts"/>
             <arg value="${config.dir}${file.separator}mailSettings.ini"/>
             <arg value="${executedSuites}"/>
-            <arg value="gemix.11@mail.ru"/>
-            <arg value="kiryshkin@gmail.com"/>
+            <arg value="kdavid@kyledavidgroup.com"/>
+            <arg value="jlamont@kyledavidgroup.com"/>
+            <arg value="iryna@testmatick.com"/>
             <arg value="Test execution on (${platform} - ${browser})"/>
         </java>
     </target>

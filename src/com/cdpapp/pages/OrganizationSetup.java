@@ -1,6 +1,7 @@
 package com.cdpapp.pages;
 
 import com.qatestlab.base.BasePage;
+import com.qatestlab.utils.Random;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class OrganizationSetup extends BasePage {
@@ -71,11 +72,11 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void setStreetAddressOrganization(){
-        type("Set street address organization", "TestStreet4",  "orgSetupAddressStreetField");
+        type("Set street address organization", Random.genStreet(),  "orgSetupAddressStreetField");
     }
 
     public void setCityOrganization(){
-        type("Set city organization", "TestCity4", "orgSetupCityField");
+        type("Set city organization", Random.genString(5), "orgSetupCityField");
     }
 
     public void setStateOrganization(){
@@ -83,7 +84,7 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void setZipCodeOrganization(){
-        type("Set Zip code organization", "12345", "orgSetupAddressZipField");
+        type("Set Zip code organization", "" + Random.genInt(10000, 99999), "orgSetupAddressZipField");
     }
 
     public void setCountryOrganization(){
@@ -96,7 +97,7 @@ public class OrganizationSetup extends BasePage {
 //    }
 
     public void setPhoneOrganization(){
-        type("Set phone organization", "17548658555", "orgSetupPhoneField");
+        type("Set phone organization", Random.genPhone(), "orgSetupPhoneField");
     }
 
     public void clickPocCheckBox(){
@@ -104,11 +105,11 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void setPocTitleField(){
-        type("Set title in \"Primary Contact Person\"", "TestTitle4", "orgSetupPocTitleField");
+        type("Set title in \"Primary Contact Person\"", "TestTitle" + Random.genString(4), "orgSetupPocTitleField");
     }
 
     public void setPocPhoneField(){
-        type("Set phone in \"Primary Contact Person\" ", "(123)123-1223", "orgSetupPocPhoneField");
+        type("Set phone in \"Primary Contact Person\" ", Random.genPhone(), "orgSetupPocPhoneField");
     }
 
     public void setFiscalYearEndMonthField(){

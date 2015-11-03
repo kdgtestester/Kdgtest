@@ -11,7 +11,7 @@ import java.io.File;
 
 public class StartSurveyTest extends BaseTest {
 
-    private String nameOrg = "Test17";
+    private String nameOrg = "TestOrg" + com.qatestlab.utils.Random.genString(4);
 
     @DataProvider
     public Object[][] loginData() throws Exception {
