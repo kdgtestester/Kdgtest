@@ -8,7 +8,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.util.Random;
 
 public class JoinOrCreateNewOrganizationTest extends BaseTest {
 
@@ -22,9 +21,8 @@ public class JoinOrCreateNewOrganizationTest extends BaseTest {
 
     @Test(dataProvider = "loginData")
     public void joinCreateOrganization(String login, String password) throws InterruptedException {
-        Actions.loginActions().loginWithGoogle();
-        Actions.loginActions().setGoogleAccData(login, password);
-        Actions.loginActions().singInGoogleAccount();
+        Actions.loginActions().openGoogleAuthWindow();
+        Actions.loginActions().setAuthDataGoogleAccUser(login, password);
         Actions.creatingNewOrganizationActions().createOrganization(nameOrg);
 
         Assert.assertEquals(Pages.organizationSetup().continueButtonPresent(), "continue");

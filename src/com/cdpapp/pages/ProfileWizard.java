@@ -106,10 +106,6 @@ public class ProfileWizard extends BasePage {
         waitForElementVisibility("modalBody");
     }
 
-    public void modalBody(){
-        waitForElementEnable("modalBody");
-    }
-
     public void waitGoToDashBoard(){
         waitForElementToBeClickable("goToDashboardButton");
     }

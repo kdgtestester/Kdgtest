@@ -4,29 +4,22 @@ import com.cdpapp.control.Pages;
 
 public class CreatingNewSurveyActions {
 
-    public static String fiscalYear = "";
-
     public void createSurvey (){
-        Pages.dashboard().modalBody();
+        Pages.dashboard().waitModalBody();
         clickNewSurveyButton();
-        customizeSurvey();
-
     }
 
     public void clickNewSurveyButton(){
         Pages.dashboard().waitNewSurveyButton();
         Pages.dashboard().clickNewSurveyButton();
+        Pages.profileWizard().selectFiscalYear();
     }
 
-//    public void joinOrCreateNewOrganization(){
-//        Pages.dashboard().modalBody();
-//
-//        clickNewSurveyButton();
-//    }
+    public String getFiscalYear(){
+        return Pages.profileWizard().getFiscalYear();
+    }
 
     public void customizeSurvey(){
-        Pages.profileWizard().selectFiscalYear();
-        fiscalYear = Pages.profileWizard().getFiscalYear();
 
         Pages.profileWizard().scrollToDown();
         Pages.profileWizard().waitStartButton();
@@ -38,19 +31,8 @@ public class CreatingNewSurveyActions {
         Pages.profileWizard().clickStartSurveyButton();
 
         Pages.profileWizard().waitModalBody();
-        Pages.profileWizard().modalBody();
-        Pages.profileWizard().waitGoToDashBoard();
-        Pages.profileWizard().clickGoToDashBoard();
+        waitAndClickGoToDashboardLink();
 
-//
-//        Pages.profileWizard().waitFormSummaryOrgType();
-//        Pages.profileWizard().scrollToDown();
-//        Pages.profileWizard().waitStartSurveyButton();
-//        Pages.profileWizard().clickStartSurveyButton();
-//        Pages.profileWizard().wait(60);
-//        //Pages.profileWizard().modalBody();
-//        Pages.profileWizard().waitGoToDashBoard();
-//        Pages.profileWizard().clickGoToDashBoard();
     }
 
     public void waitAndClickGoToDashboardLink(){

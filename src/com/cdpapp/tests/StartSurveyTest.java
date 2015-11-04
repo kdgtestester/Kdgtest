@@ -21,9 +21,8 @@ public class StartSurveyTest extends BaseTest {
 
     @Test(dataProvider = "loginData")
     public void startSurvey(String login, String password) throws InterruptedException {
-        Actions.loginActions().loginWithGoogle();
-        Actions.loginActions().setGoogleAccData(login, password);
-        Actions.loginActions().singInGoogleAccount();
+        Actions.loginActions().openGoogleAuthWindow();
+        Actions.loginActions().setAuthDataGoogleAccUser(login, password);
         Actions.creatingNewOrganizationActions().createOrganization(nameOrg);
 
         Actions.creatingNewOrganizationActions().continueAfterCreateOrganization();

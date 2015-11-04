@@ -8,7 +8,7 @@ public class CreatingNewOrganizationActions {
 
 
     public void joinOrCreateNewOrganization(){
-        Pages.dashboard().modalBody();
+        Pages.dashboard().waitModalBody();
 
         Pages.dashboard().waitFirstItemMenuWithOrgItem();
         Pages.dashboard().clickFirstItemMenuWithOrgItem();

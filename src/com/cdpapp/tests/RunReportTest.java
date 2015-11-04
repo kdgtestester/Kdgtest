@@ -21,21 +21,35 @@ public class RunReportTest extends BaseTest {
     @Test(dataProvider = "loginData")
     public void newSurvey(String login, String password) throws InterruptedException {
 
-        String nameSurveyTempl = "CDP 2.0 Survey  ";
-
-        Actions.loginActions().loginWithGoogle();
-        Actions.loginActions().setGoogleAccData(login, password);
-        Actions.loginActions().singInGoogleAccount();
-
+        Actions.loginActions().openGoogleAuthWindow();
+        Actions.loginActions().setAuthDataGoogleAccUser(login, password);
         Actions.creatingNewSurveyActions().createSurvey();
 
-        String nameSurvey = nameSurveyTempl.concat(CreatingNewSurveyActions.fiscalYear).toLowerCase();
+        String nameSurvey = "CDP 2.0 Survey  ".concat(Actions.creatingNewSurveyActions().getFiscalYear()).toLowerCase();
+
+        Actions.creatingNewSurveyActions().customizeSurvey();
 
         Pages.dashboard().waitFirstSurvey();
 
         Assert.assertEquals(Pages.dashboard().getFirstSurvey(), nameSurvey);
 
         Actions.runReportsActions().runReport();
+
+        Pages.reportsRun().waitAnnualReport();
+        Pages.reportsRun().clickAnnualReport();
+
+        Assert.assertEquals(Pages.reportsRun().getCountCheckReportType(), 1);
+
+
+        Pages.reportsRun().waitTrendReportType();
+        Pages.reportsRun().clickTrendReport();
+
+        Assert.assertEquals(Pages.reportsRun().getCountCheckReportType(), 1);
+
+        Pages.reportsRun().waitComparisonReportType();
+        Pages.reportsRun().clickComparisonReport();
+
+        Assert.assertEquals(Pages.reportsRun().getCountCheckReportType(), 1);
 
     }
 

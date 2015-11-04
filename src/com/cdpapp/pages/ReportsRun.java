@@ -34,4 +34,8 @@ public class ReportsRun extends BasePage {
         click("Select Comparison type report", "comparisonReportType");
     }
 
+    public int getCountCheckReportType(){
+        return getElements("checkTypeReport").size();
+    }
+
 }

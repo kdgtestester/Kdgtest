@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Kdgtest - Test Suite" verbose="1">
 
-    <test name="Login">
+    <test name="Open 'Sing In - Google Accounts' window">
         <classes>
             <class name="com.cdpapp.tests.LoginTest"/>
         </classes>
@@ -26,7 +26,10 @@
         </classes>
     </test>
 
-
-
-
+    <test name="RunReport">
+        <classes>
+            <class name="com.cdpapp.tests.RunReportTest"/>
+        </classes>
+    </test>
+    
 </suite>

@@ -5,7 +5,7 @@ import com.cdpapp.control.Pages;
 public class RunReportsActions {
 
     public void runReport(){
-        Pages.dashboard().modalBody();
+        Pages.dashboard().waitModalBody();
 
         Pages.dashboard().waitReportsTab();
         Pages.dashboard().clickReportsTab();
@@ -16,18 +16,10 @@ public class RunReportsActions {
 
         Pages.reportsRun().waitReportsRunHeader();
 
-        waitAndClickReports();
     }
 
     public void waitAndClickReports(){
-        Pages.reportsRun().waitAnnualReport();
-        Pages.reportsRun().clickAnnualReport();
 
-        Pages.reportsRun().waitTrendReportType();
-        Pages.reportsRun().clickTrendReport();
-
-        Pages.reportsRun().waitComparisonReportType();
-        Pages.reportsRun().clickComparisonReport();
     }
 
 }

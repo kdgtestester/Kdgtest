@@ -17,7 +17,7 @@ public class CompleteSurveyActions {
     }
 
     public void startSurvey(){
-        Pages.dashboard().modalBody();
+        Pages.dashboard().waitModalBody();
         Pages.dashboard().waitStartSurveyButton();
         Pages.dashboard().clickStartSurveyButton();
 

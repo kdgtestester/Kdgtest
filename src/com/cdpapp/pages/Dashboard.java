@@ -28,7 +28,7 @@ public class Dashboard extends BasePage {
     }
 
 
-    public void modalBody(){
+    public void waitModalBody(){
         waitForElementEnable("modalBody");
     }
 

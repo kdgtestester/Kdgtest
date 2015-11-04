@@ -17,8 +17,8 @@
         <xpath>//label[@ng-click="reportRun.type.set('comparison')"]</xpath>
     </WebElement>
 
-    <WebElement name="iconReportChoose">
-        <xpath>//span[@class="fa fa-check"]</xpath>
+    <WebElement name="checkTypeReport">
+        <xpath>//div[@class='checkbox org-type']/input[@checked='checked']</xpath>
     </WebElement>
 
 

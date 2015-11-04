@@ -17,9 +17,8 @@ public class CompleteSurveyTest extends BaseTest {
 
     @Test(dataProvider = "loginData")
     public void completeSurvey(String login, String password) throws InterruptedException {
-        Actions.loginActions().loginWithGoogle();
-        Actions.loginActions().setGoogleAccData(login, password);
-        Actions.loginActions().singInGoogleAccount();
+        Actions.loginActions().openGoogleAuthWindow();
+        Actions.loginActions().setAuthDataGoogleAccUser(login, password);
 
         Actions.completeSurveyActions().completeSurvey();
     }

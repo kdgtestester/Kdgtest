@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import javax.swing.*;
 import java.io.File;
 
 public class NewSurveyTest extends BaseTest {
@@ -21,19 +22,19 @@ public class NewSurveyTest extends BaseTest {
     @Test(dataProvider = "loginData")
     public void newSurvey(String login, String password) throws InterruptedException {
 
-        String nameSurveyTempl = "CDP 2.0 Survey  ";
-
-        Actions.loginActions().loginWithGoogle();
-        Actions.loginActions().setGoogleAccData(login, password);
-        Actions.loginActions().singInGoogleAccount();
+        Actions.loginActions().openGoogleAuthWindow();
+        Actions.loginActions().setAuthDataGoogleAccUser(login, password);
 
         Actions.completeSurveyActions().startSurvey();
         Actions.creatingNewSurveyActions().waitAndClickGoToDashboardLink();
         Actions.creatingNewSurveyActions().createSurvey();
 
+        String nameSurvey = "CDP 2.0 Survey  ".concat(Actions.creatingNewSurveyActions().getFiscalYear()).toLowerCase();
+
+        Actions.creatingNewSurveyActions().customizeSurvey();
         Pages.dashboard().waitNewSurveyButton();
 
-        String nameSurvey = nameSurveyTempl.concat(CreatingNewSurveyActions.fiscalYear).toLowerCase();
+
 
         Assert.assertEquals(Pages.dashboard().getFirstSurvey(), nameSurvey);
 

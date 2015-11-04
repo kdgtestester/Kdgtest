@@ -2,8 +2,6 @@ package com.cdpapp.tests;
 
 import com.cdpapp.control.Actions;
 import com.cdpapp.control.Pages;
-import com.cdpapp.pages.LoginPage;
-import com.qatestlab.base.BasePage;
 import com.qatestlab.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -21,7 +19,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void openGoogleFormAuthTest() throws InterruptedException {
-        Actions.loginActions().loginWithGoogle();
+        Actions.loginActions().openGoogleAuthWindow();
 
         Assert.assertNotNull(Pages.googleAuthPage().headerSingIn());
 
