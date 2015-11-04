@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Revenue: -->
+
+    <!--Earned Revenue -->
+
+        <WebElement name="unrestrictedFieldFoodConcessionsRevenue">
+            <xpath>//input[@id='inputfield_1']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldGiftShopMerchandiseFees">
+            <xpath>//input[@id='inputfield_3']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldParkingFees">
+            <xpath>//input[@id='inputfield_5']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldAdvertisingRevenue">
+            <xpath>//input[@id='inputfield_7']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldSponsorshipRevenue">
+            <xpath>//input[@id='inputfield_9']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldSpecialEventsRevenue">
+            <xpath>//input[@id='inputfield_11']</xpath>
+        </WebElement>
+
+        <WebElement name="specialEventsRevenueDescriptionArea">
+            <xpath>//textarea[@id='inputfield_13']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldMembershipRevenueIndividuals">
+            <xpath>//input[@id='inputfield_14']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldMembershipRevenueOrganizations">
+            <xpath>//input[@id='inputfield_16']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldOtherRentals">
+            <xpath>//input[@id='inputfield_44']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldOtherRentalsDescription">
+            <xpath>//div[@class='panel-body']//div[@class='radio-block']/div[1]/label</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldContractedServices">
+            <xpath>//input[@id='inputfield_47']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldLoanInterest">
+            <xpath>//input[@id='inputfield_49']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldApplicationFees">
+            <xpath>//input[@id='inputfield_51']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldFiscalSponsorshipAdministrationFees">
+            <xpath>//input[@id='inputfield_53']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldTuitionRegistrationFees">
+            <xpath>//input[@id='inputfield_55']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldOtherProgramRevenue">
+            <xpath>//input[@id='inputfield_57']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldOtherProgramRevenueDescription">
+            <xpath>//textarea[@id='inputfield_59']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldOtherEarnedRevenue">
+            <xpath>//input[@id='inputfield_60']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldOtherEarnedRevenueDescription">
+            <xpath>//textarea[@id='inputfield_59']</xpath>
+        </WebElement>
+
+        <WebElement name="continueButton">
+            <xpath>//a[@ng-click="incrementContentSubGroupIndex()"]</xpath>
+        </WebElement>
+
+    <!--Membership-->
+
+        <WebElement name="highFieldPriceRangeOrgMembership">
+            <xpath>//input[@id='inputfield_63']</xpath>
+        </WebElement>
+
+        <WebElement name="lowFieldPriceRangeOrgMembership">
+            <xpath>//input[@id='inputfield_64']</xpath>
+        </WebElement>
+
+        <WebElement name="enableEstimateCheckPriceRangeOrgMembership">
+            <xpath>//label[@for='inputfield_65']</xpath>
+        </WebElement>
+
+        <WebElement name="paidFieldOrganizationalMembersPaid">
+            <xpath>//input[@id='inputfield_66']</xpath>
+        </WebElement>
+
+        <WebElement name="enableEstimateCheckOrganizationalMembersPaid">
+            <xpath>//label[@for='inputfield_67']</xpath>
+        </WebElement>
+
+        <WebElement name="paidFieldOrganizationalMembersPaid">
+            <xpath>//input[@id='inputfield_68']</xpath>
+        </WebElement>
+
+        <WebElement name="enableEstimateCheckOrganizationalMembersPaid">
+            <xpath>//label[@for='inputfield_69']</xpath>
+        </WebElement>
+
+        <WebElement name="highFieldPriceRangeAdultIndividualMembership">
+            <xpath>//input[@id='inputfield_71']</xpath>
+        </WebElement>
+
+        <WebElement name="lowFieldPriceRangeAdultIndividualMembership">
+            <xpath>//input[@id='inputfield_72']</xpath>
+        </WebElement>
+
+        <WebElement name="enableEstimateCheckOrganizationalMembersPaid">
+            <xpath>//label[@for='inputfield_73']</xpath>
+        </WebElement>
+
+        <WebElement name="paidFieldIndividualMembersPaid">
+            <xpath>//input[@id='inputfield_74']</xpath>
+        </WebElement>
+
+        <WebElement name="enableEstimateCheckOrganizationalMembersPaid">
+            <xpath>//label[@for='inputfield_75']</xpath>
+        </WebElement>
+
+        <WebElement name="freeFieldIndividualMembersFree">
+            <xpath>//input[@id='inputfield_76']</xpath>
+        </WebElement>
+
+        <WebElement name="enableEstimateCheckOrganizationalMembersPaid">
+            <xpath>//label[@for='inputfield_77']</xpath>
+        </WebElement>
+
+    <!--Contributed Revenue-->
+
+        <WebElement name="unrestrictedFieldNonOperatingContributedRevenue">
+            <xpath>//input[@id='inputfield_214']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldNonOperatingContributedRevenue">
+            <xpath>//input[@id='inputfield_215']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldNonOperatingContributedRevenue">
+            <xpath>//input[@id='inputfield_216']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldTrusteeBoardContributions">
+            <xpath>//input[@id='inputfield_218']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldTrusteeBoardContributions">
+            <xpath>//input[@id='inputfield_219']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldTrusteeBoardContributions">
+            <xpath>//input[@id='inputfield_220']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldIndividualContributions">
+            <xpath>//input[@id='inputfield_222']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldIndividualContributions">
+            <xpath>//input[@id='inputfield_223']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldIndividualContributions">
+            <xpath>//input[@id='inputfield_224']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldCorporateContributions">
+            <xpath>//input[@id='inputfield_226']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldCorporateContributions">
+            <xpath>//input[@id='inputfield_227']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldCorporateContributions">
+            <xpath>//input[@id='inputfield_228']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldFoundationContributions">
+            <xpath>//input[@id='inputfield_230']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldFoundationContributions">
+            <xpath>//input[@id='inputfield_231']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldFoundationContributions">
+            <xpath>//input[@id='inputfield_232']</xpath>
+        </WebElement>
+
+        <WebElement name="yesRadioSpecialEventsRevenue">
+            <xpath>//label[@for='radio213-1']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldCityGovernmentContributions">
+            <xpath>//input[@id='inputfield_234']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldCityGovernmentContributions">
+            <xpath>//input[@id='inputfield_235']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldCityGovernmentContributions">
+            <xpath>//input[@id='inputfield_236']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldCountryGovernmentContributions">
+            <xpath>//input[@id='inputfield_238']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldCountryGovernmentContributions">
+            <xpath>//input[@id='inputfield_239']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldCountryGovernmentContributions">
+            <xpath>//input[@id='inputfield_240']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldStateGovernmentContributions">
+            <xpath>//input[@id='inputfield_242']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldStateGovernmentContributions">
+            <xpath>//input[@id='inputfield_243']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldStateGovernmentContributions">
+            <xpath>//input[@id='inputfield_244']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldFederalGovernmentContributions">
+            <xpath>//input[@id='inputfield_246']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldFederalGovernmentContributions">
+            <xpath>//input[@id='inputfield_247']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldFederalGovernmentContributions">
+            <xpath>//input[@id='inputfield_248']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldTribalContributions">
+            <xpath>//input[@id='inputfield_254']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldTribalContributions">
+            <xpath>//input[@id='inputfield_255']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldTribalContributions">
+            <xpath>//input[@id='inputfield_256']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldOtherContributions">
+            <xpath>//input[@id='inputfield_262']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldOtherContributions">
+            <xpath>//input[@id='inputfield_263']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldOtherContributions">
+            <xpath>//input[@id='inputfield_264']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldNetAssetsReleasedRestriction">
+            <xpath>//input[@id='inputfield_266']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedFieldNetAssetsReleasedRestriction">
+            <xpath>//input[@id='inputfield_267']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedFieldNetAssetsReleasedRestriction">
+            <xpath>//input[@id='inputfield_268']</xpath>
+        </WebElement>
+
+    <!--Contributors-->
+
+        <WebElement name="contributorsFieldTrusteeBoardContributors">
+            <xpath>//input[@id='inputfield_274']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckTrusteeBoardContributors">
+            <xpath>//label[@for='inputfield_275']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldIndividualContributors">
+            <xpath>//input[@id='inputfield_276']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckIndividualContributors">
+            <xpath>//label[@for='inputfield_277']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldCorporateContributors">
+            <xpath>//input[@id='inputfield_278']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckCorporateContributors">
+            <xpath>//label[@for='inputfield_279']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldFoundationContributors">
+            <xpath>//input[@id='inputfield_280']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckFoundationContributors">
+            <xpath>//label[@for='inputfield_281']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldCityGovernmentContributors">
+            <xpath>//input[@id='inputfield_282']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckCityGovernmentContributors">
+            <xpath>//label[@for='inputfield_283']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldCountyGovernmentContributors">
+            <xpath>//input[@id='inputfield_284']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckCountryGovernmentContributors">
+            <xpath>//label[@for='inputfield_285']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldStateGovernmentContributors">
+            <xpath>//input[@id='inputfield_286']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckStateGovernmentContributors">
+            <xpath>//label[@for='inputfield_287']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldFederalGovernmentContributors">
+            <xpath>//input[@id='inputfield_288']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckFederalGovernmentContributors">
+            <xpath>//label[@for='inputfield_289']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckTotalGovernmentContributors">
+            <xpath>//label[@for='inputfield_291']</xpath>
+        </WebElement>
+
+        <WebElement name="contributorsFieldTribalContributors">
+            <xpath>//input[@id='inputfield_292']</xpath>
+        </WebElement>
+
+        <WebElement name="estimateCheckTribalContributors">
+            <xpath>//label[@for='inputfield_293']</xpath>
+        </WebElement>
+
+    <!--Special Events-->
+
+        <WebElement name="areaDescriptionSpecialEvents">
+            <xpath>//textarea[@id='inputfield_305']</xpath>
+        </WebElement>
+
+        <WebElement name="individualContributorsUnderwritersSponsorsField">
+            <xpath>//input[@id='inputfield_314']</xpath>
+        </WebElement>
+
+        <WebElement name="corporateContributorsUnderwritersSponsorsField">
+            <xpath>//input[@id='inputfield_315']</xpath>
+        </WebElement>
+
+        <WebElement name="otherContributorsUnderwritersSponsorsField">
+            <xpath>//input[@id='inputfield_316']</xpath>
+        </WebElement>
+
+        <WebElement name="contributedRevenueLinesContainingSpecialEventsRevenue">
+            <xpath>//label[@for='checkbox317-0']</xpath>
+        </WebElement>
+
+    <!--In-Kind Revenue-->
+
+        <WebElement name="unrestrictedFieldInKindRevenueOperating">
+            <xpath>//input[@id='inputfield_318']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyUnrestrictedFieldInKindRevenueOperating">
+            <xpath>//input[@id='inputfield_319']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyUnrestrictedFieldInKindRevenueOperating">
+            <xpath>//input[@id='inputfield_320']</xpath>
+        </WebElement>
+
+        <WebElement name="unrestrictedFieldInKindRevenueNonOperating">
+            <xpath>//input[@id='inputfield_322']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyUnrestrictedFieldInKindRevenueNonOperating">
+            <xpath>//input[@id='inputfield_323']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyUnrestrictedFieldInKindRevenueNonOperating">
+            <xpath>//input[@id='inputfield_324']</xpath>
+        </WebElement>
+
+    <!--In-kind Revenue Details-->
+
+        <WebElement name="inKindIndependentContractorsField">
+            <xpath>//input[@id='inputfield_330']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindProfessionalFeesField">
+            <xpath>//input[@id='inputfield_331']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindAdvertisingPromotion">
+            <xpath>//input[@id='inputfield_332']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindConferencesMeetings">
+            <xpath>//input[@id='inputfield_333']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindInsurance">
+            <xpath>//input[@id='inputfield_334']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindOccupancy">
+            <xpath>//input[@id='inputfield_335']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindOfficeAdministration">
+            <xpath>//input[@id='inputfield_336']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindPrintingPostage">
+            <xpath>//input[@id='inputfield_337']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindTravel">
+            <xpath>//input[@id='inputfield_338']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindOtherExpenses">
+            <xpath>//input[@id='inputfield_339']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindOtherExpensesDescription">
+            <xpath>//textarea[@id='inputfield_340']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindLand">
+            <xpath>//input[@id='inputfield_341']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindBuildings">
+            <xpath>//input[@id='inputfield_342']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindConstructionInProgress">
+            <xpath>//input[@id='inputfield_343']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindCapitalizedEquipment">
+            <xpath>//input[@id='inputfield_344']</xpath>
+        </WebElement>
+
+        <WebElement name="inKindOtherCapitalizedAssets">
+            <xpath>//input[@id='inputfield_346']</xpath>
+        </WebElement>
+
+    <!--Investment Income-->
+
+        <WebElement name="unrestrictedInvestmentIncomeNonOperating">
+            <xpath>//input[@id='inputfield_343']</xpath>
+        </WebElement>
+
+        <WebElement name="temporarilyRestrictedInvestmentIncomeNonOperating">
+            <xpath>//input[@id='inputfield_344']</xpath>
+        </WebElement>
+
+        <WebElement name="permanentlyRestrictedInvestmentIncomeNonOperating">
+            <xpath>//input[@id='inputfield_346']</xpath>
+        </WebElement>
+
+    <!--Non-Operating Revenue-->
+
+    <WebElement name="unrestrictedTransfersReclassifications">
+        <xpath>//input[@id='inputfield_360']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTransfersReclassifications">
+        <xpath>//input[@id='inputfield_361']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedTransfersReclassifications">
+        <xpath>//input[@id='inputfield_362']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedPriorPeriodAdjustments">
+        <xpath>//input[@id='inputfield_364']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedPriorPeriodAdjustments">
+        <xpath>//input[@id='inputfield_365']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedPriorPeriodAdjustments">
+        <xpath>//input[@id='inputfield_366']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedOtherNonOperatingRevenue">
+        <xpath>//input[@id='inputfield_368']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedOtherNonOperatingRevenue">
+        <xpath>//input[@id='inputfield_369']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedOtherNonOperatingRevenue">
+        <xpath>//input[@id='inputfield_370']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedNonOperatingNetAssetsReleasedRestriction">
+        <xpath>//input[@id='inputfield_372']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedNonOperatingNetAssetsReleasedRestriction">
+        <xpath>//input[@id='inputfield_373']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedNonOperatingNetAssetsReleasedRestriction">
+        <xpath>//input[@id='inputfield_374']</xpath>
+    </WebElement>
+
+    <!--Expense:-->
+
+    <!--Personnel Expenses-->
+
+    <WebElement name="programEmployeesField">
+        <xpath>//input[@id='inputfield_383']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingEmployeesField">
+        <xpath>//input[@id='inputfield_384']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeEmployeesField">
+        <xpath>//input[@id='inputfield_385']</xpath>
+    </WebElement>
+
+    <WebElement name="independentContractorsFild_1">
+        <xpath>//input[@id='inputfield_387']</xpath>
+    </WebElement>
+
+    <WebElement name="independentContractorsField_2">
+        <xpath>//input[@id='inputfield_384']</xpath>
+    </WebElement>
+
+    <WebElement name="independentContractorsField_3">
+        <xpath>//input[@id='inputfield_385']</xpath>
+    </WebElement>
+
+
+</Elements>

@@ -121,6 +121,10 @@
         <xpath>//div[@id="loading"]//button</xpath>
     </WebElement>
 
+    <WebElement name="modalBody">
+        <xpath>//div[@id="loading"]/div[@class='modal-body']</xpath>
+    </WebElement>
+
 
 
 

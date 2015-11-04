@@ -5,6 +5,18 @@ import com.cdpapp.control.Pages;
 public class CompleteSurveyActions {
 
     public void completeSurvey(){
+
+        startSurvey();
+
+        //Pages.profileWizard().modalBody();
+        Pages.profileWizard().waitContinueButton();
+        Pages.profileWizard().clickContinueButton();
+
+        Pages.profileWizard().wait(5);
+
+    }
+
+    public void startSurvey(){
         Pages.dashboard().modalBody();
         Pages.dashboard().waitStartSurveyButton();
         Pages.dashboard().clickStartSurveyButton();
@@ -74,13 +86,6 @@ public class CompleteSurveyActions {
 
         Pages.profileWizard().waitSaveFinishButton();
         Pages.profileWizard().clickSaveFinishButton();
-
-        //Pages.profileWizard().modalBody();
-        Pages.profileWizard().waitContinueButton();
-        Pages.profileWizard().clickContinueButton();
-
-        Pages.profileWizard().wait(5);
-
     }
 
 }
