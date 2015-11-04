@@ -44,7 +44,7 @@
     </WebElement>
 
     <WebElement name="orgSetupAddressStateField">
-        <xpath>//select[@id='org-setup-addr_state']</xpath>
+        <css>#org-setup-addr_state</css>
     </WebElement>
 
     <WebElement name="orgSetupAddressZipField">

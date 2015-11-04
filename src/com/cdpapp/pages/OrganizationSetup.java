@@ -76,7 +76,8 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void setCityOrganization(){
-        type("Set city organization", "City" + Random.genString(5), "orgSetupCityField");
+        String city = "City" + Random.genString(5);
+        type("Set city organization", city, "orgSetupCityField");
     }
 
     public void waitStateList(){
@@ -109,7 +110,8 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void setPocTitleField(){
-        type("Set title in \"Primary Contact Person\"", "TestTitle" + Random.genString(4), "orgSetupPocTitleField");
+        String title = "TestTitle" + Random.genString(4);
+        type("Set title in \"Primary Contact Person\"", title, "orgSetupPocTitleField");
     }
 
     public void setPocPhoneField(){
