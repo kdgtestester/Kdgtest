@@ -39,6 +39,7 @@ public class CreatingNewOrganizationActions {
 
 
     public void searchOrganization(String nameOrganization){
+        Pages.organizationSetup().waitNameOrganizationField();
         Pages.organizationSetup().setNameOrganization(nameOrganization);
         Pages.organizationSetup().selectStateOrProvinceOrganization();
         Pages.organizationSetup().clicFindMyOrganizationButton();

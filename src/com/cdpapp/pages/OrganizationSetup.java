@@ -6,6 +6,10 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class OrganizationSetup extends BasePage {
 
+    public void waitNameOrganizationField(){
+        waitForElementVisibility("organizationNameField");
+    }
+
     public void setNameOrganization(String orgName){
         type("Set organization name", orgName, "organizationNameField");
     }
