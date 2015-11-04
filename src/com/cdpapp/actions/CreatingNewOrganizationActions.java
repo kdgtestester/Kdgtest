@@ -74,7 +74,9 @@ public class CreatingNewOrganizationActions {
     }
 
     public void setupPrimaryContactPerson(){
+        Pages.organizationSetup().waitPocCheckBox();
         Pages.organizationSetup().clickPocCheckBox();
+        Pages.organizationSetup().waitPocTitleField();
         Pages.organizationSetup().setPocTitleField();
         Pages.organizationSetup().setPocPhoneField();
         Pages.organizationSetup().waitNextButton();

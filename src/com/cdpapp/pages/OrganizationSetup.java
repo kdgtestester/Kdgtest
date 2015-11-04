@@ -109,8 +109,16 @@ public class OrganizationSetup extends BasePage {
         type("Set phone organization", Random.genPhone(), "orgSetupPhoneField");
     }
 
+    public void waitPocCheckBox(){
+        waitForElementToBeClickable("orgSetupPocCheckBox");
+    }
+
     public void clickPocCheckBox(){
         click("Click checkbox \"I am the Primary Contact for this organization.\"", "orgSetupPocCheckBox");
+    }
+
+    public void waitPocTitleField(){
+        waitForElementVisibility("orgSetupPocTitleField");
     }
 
     public void setPocTitleField(){
