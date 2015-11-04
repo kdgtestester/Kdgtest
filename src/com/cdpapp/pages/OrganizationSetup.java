@@ -81,7 +81,7 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void waitStateList(){
-        waitForElementToBeClickable("orgSetupAddressStateField");
+        waitForElementVisibility("orgSetupAddressStateField");
     }
 
     public void setStateOrganization(){

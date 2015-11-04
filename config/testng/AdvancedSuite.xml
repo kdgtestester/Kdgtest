@@ -31,5 +31,5 @@
             <class name="com.cdpapp.tests.RunReportTest"/>
         </classes>
     </test>
-    
+
 </suite>
