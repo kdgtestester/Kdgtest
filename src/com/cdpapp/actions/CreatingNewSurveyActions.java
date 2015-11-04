@@ -7,8 +7,10 @@ public class CreatingNewSurveyActions {
     public static String fiscalYear = "";
 
     public void createSurvey (){
-        joinOrCreateNewOrganization();
+        Pages.dashboard().modalBody();
+        clickNewSurveyButton();
         customizeSurvey();
+
     }
 
     public void clickNewSurveyButton(){
@@ -16,15 +18,11 @@ public class CreatingNewSurveyActions {
         Pages.dashboard().clickNewSurveyButton();
     }
 
-    public void joinOrCreateNewOrganization(){
-        Pages.dashboard().modalBody();
-        Pages.dashboard().waitFirstItemMenuWithOrgItem();
-        Pages.dashboard().clickFirstItemMenuWithOrgItem();
-        Pages.dashboard().waitGrantNonprofitItem();
-        Pages.dashboard().clickGrantNonprofitItem();
-        Pages.dashboard().modalBody();
-        clickNewSurveyButton();
-    }
+//    public void joinOrCreateNewOrganization(){
+//        Pages.dashboard().modalBody();
+//
+//        clickNewSurveyButton();
+//    }
 
     public void customizeSurvey(){
         Pages.profileWizard().selectFiscalYear();
@@ -33,13 +31,32 @@ public class CreatingNewSurveyActions {
         Pages.profileWizard().scrollToDown();
         Pages.profileWizard().waitStartButton();
         Pages.profileWizard().clickStartButton();
+
         Pages.profileWizard().waitFormSummaryOrgType();
         Pages.profileWizard().scrollToDown();
         Pages.profileWizard().waitStartSurveyButton();
         Pages.profileWizard().clickStartSurveyButton();
-        Pages.profileWizard().wait(60);
-        //Pages.profileWizard().modalBody();
+
+        Pages.profileWizard().waitModalBody();
+        Pages.profileWizard().modalBody();
+        Pages.profileWizard().waitGoToDashBoard();
+        Pages.profileWizard().clickGoToDashBoard();
+
+//
+//        Pages.profileWizard().waitFormSummaryOrgType();
+//        Pages.profileWizard().scrollToDown();
+//        Pages.profileWizard().waitStartSurveyButton();
+//        Pages.profileWizard().clickStartSurveyButton();
+//        Pages.profileWizard().wait(60);
+//        //Pages.profileWizard().modalBody();
+//        Pages.profileWizard().waitGoToDashBoard();
+//        Pages.profileWizard().clickGoToDashBoard();
+    }
+
+    public void waitAndClickGoToDashboardLink(){
         Pages.profileWizard().waitGoToDashBoard();
         Pages.profileWizard().clickGoToDashBoard();
     }
+
+
 }

@@ -101,12 +101,16 @@ public class ProfileWizard extends BasePage {
         click("Click \"Start Survey\" button", "startSurveyButton");
     }
 
+
+    public void waitModalBody(){
+        waitForElementVisibility("modalBody");
+    }
+
     public void modalBody(){
         waitForElementEnable("modalBody");
     }
 
     public void waitGoToDashBoard(){
-        wait(10);
         waitForElementToBeClickable("goToDashboardButton");
     }
 

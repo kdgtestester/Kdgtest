@@ -356,7 +356,7 @@ public class BasePage {
 
     protected void waitForElementToBeClickable(String elementName, Object... args) {
         By by = this.getElementLocator(elementName, args);
-        WebDriverWait wait = new WebDriverWait(driver, Constants.ELEMENT_TIMEOUT_SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, Constants.ELEMENT_EXTRALONG_TIMEOUT_SECONDS);
         wait.until(ExpectedConditions.elementToBeClickable(by));
 
         //wait until element will be at the same place (for moving elements: for Chrome and IE)
@@ -405,7 +405,7 @@ public class BasePage {
 
     protected void waitForElementEnable(String elementName, Object... args){
 
-        WebDriverWait webDriverWait = new WebDriverWait(driver, Constants.ELEMENT_TIMEOUT_SECONDS);
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Constants.ELEMENT_EXTRALONG_TIMEOUT_SECONDS);
         webDriverWait.until(new ExpectedCondition<Boolean>() {
             @Override
             public Boolean apply(WebDriver webDriver) {
@@ -418,7 +418,7 @@ public class BasePage {
 
 	protected void waitForElementVisibility(String elementName, Object... args) {
         By by = this.getElementLocator(elementName, args);
-        WebDriverWait wait = new WebDriverWait(driver, Constants.ELEMENT_TIMEOUT_SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver, Constants.ELEMENT_EXTRALONG_TIMEOUT_SECONDS);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 	}
 

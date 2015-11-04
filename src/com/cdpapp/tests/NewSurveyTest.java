@@ -26,11 +26,14 @@ public class NewSurveyTest extends BaseTest {
         Actions.loginActions().loginWithGoogle();
         Actions.loginActions().setGoogleAccData(login, password);
         Actions.loginActions().singInGoogleAccount();
+
+//        Actions.completeSurveyActions().startSurvey();
+//        Actions.creatingNewSurveyActions().waitAndClickGoToDashboardLink();
         Actions.creatingNewSurveyActions().createSurvey();
 
-        String nameSurvey = nameSurveyTempl.concat(CreatingNewSurveyActions.fiscalYear).toLowerCase();
-
         Pages.dashboard().waitNewSurveyButton();
+
+        String nameSurvey = nameSurveyTempl.concat(CreatingNewSurveyActions.fiscalYear).toLowerCase();
 
         Assert.assertEquals(Pages.dashboard().getFirstSurvey(), nameSurvey);
 
