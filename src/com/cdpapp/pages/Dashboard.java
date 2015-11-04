@@ -70,6 +70,10 @@ public class Dashboard extends BasePage {
         click("Clik \"New Survey\" button", "newSurveyButton");
     }
 
+    public void waitFirstSurvey(){
+        waitForElementVisibility("firstItemSurvey");
+    }
+
     public String getFirstSurvey(){
         return getElement("firstItemSurvey").getText().trim().toLowerCase();
     }

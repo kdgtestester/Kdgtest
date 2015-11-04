@@ -31,7 +31,7 @@ public class RunReportTest extends BaseTest {
 
         String nameSurvey = nameSurveyTempl.concat(CreatingNewSurveyActions.fiscalYear).toLowerCase();
 
-        Pages.dashboard().waitNewSurveyButton();
+        Pages.dashboard().waitFirstSurvey();
 
         Assert.assertEquals(Pages.dashboard().getFirstSurvey(), nameSurvey);
 
