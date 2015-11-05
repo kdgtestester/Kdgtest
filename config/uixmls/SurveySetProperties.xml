@@ -555,31 +555,877 @@
 
     <!--Expense:-->
 
-    <!--Personnel Expenses-->
+        <!--Personnel Expenses-->
 
-    <WebElement name="programEmployeesField">
-        <xpath>//input[@id='inputfield_383']</xpath>
-    </WebElement>
+        <WebElement name="programEmployeesField">
+            <xpath>//input[@id='inputfield_383']</xpath>
+        </WebElement>
 
-    <WebElement name="fundraisingEmployeesField">
-        <xpath>//input[@id='inputfield_384']</xpath>
-    </WebElement>
+        <WebElement name="fundraisingEmployeesField">
+            <xpath>//input[@id='inputfield_384']</xpath>
+        </WebElement>
 
-    <WebElement name="generalAdministrativeEmployeesField">
-        <xpath>//input[@id='inputfield_385']</xpath>
-    </WebElement>
+        <WebElement name="generalAdministrativeEmployeesField">
+            <xpath>//input[@id='inputfield_385']</xpath>
+        </WebElement>
 
-    <WebElement name="independentContractorsFild_1">
-        <xpath>//input[@id='inputfield_387']</xpath>
-    </WebElement>
+        <WebElement name="independentContractorsFild_1">
+            <xpath>//input[@id='inputfield_387']</xpath>
+        </WebElement>
 
-    <WebElement name="independentContractorsField_2">
-        <xpath>//input[@id='inputfield_384']</xpath>
-    </WebElement>
+        <WebElement name="independentContractorsField_2">
+            <xpath>//input[@id='inputfield_388']</xpath>
+        </WebElement>
 
-    <WebElement name="independentContractorsField_3">
-        <xpath>//input[@id='inputfield_385']</xpath>
-    </WebElement>
+        <WebElement name="independentContractorsField_3">
+            <xpath>//input[@id='inputfield_389']</xpath>
+        </WebElement>
+
+        <!--Professional Fees-->
+
+        <WebElement name="programProfessionalFees">
+            <xpath>//input[@id='inputfield_391']</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingProfessionalFees">
+            <xpath>//input[@id='inputfield_392']</xpath>
+        </WebElement>
+
+        <WebElement name="generalAndAdministrativeProfessionalFees">
+            <xpath>//input[@id='inputfield_393']</xpath>
+        </WebElement>
+
+        <!--Total Personnel Expenses-->
+
+        <WebElement name="totalPersonnelExpensesField">
+            <xpath>//input[@id='inputfield_395']</xpath>
+        </WebElement>
+
+        <!--Artist Payments-->
+
+        <WebElement name="artistPaymentsYesRadio">
+            <xpath>//*[@id="collapse9"]//label[@for='radio400-1']</xpath>
+        </WebElement>
+
+        <!--Payments to Artists and Performers-->
+
+        <!--Artists and Performers - Independent Contractors-->
+
+        <WebElement name="artistsAndPerformersIndependentContractorsField1">
+            <xpath>//*[@id='inputfield_405']</xpath>
+        </WebElement>
+
+        <WebElement name="artistsAndPerformersIndependentContractorsField2">
+            <xpath>//*[@id='inputfield_406']</xpath>
+        </WebElement>
+
+        <WebElement name="artistsAndPerformersIndependentContractorsField3">
+            <xpath>//*[@id='inputfield_407']</xpath>
+        </WebElement>
+
+        <!--Artists and Performers - Professional Fees-->
+
+        <WebElement name="visualArtistsArtistsPerformersProfessionalFees">
+            <xpath>//*[@id='inputfield_405']</xpath>
+        </WebElement>
+
+        <WebElement name="performingArtistsArtistsPerformersProfessionalFees">
+            <xpath>//*[@id='inputfield_406']</xpath>
+        </WebElement>
+
+        <WebElement name="otherArtistsArtistsPerformersProfessionalFees">
+            <xpath>//*[@id='inputfield_407']</xpath>
+        </WebElement>
+
+        <!--Salaries and Benefits-->
+
+        <WebElement name="otherBenefitsDescriptionArea">
+            <xpath>//*[@id="inputfield_420"]</xpath>
+        </WebElement>
+
+        <!--Non-Personnel Expenses-->
+
+        <!--Advertising and Promotion-->
+
+        <WebElement name="programAdvertisingPromotion">
+            <xpath>//input[@id="inputfield_422"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingAdvertisingPromotion">
+            <xpath>//input[@id="inputfield_423"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeAdvertisingPromotion">
+            <xpath>//input[@id="inputfield_424"]</xpath>
+        </WebElement>
+
+        <!--Conferences and Meetings-->
+
+        <WebElement name="programConferencesMeetings">
+            <xpath>//input[@id="inputfield_426"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingConferencesMeetings">
+            <xpath>//input[@id="inputfield_427"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeConferencesMeetings">
+            <xpath>//input[@id="inputfield_428"]</xpath>
+        </WebElement>
+
+        <!--Dues and Subscriptions-->
+
+        <WebElement name="programDuesSubscriptions">
+            <xpath>//input[@id="inputfield_430"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingDuesSubscriptions">
+            <xpath>//input[@id="inputfield_431"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeDuesSubscriptions">
+            <xpath>//input[@id="inputfield_432"]</xpath>
+        </WebElement>
+
+        <!--Grant Awards-->
+
+        <WebElement name="programGrantAwards">
+            <xpath>//input[@id="inputfield_434"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingGrantAwards">
+            <xpath>//input[@id="inputfield_435"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeGrantAwards">
+            <xpath>//input[@id="inputfield_436"]</xpath>
+        </WebElement>
+
+        <!--Insurance-->
+
+        <WebElement name="programInsurance">
+            <xpath>//input[@id="inputfield_438"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingInsurance">
+            <xpath>//input[@id="inputfield_439"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeInsurance">
+            <xpath>//input[@id="inputfield_440"]</xpath>
+        </WebElement>
+
+        <!--Occupancy Costs-->
+
+        <WebElement name="programOccupancyCosts">
+            <xpath>//input[@id="inputfield_442"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingOccupancyCosts">
+            <xpath>//input[@id="inputfield_443"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeOccupancyCosts">
+            <xpath>//input[@id="inputfield_444"]</xpath>
+        </WebElement>
+
+        <!--Office and Administration-->
+
+        <WebElement name="programOfficeAdministration">
+            <xpath>//input[@id="inputfield_446"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingOfficeAdministration">
+            <xpath>//input[@id="inputfield_447"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeOfficeAdministration">
+            <xpath>//input[@id="inputfield_448"]</xpath>
+        </WebElement>
+
+        <!--Printing, Postage, and Shipping-->
+
+        <WebElement name="programPrintingPostageShipping">
+            <xpath>//input[@id="inputfield_450"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingPrintingPostageShipping">
+            <xpath>//input[@id="inputfield_451"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativePrintingPostageShipping">
+            <xpath>//input[@id="inputfield_452"]</xpath>
+        </WebElement>
+
+        <!--Travel-->
+
+        <WebElement name="programTravel">
+            <xpath>//input[@id="inputfield_454"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingTravel">
+            <xpath>//input[@id="inputfield_455"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeTravel">
+            <xpath>//input[@id="inputfield_456"]</xpath>
+        </WebElement>
+
+        <!--Production and Event Costs-->
+
+        <WebElement name="programProductionEventCosts">
+            <xpath>//input[@id="inputfield_474"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingProductionEventCosts">
+            <xpath>//input[@id="inputfield_475"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeProductionEventCosts">
+            <xpath>//input[@id="inputfield_476"]</xpath>
+        </WebElement>
+
+        <!--Interest Expense-->
+
+        <WebElement name="programInterestExpense">
+            <xpath>//input[@id="inputfield_478"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingInterestExpense">
+            <xpath>//input[@id="inputfield_479"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeInterestExpense">
+            <xpath>//input[@id="inputfield_480"]</xpath>
+        </WebElement>
+
+        <!--Depreciation-->
+
+        <WebElement name="programDepreciation">
+            <xpath>//input[@id="inputfield_482"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingDepreciation">
+            <xpath>//input[@id="inputfield_483"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeDepreciation">
+            <xpath>//input[@id="inputfield_484"]</xpath>
+        </WebElement>
+
+
+        <!--Other Operating Expenses-->
+
+        <WebElement name="programOtherOperatingExpenses">
+            <xpath>//input[@id="inputfield_486"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingOtherOperatingExpenses">
+            <xpath>//input[@id="inputfield_487"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeOtherOperatingExpenses">
+            <xpath>//input[@id="inputfield_488"]</xpath>
+        </WebElement>
+
+        <!--Other Operating Expenses Description-->
+
+        <WebElement name="otherOperatingExpensesDescriptionArea">
+            <xpath>//textarea[@id="inputfield_490"]</xpath>
+        </WebElement>
+
+        <!--Non-Operating Expenses-->
+
+        <WebElement name="programNonOperatingExpenses">
+            <xpath>//textarea[@id="inputfield_491"]</xpath>
+        </WebElement>
+
+        <WebElement name="fundraisingNonOperatingExpenses">
+            <xpath>//input[@id="inputfield_492"]</xpath>
+        </WebElement>
+
+        <WebElement name="generalAdministrativeNonOperatingExpenses">
+            <xpath>//input[@id="inputfield_493"]</xpath>
+        </WebElement>
+
+        <!--Other Operating Expenses Description-->
+
+        <WebElement name="nonOperatingExpensesDescriptionArea">
+            <xpath>//textarea[@id="inputfield_490"]</xpath>
+        </WebElement>
+
+        <!--Workforce-->
+
+        <!--Paid Staff-->
+
+        <WebElement name="paidStaffYesRadio">
+            <xpath>//label[@for="radio501-1"]</xpath>
+        </WebElement>
+
+        <!--Full-Time Permanent Employees-->
+
+        <WebElement name="fullTimePermanentEmployeesField">
+            <xpath>//input[@id="inputfield_502"]</xpath>
+        </WebElement>
+
+        <WebElement name="fullTimePermanentEmployeesFieldEstimateCheck">
+            <xpath>//label[@for="inputfield_503"]</xpath>
+        </WebElement>
+
+        <!--Workforce Entry Preferences-->
+
+        <WebElement name="workforceEntryPreferencesHourRadio">
+            <xpath>//label[@for="radio504-0"]</xpath>
+        </WebElement>
+
+        <!--Full-Time Seasonal Employees (number Employees)-->
+
+        <WebElement name="numberEmployeesfullTimePermanentEmployeesField">
+            <xpath>//input[@id="inputfield_505"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberEmployeesfullTimePermanentEmployeesFieldEstimateCheck">
+            <xpath>//label[@for="inputfield_506"]</xpath>
+        </WebElement>
+
+        <!--Full-Time Seasonal Employees (Hours Worked)-->
+
+        <WebElement name="hoursWorkedfullTimePermanentEmployeesField">
+            <xpath>//input[@id="inputfield_507"]</xpath>
+        </WebElement>
+
+        <WebElement name="hoursWorkedFullTimePermanentEmployeesFieldEstimateCheck">
+            <xpath>//label[@for="inputfield_508"]</xpath>
+        </WebElement>
+
+        <!--Full-Time Artists-->
+
+        <WebElement name="numberEmployeesfullTimeArtists">
+            <xpath>//input[@id="inputfield_512"]</xpath>
+        </WebElement>
+
+        <WebElement name="fullTimeArtistsEstimateCheck">
+            <xpath>//label[@for="inputfield_513"]</xpath>
+        </WebElement>
+
+        <!--Part-Time Permanent Employees (numberEmployees)-->
+
+        <WebElement name="numberEmployeesPartTimePermanentEmployees">
+            <xpath>//input[@id="inputfield_514"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberEmployeesPartTimePermanentEmployeesEstimateCheck">
+            <xpath>//label[@for="inputfield_515"]</xpath>
+        </WebElement>
+
+        <!--Part-Time Permanent Employees-->
+
+        <WebElement name="partTimePermanentEmployeesField">
+            <xpath>//input[@id="inputfield_516"]</xpath>
+        </WebElement>
+
+        <WebElement name="partTimePermanentEmployeesEstimateCheck">
+            <xpath>//label[@for="inputfield_517"]</xpath>
+        </WebElement>
+
+        <!--Part-Time Seasonal Employees (number Employees)-->
+
+        <WebElement name="numberEmployeesPartTimeSeasonalEmployees">
+            <xpath>//input[@id="inputfield_521"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberEmployeesPartTimeSeasonalEmployeesEstimateCheck">
+            <xpath>//label[@for="inputfield_522"]</xpath>
+        </WebElement>
+
+        <!--Part-Time Seasonal Employees (Hours Worked)-->
+
+        <WebElement name="hoursWorkedPartTimeSeasonalEmployees">
+            <xpath>//input[@id="inputfield_523"]</xpath>
+        </WebElement>
+
+        <WebElement name="hoursWorkedPartTimeSeasonalEmployeesEstimateCheck">
+            <xpath>//label[@for="inputfield_524"]</xpath>
+        </WebElement>
+
+        <!--Part-Time Artists-->
+
+        <WebElement name="numberEmployeesPartTimeArtists">
+            <xpath>//input[@id="inputfield_528"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberEmployeesPartTimeArtistsEstimateCheck">
+            <xpath>//label[@for="inputfield_529"]</xpath>
+        </WebElement>
+
+        <!--Full-Time Volunteers (Number of Volunteers)-->
+
+        <WebElement name="numberEmployeesFullTimeVolunteers">
+            <xpath>//input[@id="inputfield_530"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberEmployeesFullTimeVolunteersEstimateCheck">
+            <xpath>//label[@for="inputfield_531"]</xpath>
+        </WebElement>
+
+        <!--Part-Time Volunteers (Number of Volunteers)-->
+
+        <WebElement name="numberEmployeesPartTimeVolunteers">
+            <xpath>//input[@id="inputfield_532"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberEmployeesPartTimeVolunteersEstimateCheck">
+            <xpath>//label[@for="inputfield_533"]</xpath>
+        </WebElement>
+
+        <!--Part-Time Volunteers (Hours Contributed)-->
+
+        <WebElement name="hoursContributedPartTimeVolunteers">
+            <xpath>//input[@id="inputfield_534"]</xpath>
+        </WebElement>
+
+        <WebElement name="hoursContributedPartTimeVolunteersEstimateCheck">
+            <xpath>//label[@for="inputfield_535"]</xpath>
+        </WebElement>
+
+        <!--Interns and Apprentices (Number of Volunteers)-->
+
+        <WebElement name="numberEmployeesInternsApprentices">
+            <xpath>//input[@id="inputfield_539"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberEmployeesInternsApprenticesEstimateCheck">
+            <xpath>//label[@for="inputfield_540"]</xpath>
+        </WebElement>
+
+        <!--Interns and Apprentices (Hours Worked)-->
+
+        <WebElement name="hoursWorkedInternsApprentices">
+            <xpath>//input[@id="inputfield_541"]</xpath>
+        </WebElement>
+
+        <WebElement name="hoursWorkedInternsApprenticesEstimateCheck">
+            <xpath>//label[@for="inputfield_542"]</xpath>
+        </WebElement>
+
+        <!--Independent Contractors (Number of Contractors)-->
+
+        <WebElement name="numberContractorsIndependentContractors">
+            <xpath>//input[@id="inputfield_546"]</xpath>
+        </WebElement>
+
+        <WebElement name="numberContractorsIndependentContractorsEstimateCheck">
+            <xpath>//label[@for="inputfield_547"]</xpath>
+        </WebElement>
+
+        <!--Independent Contractors (Hours Worked)-->
+
+        <WebElement name="hoursWorkedIndependentContractors">
+            <xpath>//input[@id="inputfield_548"]</xpath>
+        </WebElement>
+
+        <WebElement name="hoursWorkedIndependentContractorsEstimateCheck">
+            <xpath>//label[@for="inputfield_549"]</xpath>
+        </WebElement>
+
+        <!--Independent Contractors - Artists-->
+
+        <WebElement name="independentContractorsArtistField">
+            <xpath>//input[@id="inputfield_553"]</xpath>
+        </WebElement>
+
+        <!--Work Space-->
+
+        <!--Workspace Name (Optional)-->
+
+        <WebElement name="workspaceNameOptionalArea">
+            <xpath>//textarea[@id="inputfield_554"]</xpath>
+        </WebElement>
+
+        <!--Street Address-->
+
+        <WebElement name="streetAddressArea">
+            <xpath>//textarea[@id="inputfield_555"]</xpath>
+        </WebElement>
+
+        <!--Street Address (cont'd)-->
+
+        <WebElement name="streetAddressContDArea">
+            <xpath>//textarea[@id="inputfield_556"]</xpath>
+        </WebElement>
+
+        <!--Zip Code-->
+
+        <WebElement name="zipCodeDArea">
+            <xpath>//textarea[@id="inputfield_557"]</xpath>
+        </WebElement>
+
+        <!--Workplace Status-->
+
+        <WebElement name="ownRadioWorkplaceStatus">
+            <xpath>//label[@for="radio558-0"]</xpath>
+        </WebElement>
+
+        <!--Workplace Type-->
+
+        <WebElement name="administrativeRadioWorkplaceType">
+            <xpath>//label[@for="radio559-0"]</xpath>
+        </WebElement>
+
+        <!--ADA Compliance-->
+
+        <WebElement name="yesRadioADACompliance">
+            <xpath>//label[@for="radio560-0"]</xpath>
+        </WebElement>
+
+        <!--Total Gross Square Footage-->
+
+        <WebElement name="totalGrossSquareFootageField">
+            <xpath>//input[@id="inputfield_561"]</xpath>
+        </WebElement>
+
+        <!--Additional Workspaces-->
+
+        <WebElement name="yesRadioAdditionalWorkspaces">
+            <xpath>//label[@for="radio562-1"]</xpath>
+        </WebElement>
+
+        <!--Additional Workspaces (How many additional workspaces do you have?)-->
+
+        <WebElement name="firstRadioAdditionalWorkspaces">
+            <xpath>//label[@for="radio563-0"]</xpath>
+        </WebElement>
+
+        <!--Workspace Name (Optional)-->
+
+        <WebElement name="workspaceNameOptionalArea">
+            <xpath>//textarea[@id="inputfield_564"]</xpath>
+        </WebElement>
+
+        <!--Street Address (2)-->
+
+        <WebElement name="streetAddressArea2">
+            <xpath>//textarea[@id="inputfield_565"]</xpath>
+        </WebElement>
+
+        <!--Street Address (cont'd) (2)-->
+
+        <WebElement name="streetAddressContDArea2">
+            <xpath>//textarea[@id="inputfield_566"]</xpath>
+        </WebElement>
+
+        <!--Zip Code (2)-->
+
+        <WebElement name="zipCodeDArea2">
+            <xpath>//textarea[@id="inputfield_567"]</xpath>
+        </WebElement>
+
+        <!--Workplace Status (2)-->
+
+        <WebElement name="ownRadioWorkplaceStatus2">
+            <xpath>//label[@for="radio568-0"]</xpath>
+        </WebElement>
+
+        <!--Workplace Type (2)-->
+
+        <WebElement name="administrativeRadioWorkplaceType2">
+            <xpath>//label[@for="radio569-0"]</xpath>
+        </WebElement>
+
+        <!--ADA Compliance (2)-->
+
+        <WebElement name="yesRadioADACompliance2">
+            <xpath>//label[@for="radio570-0"]</xpath>
+        </WebElement>
+
+        <!--Total Gross Square Footage2-->
+
+        <WebElement name="totalGrossSquareFootageField2">
+            <xpath>//input[@id="inputfield_571"]</xpath>
+        </WebElement>
+
+
+        <!--Marketing and Social Media-->
+
+        <!--Total Marketing Expense-->
+
+        <WebElement name="totalMarketingExpenseField">
+            <xpath>//input[@id="inputfield_596"]</xpath>
+        </WebElement>
+
+        <!--Enter marketing budget-->
+
+        <WebElement name="yesRadioEntermarketingbudget">
+            <xpath>//label[@for="radio597-1"]</xpath>
+        </WebElement>
+
+        <!--Marketing expense entry method-->
+
+        <WebElement name="dollarAmountsRadioMarketingExpenseRntryMethod">
+            <xpath>//label[@for="radio598-0"]</xpath>
+        </WebElement>
+
+        <!--Marketing Personnel Expenses-->
+
+        <WebElement name="marketingPersonnelExpensesField">
+            <xpath>//input[@id="inputfield_599"]</xpath>
+        </WebElement>
+
+        <!--Marketing Consultants/Agencies-->
+
+        <WebElement name="marketingConsultantsAgenciesField">
+            <xpath>//input[@id="inputfield_601"]</xpath>
+        </WebElement>
+
+        <!--Advertising-->
+
+        <WebElement name="advertisingField">
+            <xpath>//input[@id="inputfield_603"]</xpath>
+        </WebElement>
+
+        <!--Print Advertisting-->
+
+        <WebElement name="printAdvertistingField">
+            <xpath>//input[@id="inputfield_605"]</xpath>
+        </WebElement>
+
+        <!--Digital Advertsiting-->
+
+        <WebElement name="digitalAdvertsitingField">
+            <xpath>//input[@id="inputfield_607"]</xpath>
+        </WebElement>
+
+        <!--Radio Advertising-->
+
+        <WebElement name="radioAdvertisingField">
+            <xpath>//input[@id="inputfield_609"]</xpath>
+        </WebElement>
+
+        <!--TV Advertising-->
+
+        <WebElement name="tvAdvertisingField">
+            <xpath>//input[@id="inputfield_611"]</xpath>
+        </WebElement>
+
+        <!--Outdoor Advertising-->
+
+        <WebElement name="outdoorAdvertisingField">
+            <xpath>//input[@id="inputfield_613"]</xpath>
+        </WebElement>
+
+        <!--Direct Mail-->
+
+        <WebElement name="directMailField">
+            <xpath>//input[@id="inputfield_615"]</xpath>
+        </WebElement>
+
+        <!--Telemarketing/Call Center-->
+
+        <WebElement name="telemarketingCallCenterField">
+            <xpath>//input[@id="inputfield_617"]</xpath>
+        </WebElement>
+
+        <!--Public Relations-->
+
+        <WebElement name="publicRelationsField">
+            <xpath>//input[@id="inputfield_619"]</xpath>
+        </WebElement>
+
+        <!--Events-->
+
+        <WebElement name="eventsField">
+            <xpath>//input[@id="inputfield_621"]</xpath>
+        </WebElement>
+
+        <!--Merchandise-->
+
+        <WebElement name="merchandiseField">
+            <xpath>//input[@id="inputfield_623"]</xpath>
+        </WebElement>
+
+        <!--Other-->
+
+        <WebElement name="otherField">
+            <xpath>//input[@id="inputfield_625"]</xpath>
+        </WebElement>
+
+        <!--Marketing Personnel-->
+
+        <WebElement name="marketingPersonnelField">
+            <xpath>//input[@id="inputfield_628"]</xpath>
+        </WebElement>
+
+        <!--Marketing Consultants/Agencies(2)-->
+
+        <WebElement name="marketingConsultantsAgenciesField2">
+            <xpath>//input[@id="inputfield_630"]</xpath>
+        </WebElement>
+
+        <!--Advertising(2)-->
+
+        <WebElement name="advertisingField2">
+            <xpath>//input[@id="inputfield_632"]</xpath>
+        </WebElement>
+
+        <!--Marketing Print Advertisting-->
+
+        <WebElement name="marketingPrintAdvertistingField">
+            <xpath>//input[@id="inputfield_634"]</xpath>
+        </WebElement>
+
+        <!--Digital Advertsiting(2)-->
+
+        <WebElement name="digitalAdvertsitingField2">
+            <xpath>//input[@id="inputfield_636"]</xpath>
+        </WebElement>
+
+        <!--Radio Advertising(2)-->
+
+        <WebElement name="radioAdvertisingField2">
+            <xpath>//input[@id="inputfield_638"]</xpath>
+        </WebElement>
+
+        <!--TV Advertising(2)-->
+
+        <WebElement name="tvAdvertisingField2">
+            <xpath>//input[@id="inputfield_640"]</xpath>
+        </WebElement>
+
+        <!--Outdoor Advertising(2)-->
+
+        <WebElement name="outdoorAdvertisingField2">
+            <xpath>//input[@id="inputfield_642"]</xpath>
+        </WebElement>
+
+        <!--Direct Mail(2)-->
+
+        <WebElement name="directMailField2">
+            <xpath>//input[@id="inputfield_644"]</xpath>
+        </WebElement>
+
+        <!--Email Marketing-->
+
+        <WebElement name="emailMarketingField">
+            <xpath>//input[@id="inputfield_646"]</xpath>
+        </WebElement>
+
+        <!--Telemarketing/Call Center (2)-->
+
+        <WebElement name="telemarketingCallCenterField2">
+            <xpath>//input[@id="inputfield_648"]</xpath>
+        </WebElement>
+
+        <!--Public Relations2-->
+
+        <WebElement name="publicRelationsField2">
+            <xpath>//input[@id="inputfield_648"]</xpath>
+        </WebElement>
+
+        <!--Events (2)-->
+
+        <WebElement name="eventsField2">
+            <xpath>//input[@id="inputfield_652"]</xpath>
+        </WebElement>
+
+        <!--Merchandise (2)-->
+
+        <WebElement name="merchandiseField2">
+            <xpath>//input[@id="inputfield_654"]</xpath>
+        </WebElement>
+
+        <!--Other (2)-->
+
+        <WebElement name="otherField2">
+            <xpath>//input[@id="inputfield_656"]</xpath>
+        </WebElement>
+
+        <!--Direct Mail Recipients-->
+
+        <WebElement name="directMailRecipientsField">
+            <xpath>//input[@id="inputfield_657"]</xpath>
+        </WebElement>
+
+        <!--Direct Mail Campaigns-->
+
+        <WebElement name="directMailCampaignsField">
+            <xpath>//input[@id="inputfield_658"]</xpath>
+        </WebElement>
+
+        <!--Email Recipients-->
+
+        <WebElement name="emailRecipientsField">
+            <xpath>//input[@id="inputfield_659"]</xpath>
+        </WebElement>
+
+        <!--Eblasts Sent-->
+
+        <WebElement name="eblastsSentField">
+            <xpath>//input[@id="inputfield_660"]</xpath>
+        </WebElement>
+
+        <!--Average Click Through Rate-->
+
+        <WebElement name="averageClickThroughRateField">
+            <xpath>//input[@id="inputfield_661"]</xpath>
+        </WebElement>
+
+        <!--Average Conversion Rate-->
+
+        <WebElement name="averageConversionRateField">
+            <xpath>//input[@id="inputfield_662"]</xpath>
+        </WebElement>
+
+        <!--Social Media Platforms-->
+
+        <WebElement name="socialMediaPlatformsFacebookCheck">
+            <xpath>//label[@for="checkbox663-0"]</xpath>
+        </WebElement>
+
+        <!--Other Social Media Platform Description-->
+
+        <WebElement name="otherSocialMediaPlatformDescriptionArea">
+            <xpath>//textarea[@id="inputfield_664"]</xpath>
+        </WebElement>
+
+        <!--Facebook Fans/Followers-->
+
+        <WebElement name="facebookFansFollowersField">
+            <xpath>//input[@id="inputfield_665"]</xpath>
+        </WebElement>
+
+        <!--Facebook Post Frequency-->
+
+        <WebElement name="facebookPostFrequencyField">
+            <xpath>//input[@id="inputfield_666"]</xpath>
+        </WebElement>
+
+        <!--Facebook Interactions-->
+
+        <WebElement name="facebookInteractionsField">
+            <xpath>//input[@id="inputfield_667"]</xpath>
+        </WebElement>
+
+        <!--Website Page Views-->
+
+        <WebElement name="websitePageViewsField">
+            <xpath>//input[@id="inputfield_695"]</xpath>
+        </WebElement>
+
+        <!--Website Sessions/Visits-->
+
+        <WebElement name="websiteSessionsVisitsField">
+            <xpath>//input[@id="inputfield_696"]</xpath>
+        </WebElement>
+
+        <!--Website Unique Visitors-->
+
+        <WebElement name="websiteUniqueVisitorsField">
+            <xpath>//input[@id="inputfield_697"]</xpath>
+        </WebElement>
+
+    <!--Balance Sheet-->
+
+    <!--Assets-->
 
 
 </Elements>
