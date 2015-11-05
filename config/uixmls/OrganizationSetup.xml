@@ -84,7 +84,7 @@
     </WebElement>
 
     <WebElement name="orgSetupFinishButton">
-        <xpath>//button[@id='org-setup-finish-button']</xpath>
+        <css>#org-setup-finish-button</css>
     </WebElement>
 
     <WebElement name="continueButtonAfterSuccessCreation">
