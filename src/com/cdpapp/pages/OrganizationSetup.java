@@ -11,12 +11,12 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void setNameOrganization(){
-        String nameOrg = "TestOrg" + Random.genString(4);
-        type("Set organization name", "TestOrg", "organizationNameField");
+        String nameOrg = "TestOrg" + Random.genString(4) + "T";
+        type("Set organization name", nameOrg, "organizationNameField");
     }
 
     public void selectStateOrProvinceOrganization(){
-        selectDropDownListRandomOption("Select State or Province organization", 3, 3/*getDropDownListItemsCount("Get count State or Province", "organizationStateOrProvince")*/, "organizationStateOrProvince");
+        selectDropDownListRandomOption("Select State or Province organization", 3, getDropDownListItemsCount("Get count State or Province", "organizationStateOrProvince"), "organizationStateOrProvince");
     }
 
     public void clicFindMyOrganizationButton(){
