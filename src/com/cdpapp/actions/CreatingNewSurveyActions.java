@@ -5,7 +5,6 @@ import com.cdpapp.control.Pages;
 public class CreatingNewSurveyActions {
 
     public void createSurvey (){
-        Pages.dashboard().waitModalBody();
         clickNewSurveyButton();
     }
 

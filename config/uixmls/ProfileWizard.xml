@@ -34,7 +34,7 @@
     </WebElement>
 
     <WebElement name="saveFinisButton">
-        <xpath>//button[@ng-click="completeWizard()" and contains(., 'Save &amp; Finish')]</xpath>
+        <xpath>//button[@ng-click="completeWizard()"][1]</xpath>
     </WebElement>
 
     <WebElement name="goToDashboardButton">
