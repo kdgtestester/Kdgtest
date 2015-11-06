@@ -86,6 +86,21 @@ public class CompleteSurveyActions {
 
         Pages.profileWizard().waitSaveFinishButton();
         Pages.profileWizard().clickSaveFinishButton();
+
+        Pages.profileWizard().waitContinueButton();
+        Pages.profileWizard().clickContinueButton();
+
+
     }
+
+
+    public void EarnedRevenue(){
+
+    }
+
+    public void setEarnedRevenue(){
+
+    }
+
 
 }

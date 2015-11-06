@@ -57,8 +57,8 @@ public class CreatingNewOrganizationActions {
 
         Pages.organizationSetup().setStreetAddressOrganization();
         Pages.organizationSetup().setCityOrganization();
-        Pages.organizationSetup().waitStateList();
-        Pages.organizationSetup().setStateOrganization();
+//        Pages.organizationSetup().waitStateList();
+//        Pages.organizationSetup().setStateOrganization();
         Pages.organizationSetup().setZipCodeOrganization();
         Pages.organizationSetup().setCountryOrganization();
         //Pages.organizationSetup().setCountry2Organization();

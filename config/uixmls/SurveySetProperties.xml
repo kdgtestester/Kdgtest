@@ -2174,7 +2174,292 @@
 
     <!--Program Activity-->
 
-    <!--Advocacy-->
+        <!--Advocacy-->
+
+        <!--Advocacy Description-->
+
+        <WebElement name="advocacyDescriptionArea">
+            <xpath>//textarea[@id='inputfield_1068']</xpath>
+        </WebElement>
+
+        <!--Meetings-->
+
+        <WebElement name="meetingsField">
+            <xpath>//input[@id='inputfield_1069']</xpath>
+        </WebElement>
+
+        <!--Officials-->
+
+        <WebElement name="officialsField">
+            <xpath>//input[@id='inputfield_1070']</xpath>
+        </WebElement>
+
+        <!--Testimony-->
+
+        <WebElement name="testimonyField">
+            <xpath>//input[@id='inputfield_1071']</xpath>
+        </WebElement>
+
+        <!--Grantmaking-->
+
+        <!--Grantmaking Description-->
+
+        <WebElement name="grantmakingDescriptionArea">
+            <xpath>//textarea[@id='inputfield_1072']</xpath>
+        </WebElement>
+
+        <!--Grantmaking Type-->
+
+        <WebElement name="grantmakingTypeDirectRadio">
+            <xpath>//label[@for='radio1073-0']</xpath>
+        </WebElement>
+
+        <!--Grant Applicants - Organizations-->
+
+        <WebElement name="grantApplicantsOrganizationsField">
+            <xpath>//input[@id='inputfield_1074']</xpath>
+        </WebElement>
+
+        <!--Grant Applicants - Artists-->
+
+        <WebElement name="grantApplicantsArtistsField">
+            <xpath>//input[@id='inputfield_1075']</xpath>
+        </WebElement>
+
+        <!--Grant Recipients - Organizations-->
+
+        <WebElement name="grantRecipientsOrganizationsField">
+            <xpath>//input[@id='inputfield_1076']</xpath>
+        </WebElement>
+
+        <!--Grant Recipients - Artists-->
+
+        <WebElement name="grantRecipientsArtistsField">
+            <xpath>//input[@id='inputfield_1077']</xpath>
+        </WebElement>
+
+        <!--Grants Awarded - Organizations-->
+
+        <WebElement name="grantsAwardedOrganizationsField">
+            <xpath>//input[@id='inputfield_1078']</xpath>
+        </WebElement>
+
+        <!--Grants Awarded - Artists-->
+
+        <WebElement name="grantsAwardedArtistsField">
+            <xpath>//input[@id='inputfield_1079']</xpath>
+        </WebElement>
+
+        <!--Amount Awarded - Organizations-->
+
+        <WebElement name="amountAwardedOrganizationsField">
+            <xpath>//input[@id='inputfield_1080']</xpath>
+        </WebElement>
+
+        <!--Amount Awarded - Artists-->
+
+        <WebElement name="amountAwardedArtistsField">
+            <xpath>//input[@id='inputfield_1081']</xpath>
+        </WebElement>
+
+        <!--Fiscal Sponsorship-->
+
+        <!--Fiscal Sponsorship Description-->
+
+        <WebElement name="fiscalSponsorshipDescriptionArea">
+            <xpath>//textarea[@id='inputfield_1082']</xpath>
+        </WebElement>
+
+        <!--Sponsorship Applicants-->
+
+        <WebElement name="sponsorshipApplicantsField">
+            <xpath>//input[@id='inputfield_1083']</xpath>
+        </WebElement>
+
+        <!--New Sponsored Projects-->
+
+        <WebElement name="newSponsoredProjectsField">
+            <xpath>//input[@id='inputfield_1084']</xpath>
+        </WebElement>
+
+        <!--Total Sponsored Projects-->
+
+        <WebElement name="totalSponsoredProjectsField">
+            <xpath>//input[@id='inputfield_1085']</xpath>
+        </WebElement>
+
+        <!--Amount Distributed-->
+
+        <WebElement name="amountDistributedField">
+            <xpath>//input[@id='inputfield_1086']</xpath>
+        </WebElement>
+
+        <!--Loan programs-->
+
+        <!--Loan Programs Description-->
+
+        <WebElement name="loanProgramsDescriptionArea">
+            <xpath>//textarea[@id='inputfield_1087']</xpath>
+        </WebElement>
+
+        <!--Loan Recipients-->
+
+        <WebElement name="loanRecipientsField">
+            <xpath>//input[@id='inputfield_1088']</xpath>
+        </WebElement>
+
+        <!--Loans-->
+
+        <WebElement name="loansField">
+            <xpath>//input[@id='inputfield_1089']</xpath>
+        </WebElement>
+
+        <!--Amount Loaned-->
+
+        <WebElement name="amountLoanedField">
+            <xpath>//input[@id='inputfield_1090']</xpath>
+        </WebElement>
+
+        <!--Consulting/Fee-for-Service Work-->
+
+        <!--Consulting Services Description-->
+
+        <WebElement name="consultingServicesDescriptionArea">
+            <xpath>//textarea[@id='inputfield_1225']</xpath>
+        </WebElement>
+
+        <!--Time Period-->
+
+        <WebElement name="loanRecipientsField">
+            <xpath>//label[@for='checkbox1226-0']</xpath>
+        </WebElement>
+
+        <!--Time Available-->
+
+        <WebElement name="timeAvailableField">
+            <xpath>//input[@id='inputfield_1227']</xpath>
+        </WebElement>
+
+        <!--Time Provided-->
+
+        <WebElement name="timeProvidedField">
+            <xpath>//input[@id='inputfield_1228']</xpath>
+        </WebElement>
+
+        <!--Advice to Entities-->
+
+        <WebElement name="adviceEntitiesField">
+            <xpath>//input[@id='inputfield_1229']</xpath>
+        </WebElement>
+
+        <!--Fee Range-->
+
+        <WebElement name="highFeeRangeField">
+            <xpath>//input[@id='inputfield_1230']</xpath>
+        </WebElement>
+
+        <WebElement name="lowFeeRangeField">
+            <xpath>//input[@id='inputfield_1231']</xpath>
+        </WebElement>
+
+        <!--Research-->
+        <!--Research Description-->
+
+        <WebElement name="researchDescriptionArea">
+            <xpath>//textarea[@id='inputfield_1235']</xpath>
+        </WebElement>
+
+        <!--Surveys-->
+
+        <WebElement name="surveysField">
+            <xpath>//input[@id='inputfield_1236']</xpath>
+        </WebElement>
+
+        <!--Reports-->
+
+        <WebElement name="reportsField">
+            <xpath>//input[@id='inputfield_1237']</xpath>
+        </WebElement>
+
+        <!--Competitions-->
+
+        <!--Competitions Description-->
+
+        <WebElement name="competitionsDescriptionArea">
+            <xpath>//textarea[@id='inputfield_1293']</xpath>
+        </WebElement>
+
+        <!--Competitions Hosted-->
+
+        <WebElement name="competitionsHostedField">
+            <xpath>//input[@id='inputfield_1294']</xpath>
+        </WebElement>
+
+        <!--Competitors-->
+
+        <WebElement name="competitorsField">
+            <xpath>//input[@id='inputfield_1295']</xpath>
+        </WebElement>
+
+        <!--Entry Fee-->
+
+        <WebElement name="entryFeeField">
+            <xpath>//input[@id='inputfield_1296']</xpath>
+        </WebElement>
+
+        <!--Competition Winners-->
+
+        <WebElement name="competitionWinnersField">
+            <xpath>//input[@id='inputfield_1297']</xpath>
+        </WebElement>
+
+    <!--Conferences-->
+
+    <!--Conferences Description-->
+
+    <WebElement name="conferencesDescriptionArea">
+        <xpath>//textarea[@id='inputfield_1298']</xpath>
+    </WebElement>
+
+    <!--Conferences Hosted-->
+
+    <WebElement name="conferencesHostedField">
+        <xpath>//input[@id='inputfield_1299']</xpath>
+    </WebElement>
+
+    <!--Registration Fee-->
+
+    <WebElement name="highRegistrationFeeField">
+        <xpath>//input[@id='inputfield_1299']</xpath>
+    </WebElement>
+
+    <WebElement name="lowRegistrationFeeField">
+        <xpath>//input[@id='inputfield_1299']</xpath>
+    </WebElement>
+
+    <!--Conference Capacity-->
+
+    <WebElement name="conferenceCapacityField">
+        <xpath>//input[@id='inputfield_1302']</xpath>
+    </WebElement>
+
+    <!--Paid Attendees-->
+
+    <WebElement name="paidAttendeesField">
+        <xpath>//input[@id='inputfield_1303']</xpath>
+    </WebElement>
+
+    <!--Free Attendees-->
+
+    <WebElement name="freeAttendeesField">
+        <xpath>//input[@id='inputfield_1304']</xpath>
+    </WebElement>
+
+    <!--"Complete Survey" button-->
+
+    <WebElement name="completeSurveyButton">
+        <xpath>//a[@ng-click="completeSurvey()"]</xpath>
+    </WebElement>
 
 
 
