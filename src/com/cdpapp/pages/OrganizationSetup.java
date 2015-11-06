@@ -15,7 +15,7 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void selectStateOrProvinceOrganization(){
-        selectDropDownListRandomOption("Select State or Province organization", 2, getDropDownListItemsCount("Get count State or Province", "organizationStateOrProvince"), "organizationStateOrProvince");
+        selectDropDownListRandomOption("Select State or Province organization", 2, 2/*getDropDownListItemsCount("Get count State or Province", "organizationStateOrProvince")*/, "organizationStateOrProvince");
     }
 
     public void clicFindMyOrganizationButton(){
