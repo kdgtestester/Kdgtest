@@ -25,7 +25,7 @@ public class NewSurveyTest extends BaseTest {
         Actions.loginActions().openGoogleAuthWindow();
         Actions.loginActions().setAuthDataGoogleAccUser(login, password);
 
-        Actions.completeSurveyActions().startSurvey();
+        Actions.startSurveyActions().startSurvey();
         Actions.creatingNewSurveyActions().waitAndClickGoToDashboardLink();
         Actions.creatingNewSurveyActions().createSurvey();
 
