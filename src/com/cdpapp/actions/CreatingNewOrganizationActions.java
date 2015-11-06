@@ -16,10 +16,10 @@ public class CreatingNewOrganizationActions {
         Pages.dashboard().clickJoinOrCreateNewOrgItem();
     }
 
-    public void createOrganization (String nameOrganization){
+    public void createOrganization (){
 
         joinOrCreateNewOrganization();
-        searchOrganization(nameOrganization);
+        searchOrganization();
 
         Pages.organizationSetup().waitCreateNewOrganizationButton();
         Pages.organizationSetup().clickCreateNewOrganizationButton();
@@ -38,9 +38,9 @@ public class CreatingNewOrganizationActions {
 
 
 
-    public void searchOrganization(String nameOrganization){
+    public void searchOrganization(){
         Pages.organizationSetup().waitNameOrganizationField();
-        Pages.organizationSetup().setNameOrganization(nameOrganization);
+        Pages.organizationSetup().setNameOrganization();
         Pages.organizationSetup().selectStateOrProvinceOrganization();
         Pages.organizationSetup().clicFindMyOrganizationButton();
     }

@@ -11,8 +11,6 @@ import java.io.File;
 
 public class JoinOrCreateNewOrganizationTest extends BaseTest {
 
-    private String nameOrg = "TestOrg" + com.qatestlab.utils.Random.genString(4);
-
     @DataProvider
     public Object[][] loginData() throws Exception {
         return super.getTableArray(System.getProperties().getProperty("config.dir")	+ File.separatorChar + "data"
@@ -23,7 +21,7 @@ public class JoinOrCreateNewOrganizationTest extends BaseTest {
     public void joinCreateOrganization(String login, String password) throws InterruptedException {
         Actions.loginActions().openGoogleAuthWindow();
         Actions.loginActions().setAuthDataGoogleAccUser(login, password);
-        Actions.creatingNewOrganizationActions().createOrganization(nameOrg);
+        Actions.creatingNewOrganizationActions().createOrganization();
 
         Assert.assertEquals(Pages.organizationSetup().continueButtonPresent(), "continue");
     }

@@ -10,8 +10,9 @@ public class OrganizationSetup extends BasePage {
         waitForElementVisibility("organizationNameField");
     }
 
-    public void setNameOrganization(String orgName){
-        type("Set organization name", orgName, "organizationNameField");
+    public void setNameOrganization(){
+        String nameOrg = "TestOrg" + Random.genString(4);
+        typeWithJS("Set organization name", nameOrg, "organizationNameField");
     }
 
     public void selectStateOrProvinceOrganization(){
