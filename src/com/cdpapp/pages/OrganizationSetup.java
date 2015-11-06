@@ -12,7 +12,7 @@ public class OrganizationSetup extends BasePage {
 
     public void setNameOrganization(){
         String nameOrg = "TestOrg" + Random.genString(4);
-        type("Set organization name", nameOrg, "organizationNameField");
+        type("Set organization name", "TestOrg", "organizationNameField");
     }
 
     public void selectStateOrProvinceOrganization(){
