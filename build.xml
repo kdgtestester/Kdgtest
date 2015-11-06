@@ -221,7 +221,7 @@
             <arg value="${report.dir}${file.separator}charts"/>
             <arg value="${config.dir}${file.separator}mailSettings.ini"/>
             <arg value="${executedSuites}"/>
-            <arg value="gemix.11@mail.ru"/>
+            <arg value="petr.kiryshkin@testmatick.com"/>
 
             <arg value="Test execution on (${platform} - ${browser})"/>
         </java>
