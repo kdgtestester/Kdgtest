@@ -13,6 +13,10 @@
         <xpath>//button[@ng-click="nextStep()"]</xpath>
     </WebElement>
 
+    <WebElement name="editSurveyButton">
+        <xpath>//button[@ng-click='loadAndOpenSurvey()']</xpath>
+    </WebElement>
+
     <WebElement name="confirmWizardCheckbox">
         <xpath>//label[@for='checkbox_confirmWizardStart']</xpath>
     </WebElement>

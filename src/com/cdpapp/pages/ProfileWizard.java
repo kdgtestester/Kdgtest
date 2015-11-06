@@ -10,6 +10,10 @@ public class ProfileWizard extends BasePage {
         return getElement("headerProfileWizard").getText().trim().toLowerCase();
     }
 
+    public void selectFiscalYear1(){
+        selectDropDownListOptionByText("Select fiscal year working on", "1958", "listFiscalYear");
+    }
+
     public void selectFiscalYear(){
         selectDropDownListRandomOption("Select fiscal year working on", 2, getDropDownListItemsCount("Get count fiscal year", "listFiscalYear"), "listFiscalYear");
     }
@@ -26,6 +30,16 @@ public class ProfileWizard extends BasePage {
     public void clickStartButton(){
         click("Click \"Start\" button in select a year from", "startButton");
     }
+
+    public void waitEditSurveyButton(){
+        waitForElementToBeClickable("editSurveyButton");
+    }
+
+    public void clickEditSurveyButton(){
+        click("Click \"Edit Survey\" button in select a year from", "editSurveyButton");
+    }
+
+
 
     public void waitSurveyProviders(){
         waitForElementVisibility("surveyProvidersItem");

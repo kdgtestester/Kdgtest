@@ -25,13 +25,18 @@ public class RunReportTest extends BaseTest {
         Actions.loginActions().setAuthDataGoogleAccUser(login, password);
         Actions.creatingNewSurveyActions().createSurvey();
 
-        String nameSurvey = "CDP 2.0 Survey  ".concat(Actions.creatingNewSurveyActions().getFiscalYear()).toLowerCase();
+        String fisclalYear = Actions.creatingNewSurveyActions().selectFiscalYearAndClickStartButton();
+
+        String nameSurvey = "CDP 2.0 Survey  ".concat(fisclalYear).toLowerCase();
 
         Actions.creatingNewSurveyActions().customizeSurvey();
 
         Pages.dashboard().waitFirstSurvey();
 
         Assert.assertEquals(Pages.dashboard().getFirstSurvey(), nameSurvey);
+
+
+
 
         Actions.runReportsActions().runReport();
 
