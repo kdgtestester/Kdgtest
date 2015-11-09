@@ -52,7 +52,43 @@ public class EarnedRevenue extends BasePage {
     }
 
     public void checkCostumesProps(){
-        type("Check Sets/Costumes/Props", "1", "setsCostumesPropsCheck");
+        setCheckboxState("Check Costumes Props Item", true, "checkCostumesPropsItem");
+    }
+
+    public void setContractedServices(){
+        type("Set Contracted Services", "1", "contractedServicesField");
+    }
+
+    public void setLoanInterest(){
+        type("Set Loan Interest", "1", "loanInterestField");
+    }
+
+    public void setApplicationFees(){
+        type("Set Application Fees", "1", "applicationFeesField");
+    }
+
+    public void setFiscalSponsorshipAdministrationFees(){
+        type("Set Fiscal Sponsorship Administration Fees", "1", "fiscalSponsorshipAdministrationFeesField");
+    }
+
+    public void setTuitionAndRegistrationFees(){
+        type("Set Tuition and Registration Fees", "1", "tuitionAndRegistrationFeesField");
+    }
+
+    public void setOtherProgramRevenue(){
+        type("Set Other Program Revenue", "1", "otherProgramRevenueField");
+    }
+
+    public void setOtherProgramRevenueDescription(){
+        type("Set Other Program Revenue Description", "1", "otherProgramRevenueDescriptionField");
+    }
+
+    public void setOtherEarnedRevenue(){
+        type("Set Other Earned Revenue", "1", "otherEarnedRevenueField");
+    }
+
+    public void setOtherEarnedRevenueDescription(){
+        type("Set Other Earned Revenue Description", "1", "otherEarnedRevenueDescriptionField");
     }
 
 }

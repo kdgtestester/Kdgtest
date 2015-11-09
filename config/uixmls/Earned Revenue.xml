@@ -41,7 +41,7 @@
         <xpath>//input[@id='grid_inputfield_44']</xpath>
     </WebElement>
 
-    <WebElement name="setsCostumesPropsCheck">
+    <WebElement name="checkCostumesPropsItem">
         <xpath>//label[@for='grid_checkbox_46-0']</xpath>
     </WebElement>
 
