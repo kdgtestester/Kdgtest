@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="unrestrictedInvestmentIncomeNonOperating">
+        <xpath>//input[@id='grid_inputfield_352']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedInvestmentIncomeNonOperating">
+        <xpath>//input[@id='grid_inputfield_353']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedInvestmentIncomeNonOperating">
+        <xpath>//input[@id='grid_inputfield_354']</xpath>
+    </WebElement>
+
+</Elements>

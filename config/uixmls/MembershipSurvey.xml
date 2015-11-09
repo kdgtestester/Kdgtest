@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Elements>
 
-    
+    <Webelement name="priceRangeOrganizationalMembershipHighField">
+        <xpath>//input[@id='grid_inputfield_63']</xpath>
+    </Webelement>
+
+    <Webelement name="priceRangeOrganizationalMembershipLowField">
+        <xpath>//input[@id='grid_inputfield_64']</xpath>
+    </Webelement>
+
+    <Webelement name="priceRangeOrganizationalMembershipCheckEstimate">
+        <xpath>//label[@for='grid_inputfield_65']</xpath>
+    </Webelement>
+
+    <Webelement name="organizationalMembersPaidField">
+        <xpath>//input[@id='grid_inputfield_66']</xpath>
+    </Webelement>
+
+    <Webelement name="organizationalMembersPaidCheckEstimate">
+        <xpath>//label[@for='grid_inputfield_67']</xpath>
+    </Webelement>
+
+    <Webelement name="organizationalMembersFreeField">
+        <xpath>//input[@id='grid_inputfield_68']</xpath>
+    </Webelement>
+
+    <Webelement name="organizationalMembersFreeCheckEstimate">
+        <xpath>//label[@for='grid_inputfield_69']</xpath>
+    </Webelement>
+
+    <Webelement name="priceRangeAdultIndividualMembershipHighField">
+        <xpath>//input[@id='grid_inputfield_71']</xpath>
+    </Webelement>
+
+    <Webelement name="priceRangeAdultIndividualMembershipLowField">
+        <xpath>//input[@id='grid_inputfield_72']</xpath>
+    </Webelement>
+
+    <Webelement name="priceRangeAdultIndividualMembershipCheckEstimate">
+        <xpath>//label[@for='grid_inputfield_73']</xpath>
+    </Webelement>
+
+    <Webelement name="individualMembersPaidField">
+        <xpath>//input[@id='grid_inputfield_74']</xpath>
+    </Webelement>
+
+    <Webelement name="individualMembersPaidCheckEstimate">
+        <xpath>//label[@for='grid_inputfield_75']</xpath>
+    </Webelement>
+
+    <Webelement name="individualMembersFreeField">
+        <xpath>//input[@id='grid_inputfield_76']</xpath>
+    </Webelement>
+
+    <Webelement name="individualMembersFreeCheckEstimate">
+        <xpath>//label[@for='grid_inputfield_77']</xpath>
+    </Webelement>
 
 </Elements>

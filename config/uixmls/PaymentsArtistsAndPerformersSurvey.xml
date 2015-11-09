@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="artistsAndPerformersEmployeesVisualArtistsField">
+        <xpath>//*[@id='grid_inputfield_401']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersEmployeesPerformingArtistsField">
+        <xpath>//*[@id='grid_inputfield_402']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersEmployeesOtherArtistsField">
+        <xpath>//*[@id='grid_inputfield_403']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersIndependentContractorsVisualArtistsField">
+        <xpath>//*[@id='grid_inputfield_405']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersIndependentContractorsPerformingArtistsField">
+        <xpath>//*[@id='grid_inputfield_406']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersIndependentContractorsOtherArtistsField">
+        <xpath>//*[@id='grid_inputfield_407']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersProfessionalFeesVisualArtistsField">
+        <xpath>//*[@id='grid_inputfield_409']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersProfessionalFeesPerformingArtistsField">
+        <xpath>//*[@id='grid_inputfield_410']</xpath>
+    </WebElement>
+
+    <WebElement name="artistsAndPerformersProfessionalFeesOtherArtistsField">
+        <xpath>//*[@id='grid_inputfield_411']</xpath>
+    </WebElement>
+
+</Elements>

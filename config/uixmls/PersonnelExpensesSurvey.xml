@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="programEmployeesField">
+        <xpath>//input[@id='grid_inputfield_383']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingEmployeesField">
+        <xpath>//input[@id='grid_inputfield_384']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeEmployeesField">
+        <xpath>//input[@id='grid_inputfield_385']</xpath>
+    </WebElement>
+
+    <WebElement name="independentContractorsFild_1">
+        <xpath>//input[@id='grid_inputfield_387']</xpath>
+    </WebElement>
+
+    <WebElement name="independentContractorsField_2">
+        <xpath>//input[@id='grid_inputfield_388']</xpath>
+    </WebElement>
+
+    <WebElement name="independentContractorsField_3">
+        <xpath>//input[@id='grid_inputfield_389']</xpath>
+    </WebElement>
+
+    <WebElement name="programProfessionalFees">
+        <xpath>//input[@id='grid_inputfield_391']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingProfessionalFees">
+        <xpath>//input[@id='grid_inputfield_392']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAndAdministrativeProfessionalFees">
+        <xpath>//input[@id='grid_inputfield_393']</xpath>
+    </WebElement>
+
+    <WebElement name="totalPersonnelExpensesField">
+        <xpath>//input[@id='grid_inputfield_395']</xpath>
+    </WebElement>
+
+    <WebElement name="artistPaymentsYesRadio">
+        <xpath>//label[@for='grid_inputfield_400-0']</xpath>
+    </WebElement>
+
+</Elements>

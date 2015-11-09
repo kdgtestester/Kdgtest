@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="unrestrictedTransfersReclassifications">
+        <xpath>//input[@id='grid_inputfield_360']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTransfersReclassifications">
+        <xpath>//input[@id='grid_inputfield_361']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedTransfersReclassifications">
+        <xpath>//input[@id='grid_inputfield_362']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedPriorPeriodAdjustments">
+        <xpath>//input[@id='grid_inputfield_364']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedPriorPeriodAdjustments">
+        <xpath>//input[@id='grid_inputfield_365']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedPriorPeriodAdjustments">
+        <xpath>//input[@id='grid_inputfield_366']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedOtherNonOperatingRevenue">
+        <xpath>//input[@id='grid_inputfield_368']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedOtherNonOperatingRevenue">
+        <xpath>//input[@id='grid_inputfield_369']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedOtherNonOperatingRevenue">
+        <xpath>//input[@id='grid_inputfield_370']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedNonOperatingNetAssetsReleasedRestriction">
+        <xpath>//input[@id='grid_inputfield_372']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedNonOperatingNetAssetsReleasedRestriction">
+        <xpath>//input[@id='grid_inputfield_373']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedNonOperatingNetAssetsReleasedRestriction">
+        <xpath>//input[@id='grid_inputfield_374']</xpath>
+    </WebElement>
+
+</Elements>

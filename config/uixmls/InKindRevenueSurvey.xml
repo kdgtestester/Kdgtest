@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="unrestrictedFieldInKindRevenueOperating">
+        <xpath>//input[@id='grid_inputfield_318']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyUnrestrictedFieldInKindRevenueOperating">
+        <xpath>//input[@id='grid_inputfield_319']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyUnrestrictedFieldInKindRevenueOperating">
+        <xpath>//input[@id='grid_inputfield_320']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldInKindRevenueNonOperating">
+        <xpath>//input[@id='grid_inputfield_322']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyUnrestrictedFieldInKindRevenueNonOperating">
+        <xpath>//input[@id='grid_inputfield_323']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyUnrestrictedFieldInKindRevenueNonOperating">
+        <xpath>//input[@id='grid_inputfield_324']</xpath>
+    </WebElement>
+
+</Elements>

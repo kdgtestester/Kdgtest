@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="inKindIndependentContractorsField">
+        <xpath>//input[@id='grid_inputfield_330']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindProfessionalFeesField">
+        <xpath>//input[@id='grid_inputfield_331']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindAdvertisingPromotionField">
+        <xpath>//input[@id='grid_inputfield_332']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindConferencesMeetingsField">
+        <xpath>//input[@id='grid_inputfield_333']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindInsuranceField">
+        <xpath>//input[@id='grid_inputfield_334']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindOccupancyField">
+        <xpath>//input[@id='grid_inputfield_335']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindOfficeAdministrationField">
+        <xpath>//input[@id='grid_inputfield_336']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindPrintingPostageField">
+        <xpath>//input[@id='grid_inputfield_337']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindTravelField">
+        <xpath>//input[@id='grid_inputfield_338']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindOtherExpensesField">
+        <xpath>//input[@id='grid_inputfield_339']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindOtherExpensesDescriptionField">
+        <xpath>//textarea[@id='grid_inputfield_340']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindLandField">
+        <xpath>//input[@id='grid_inputfield_341']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindBuildingsField">
+        <xpath>//input[@id='inputfield_342']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindConstructionInProgressField">
+        <xpath>//input[@id='grid_inputfield_343']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindCapitalizedEquipmentField">
+        <xpath>//input[@id='grid_inputfield_344']</xpath>
+    </WebElement>
+
+    <WebElement name="inKindOtherCapitalizedAssetsField">
+        <xpath>//input[@id='grid_inputfield_346']</xpath>
+    </WebElement>
+
+</Elements>

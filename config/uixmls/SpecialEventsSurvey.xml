@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="areaDescriptionSpecialEvents">
+        <xpath>//textarea[@id='grid_inputfield_305']</xpath>
+    </WebElement>
+
+    <WebElement name="individualContributorsUnderwritersSponsorsField">
+        <xpath>//input[@id='grid_inputfield_314']</xpath>
+    </WebElement>
+
+    <WebElement name="corporateContributorsUnderwritersSponsorsField">
+        <xpath>//input[@id='grid_inputfield_315']</xpath>
+    </WebElement>
+
+    <WebElement name="otherContributorsUnderwritersSponsorsField">
+        <xpath>//input[@id='grid_inputfield_316']</xpath>
+    </WebElement>
+
+    <WebElement name="contributedRevenueLinesContainingSpecialEventsRevenue">
+        <xpath>//label[@for='grid_checkbox_317-0']</xpath>
+    </WebElement>
+
+</Elements>

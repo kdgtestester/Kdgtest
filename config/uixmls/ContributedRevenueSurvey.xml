@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="unrestrictedFieldNonOperatingContributedRevenue">
+        <xpath>//input[@id='grid_inputfield_214']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldNonOperatingContributedRevenue">
+        <xpath>//input[@id='grid_inputfield_215']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldNonOperatingContributedRevenue">
+        <xpath>//input[@id='grid_inputfield_216']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldTrusteeBoardContributions">
+        <xpath>//input[@id='grid_inputfield_218']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldTrusteeBoardContributions">
+        <xpath>//input[@id='grid_inputfield_219']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldTrusteeBoardContributions">
+        <xpath>//input[@id='grid_inputfield_220']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldIndividualContributions">
+        <xpath>//input[@id='grid_inputfield_222']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldIndividualContributions">
+        <xpath>//input[@id='grid_inputfield_223']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldIndividualContributions">
+        <xpath>//input[@id='grid_inputfield_224']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldCorporateContributions">
+        <xpath>//input[@id='grid_inputfield_226']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldCorporateContributions">
+        <xpath>//input[@id='grid_inputfield_227']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldCorporateContributions">
+        <xpath>//input[@id='grid_inputfield_228']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldFoundationContributions">
+        <xpath>//input[@id='grid_inputfield_230']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldFoundationContributions">
+        <xpath>//input[@id='grid_inputfield_231']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldFoundationContributions">
+        <xpath>//input[@id='grid_inputfield_232']</xpath>
+    </WebElement>
+
+    <WebElement name="yesRadioSpecialEventsRevenue">
+        <xpath>//label[@for='grid_inputfield_213-0']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldCityGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_234']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldCityGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_235']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldCityGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_236']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldCountryGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_238']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldCountryGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_239']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldCountryGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_240']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldStateGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_242']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldStateGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_243']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldStateGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_244']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldFederalGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_246']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldFederalGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_247']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldFederalGovernmentContributions">
+        <xpath>//input[@id='grid_inputfield_248']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldTribalContributions">
+        <xpath>//input[@id='grid_inputfield_254']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldTribalContributions">
+        <xpath>//input[@id='grid_inputfield_255']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldTribalContributions">
+        <xpath>//input[@id='grid_inputfield_256']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldOtherContributions">
+        <xpath>//input[@id='grid_inputfield_262']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldOtherContributions">
+        <xpath>//input[@id='grid_inputfield_263']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldOtherContributions">
+        <xpath>//input[@id='grid_inputfield_264']</xpath>
+    </WebElement>
+
+    <WebElement name="unrestrictedFieldNetAssetsReleasedRestriction">
+        <xpath>//input[@id='grid_inputfield_266']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFieldNetAssetsReleasedRestriction">
+        <xpath>//input[@id='grid_inputfield_267']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFieldNetAssetsReleasedRestriction">
+        <xpath>//input[@id='grid_inputfield_268']</xpath>
+    </WebElement>
+
+
+</Elements>
