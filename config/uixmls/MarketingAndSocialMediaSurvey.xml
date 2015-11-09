@@ -274,7 +274,6 @@
     </WebElement>
 
     <!--Website Unique Visitors-->
-
     <WebElement name="websiteUniqueVisitorsField">
         <xpath>//input[@id='grid_inputfield_697']</xpath>
     </WebElement>
