@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Advocacy-->
+
+    <!--Advocacy Description-->
+
+    <WebElement name="advocacyDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1068']</xpath>
+    </WebElement>
+
+    <!--Meetings-->
+
+    <WebElement name="meetingsField">
+        <xpath>//input[@id='grid_inputfield_1069']</xpath>
+    </WebElement>
+
+    <!--Officials-->
+
+    <WebElement name="officialsField">
+        <xpath>//input[@id='grid_inputfield_1070']</xpath>
+    </WebElement>
+
+    <!--Testimony-->
+
+    <WebElement name="testimonyField">
+        <xpath>//input[@id='grid_inputfield_1071']</xpath>
+    </WebElement>
+
+</Elements>

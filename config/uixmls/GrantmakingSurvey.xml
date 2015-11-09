@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Grantmaking-->
+
+    <!--Grantmaking Description-->
+
+    <WebElement name="grantmakingDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1072']</xpath>
+    </WebElement>
+
+    <!--Grantmaking Type-->
+
+    <WebElement name="grantmakingTypeDirectRadio">
+        <xpath>//label[@for='grid_inputfield_1073-0']</xpath>
+    </WebElement>
+
+    <!--Grant Applicants - Organizations-->
+
+    <WebElement name="grantApplicantsOrganizationsField">
+        <xpath>//input[@id='grid_inputfield_1074']</xpath>
+    </WebElement>
+
+    <!--Grant Applicants - Artists-->
+
+    <WebElement name="grantApplicantsArtistsField">
+        <xpath>//input[@id='grid_inputfield_1075']</xpath>
+    </WebElement>
+
+    <!--Grant Recipients - Organizations-->
+
+    <WebElement name="grantRecipientsOrganizationsField">
+        <xpath>//input[@id='grid_inputfield_1076']</xpath>
+    </WebElement>
+
+    <!--Grant Recipients - Artists-->
+
+    <WebElement name="grantRecipientsArtistsField">
+        <xpath>//input[@id='grid_inputfield_1077']</xpath>
+    </WebElement>
+
+    <!--Grants Awarded - Organizations-->
+
+    <WebElement name="grantsAwardedOrganizationsField">
+        <xpath>//input[@id='grid_inputfield_1078']</xpath>
+    </WebElement>
+
+    <!--Grants Awarded - Artists-->
+
+    <WebElement name="grantsAwardedArtistsField">
+        <xpath>//input[@id='grid_inputfield_1079']</xpath>
+    </WebElement>
+
+    <!--Amount Awarded - Organizations-->
+
+    <WebElement name="amountAwardedOrganizationsField">
+        <xpath>//input[@id='grid_inputfield_1080']</xpath>
+    </WebElement>
+
+    <!--Amount Awarded - Artists-->
+
+    <WebElement name="amountAwardedArtistsField">
+        <xpath>//input[@id='grid_inputfield_1081']</xpath>
+    </WebElement>
+
+</Elements>

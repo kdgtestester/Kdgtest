@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Endowment and Reserve Funds-->
+
+    <!--Total Board-Designated Endowment-->
+
+    <WebElement name="totalBoardDesignatedEndowmentField">
+        <xpath>//input[@id='grid_inputfield_917']</xpath>
+    </WebElement>
+
+    <!--Board-Designated Assets - Cash-->
+
+    <WebElement name="boardDesignatedAssetsCashField">
+        <xpath>//input[@id='grid_inputfield_918']</xpath>
+    </WebElement>
+
+    <!--Board-Designated Assets - Investments-->
+
+    <WebElement name="boardDesignatedAssetsCashField">
+        <xpath>//input[@id='grid_inputfield_919']</xpath>
+    </WebElement>
+
+    <!--Board-Designated Assets - Other Assets-->
+
+    <WebElement name="boardDesignatedAssetsOtherAssetsField">
+        <xpath>//input[@id='grid_inputfield_920']</xpath>
+    </WebElement>
+
+    <!--Endowment Corpus-->
+
+    <WebElement name="endowmentCorpusField">
+        <xpath>//input[@id='grid_inputfield_921']</xpath>
+    </WebElement>
+
+    <!--Amount Withdrawn-->
+
+    <WebElement name="amountWithdrawnField">
+        <xpath>//input[@id='grid_inputfield_922']</xpath>
+    </WebElement>
+
+    <!--Maximum Annual Withdrawal Percentage-->
+
+    <WebElement name="maximumAnnualWithdrawalPercentageField">
+        <xpath>//input[@id='grid_inputfield_923']</xpath>
+    </WebElement>
+
+    <!--Revenue Lines Containing Endowment Draw-->
+
+    <WebElement name="operatingInvestmentIncomeRadio">
+        <xpath>//label[@for='grid_inputfield_924-0']</xpath>
+    </WebElement>
+
+    <!--Notes-->
+
+    <WebElement name="notesArea">
+        <xpath>//textarea[@id='grid_inputfield_925']</xpath>
+    </WebElement>
+
+    <!--Total Term Endowment-->
+
+    <WebElement name="unrestrictedTotalTermEndowment">
+        <xpath>//input[@id='grid_inputfield_926']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTotalTermEndowment">
+        <xpath>//input[@id='grid_inputfield_927']</xpath>
+    </WebElement>
+
+    <!--Term Endowment Assets - Cash-->
+
+    <WebElement name="unrestrictedTermEndowmentAssetsCash">
+        <xpath>//input[@id='grid_inputfield_929']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTermEndowmentAssetsCash">
+        <xpath>//input[@id='grid_inputfield_930']</xpath>
+    </WebElement>
+
+    <!--Term Endowment Assets - Investments-->
+
+    <WebElement name="unrestrictedTermEndowmentAssetsInvestments">
+        <xpath>//input[@id='grid_inputfield_932']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTermEndowmentAssetsInvestments">
+        <xpath>//input[@id='grid_inputfield_933']</xpath>
+    </WebElement>
+
+    <!--Term Endowment Assets - Other Assets-->
+
+    <WebElement name="unrestrictedTermEndowmentAssetsOtherAssets">
+        <xpath>//input[@id='grid_inputfield_935']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTermEndowmentAssetsOtherAssets">
+        <xpath>//input[@id='grid_inputfield_936']</xpath>
+    </WebElement>
+
+    <!--Original Term Endowment Corpus-->
+
+    <WebElement name="unrestrictedOriginalTermEndowmentCorpus">
+        <xpath>//input[@id='grid_inputfield_935']</xpath>
+    </WebElement>
+
+    <!--Amount Withdrawn(2)-->
+
+    <WebElement name="amountWithdrawnField2">
+        <xpath>//input[@id='grid_inputfield_939']</xpath>
+    </WebElement>
+
+    <!--Maximum Annual Withdrawal Percentage(2)-->
+
+    <WebElement name="maximumAnnualWithdrawalPercentageField2">
+        <xpath>//input[@id='grid_inputfield_940']</xpath>
+    </WebElement>
+
+    <!--Revenue Lines Containing Endowment Draw(2)-->
+
+    <WebElement name="operatingInvestmentIncomeCheck2">
+        <xpath>//label[@for='grid_checkbox_941-0']</xpath>
+    </WebElement>
+
+    <!--Notes(2)-->
+
+    <WebElement name="notesArea2">
+        <xpath>//textarea[@id='grid_inputfield_942']</xpath>
+    </WebElement>
+
+    <!--Total Permanent Endowment-->
+
+    <WebElement name="unrestrictedTotalPermanentEndowment">
+        <xpath>//input[@id='grid_inputfield_943']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTotalPermanentEndowment">
+        <xpath>//input[@id='grid_inputfield_944']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedTotalPermanentEndowment">
+        <xpath>//input[@id='grid_inputfield_945']</xpath>
+    </WebElement>
+
+    <!--Permanent Endowment Assets - Cash-->
+
+    <WebElement name="unrestrictedPermanentEndowmentAssetsCash">
+        <xpath>//input[@id='grid_inputfield_947']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedPermanentEndowmentAssetsCash">
+        <xpath>//input[@id='grid_inputfield_948']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedPermanentEndowmentAssetsCash">
+        <xpath>//input[@id='grid_inputfield_949']</xpath>
+    </WebElement>
+
+    <!--Permanent Endowment Assets - Investments-->
+
+    <WebElement name="unrestrictedPermanentEndowmentAssetsInvestments">
+        <xpath>//input[@id='grid_inputfield_950']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedPermanentEndowmentAssetsInvestments">
+        <xpath>//input[@id='grid_inputfield_951']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedPermanentEndowmentAssetsInvestments">
+        <xpath>//input[@id='grid_inputfield_952']</xpath>
+    </WebElement>
+
+    <!--Permanent Endowment Assets - Other Assets-->
+
+    <WebElement name="unrestrictedPermanentEndowmentAssetsOtherAssets">
+        <xpath>//input[@id='grid_inputfield_954']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedPermanentEndowmentAssetsOtherAssets">
+        <xpath>//input[@id='grid_inputfield_955']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedPermanentEndowmentAssetsOtherAssets">
+        <xpath>//input[@id='grid_inputfield_956']</xpath>
+    </WebElement>
+
+    <!--Original Endowment Corpus-->
+
+    <WebElement name="unrestrictedOriginalEndowmentCorpus">
+        <xpath>//input[@id='grid_inputfield_958']</xpath>
+    </WebElement>
+
+    <!--Amount Withdrawn(3)-->
+
+    <WebElement name="amountWithdrawnField3">
+        <xpath>//input[@id='grid_inputfield_959']</xpath>
+    </WebElement>
+
+    <!--Maximum Annual Withdrawal Percentage(3)-->
+
+    <WebElement name="maximumAnnualWithdrawalPercentageField3">
+        <xpath>//input[@id='grid_inputfield_960']</xpath>
+    </WebElement>
+
+    <!--Revenue Lines Containing Endowment Draw(3)-->
+
+    <WebElement name="operatingInvestmentIncomeCheck3">
+        <xpath>//label[@for='grid_checkbox_961-0']</xpath>
+    </WebElement>
+
+    <!--Notes(3)-->
+
+    <WebElement name="notesArea3">
+        <xpath>//textarea[@id='grid_inputfield_962']</xpath>
+    </WebElement>
+
+    <!--Total Reserve Funds-->
+
+    <WebElement name="unrestrictedTotalReserveFunds">
+        <xpath>//input[@id='grid_inputfield_963']</xpath>
+    </WebElement>
+
+    <!--Reserves - Cash-->
+
+    <WebElement name="reservesCashField">
+        <xpath>//input[@id='grid_inputfield_964']</xpath>
+    </WebElement>
+
+    <!--Reserve - Investments-->
+
+    <WebElement name="reserveInvestmentsField">
+        <xpath>//input[@id='grid_inputfield_965']</xpath>
+    </WebElement>
+
+    <!--Reserves - Other Assets-->
+
+    <WebElement name="reservesOtherAssetsField">
+        <xpath>//input[@id='grid_inputfield_966']</xpath>
+    </WebElement>
+
+    <!--Reserve - Investments(2)-->
+
+    <WebElement name="reserveInvestmentsField2">
+        <xpath>//input[@id='grid_inputfield_967']</xpath>
+    </WebElement>
+
+    <!--Reserves - Other Assets (2)-->
+
+    <WebElement name="reservesOtherAssetsField2">
+        <xpath>//input[@id='grid_inputfield_968']</xpath>
+    </WebElement>
+
+    <!--Total Reserve Funds (2)-->
+
+    <WebElement name="totalReserveFundsField2">
+        <xpath>//input[@id='grid_inputfield_969']</xpath>
+    </WebElement>
+
+    <!--Reserves - Cash(2)-->
+
+    <WebElement name="reservesCashField2">
+        <xpath>//input[@id='grid_inputfield_971']</xpath>
+    </WebElement>
+
+    <!--Reserve - Investments(3)-->
+
+    <WebElement name="reservesInvestmentsField3">
+        <xpath>//input[@id='grid_inputfield_973']</xpath>
+    </WebElement>
+
+    <!--Reserves - Other Assets (3)-->
+
+    <WebElement name="reservesOtherAssetsField3">
+        <xpath>//input[@id='grid_inputfield_975']</xpath>
+    </WebElement>
+
+    <!--Amount Withdrawn (4)-->
+
+    <WebElement name="amountWithdrawnField4">
+        <xpath>//input[@id='grid_inputfield_977']</xpath>
+    </WebElement>
+
+    <!--Maximum Annual Withdrawal Percentage Allowed Per Policy-->
+
+    <WebElement name="maxAnnualWithDrawalPercentageAllowedPerPolic">
+        <xpath>//input[@id='grid_inputfield_978']</xpath>
+    </WebElement>
+
+    <!--Revenue Lines Containing Reserve Draw-->
+
+    <WebElement name="operatingInvestmentIncomeCheck4">
+        <xpath>//label[@for='grid_checkbox_979-0']</xpath>
+    </WebElement>
+
+    <!--Notes-->
+
+    <WebElement name="notesArea4">
+        <xpath>//textarea[@id='inputfield_980']</xpath>
+    </WebElement>
+
+</Elements>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Summary-->
+
+    <!--Total Assets-->
+
+    <WebElement name="totalAssetsField">
+        <xpath>//input[@id='grid_inputfield_1066']</xpath>
+    </WebElement>
+
+    <!--Total Liabilities-->
+
+    <WebElement name="totalLiabilitiesField">
+        <xpath>//input[@id='grid_inputfield_1067']</xpath>
+    </WebElement>
+
+</Elements>

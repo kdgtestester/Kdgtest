@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Net Assets-->
+    <!--Unrestricted Net Assets-->
+
+    <WebElement name="otherNotesLoansNonCurrentField">
+        <xpath>//input[@id='grid_inputfield_1054']</xpath>
+    </WebElement>
+
+    <!--Net Assets2-->
+
+    <!--Total Liabilities and Net Assets-->
+
+    <WebElement name="totalLiabilitiesNetAssetsField1">
+        <xpath>//input[@id='grid_inputfield_1063']</xpath>
+    </WebElement>
+
+    <WebElement name="totalLiabilitiesNetAssetsField2">
+        <xpath>//input[@id='grid_inputfield_1064']</xpath>
+    </WebElement>
+
+    <WebElement name="totalLiabilitiesNetAssetsField3">
+        <xpath>//input[@id='grid_inputfield_1065']</xpath>
+    </WebElement>
+
+</Elements>

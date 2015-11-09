@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Loan Details-->
+
+    <!--Line of Credit - Limit-->
+
+    <WebElement name="lineCreditLimitField">
+        <xpath>//input[@id='grid_inputfield_1045']</xpath>
+    </WebElement>
+
+    <!--Line of Credit - Balance-->
+
+    <WebElement name="lineCreditBalanceField">
+        <xpath>//input[@id='grid_inputfield_1046']</xpath>
+    </WebElement>
+
+    <!--Mortgage - Current-->
+
+    <WebElement name="mortgageCurrentField">
+        <xpath>//input[@id='grid_inputfield_1047']</xpath>
+    </WebElement>
+
+    <!--Mortgage - Non-Current-->
+
+    <WebElement name="mortgageNonCurrentField">
+        <xpath>//input[@id='grid_inputfield_1048']</xpath>
+    </WebElement>
+
+    <!--Bonds Payable - Current-->
+
+    <WebElement name="bondsPayableCurrentField">
+        <xpath>//input[@id='grid_inputfield_1049']</xpath>
+    </WebElement>
+
+    <!--Bonds Payable - Non-Current-->
+
+    <WebElement name="bondsPayableNonCurrentField">
+        <xpath>//input[@id='grid_inputfield_1050']</xpath>
+    </WebElement>
+
+    <!--Other Notes and Loans - Current-->
+
+    <WebElement name="otherNotesLoansCurrentField">
+        <xpath>//input[@id='grid_inputfield_1051']</xpath>
+    </WebElement>
+
+    <!--Other Notes and Loans - Non-Current-->
+
+    <WebElement name="otherNotesLoansNonCurrentField">
+        <xpath>//input[@id='grid_inputfield_1052']</xpath>
+    </WebElement>
+
+</Elements>

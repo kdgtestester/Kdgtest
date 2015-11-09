@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Liabilities-->
+
+    <!--Accounts Payable-->
+
+    <WebElement name="unrestrictedAccountsPayable">
+        <xpath>//input[@id='grid_inputfield_1001']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedAccountsPayable">
+        <xpath>//input[@id='grid_inputfield_1002']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedAccountsPayable">
+        <xpath>//input[@id='grid_inputfield_1003']</xpath>
+    </WebElement>
+
+    <!--Accrued Expenses-->
+
+    <WebElement name="unrestrictedAccruedExpenses">
+        <xpath>//input[@id='grid_inputfield_1005']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedAccruedExpenses">
+        <xpath>//input[@id='grid_inputfield_1006']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedAccruedExpenses">
+        <xpath>//input[@id='grid_inputfield_1007']</xpath>
+    </WebElement>
+
+    <!--Deferred Revenue-->
+
+    <WebElement name="unrestrictedDeferredRevenue">
+        <xpath>//input[@id='grid_inputfield_1009']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedDeferredRevenue">
+        <xpath>//input[@id='grid_inputfield_1010']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedDeferredRevenue">
+        <xpath>//input[@id='grid_inputfield_1011']</xpath>
+    </WebElement>
+
+    <!--Loans - Current-->
+
+    <WebElement name="unrestrictedLoansCurrent">
+        <xpath>//input[@id='grid_inputfield_1013']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedLoansCurrent">
+        <xpath>//input[@id='grid_inputfield_1014']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedLoansCurrent">
+        <xpath>//input[@id='grid_inputfield_1015']</xpath>
+    </WebElement>
+
+    <!--Other Current Liabilities-->
+
+    <WebElement name="unrestrictedOtherCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1017']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedOtherCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1018']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedOtherCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1019']</xpath>
+    </WebElement>
+
+    <!--Total Current Liabilities-->
+
+    <WebElement name="unrestrictedTotalCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1021']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTotalCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1022']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedTotalCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1023']</xpath>
+    </WebElement>
+
+    <!--Loans - Non-Current-->
+
+    <WebElement name="unrestrictedLoansNonCurrent">
+        <xpath>//input[@id='grid_inputfield_1025']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedLoansNonCurrent">
+        <xpath>//input[@id='grid_inputfield_1026']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedLoansNonCurrent">
+        <xpath>//input[@id='grid_inputfield_1027']</xpath>
+    </WebElement>
+
+    <!--Other Non-Current Liabilities-->
+
+    <WebElement name="unrestrictedOtherNonCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1029']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedOtherNonCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1030']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedOtherNonCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1031']</xpath>
+    </WebElement>
+
+    <!--Total Non-Current Liabilities-->
+
+    <WebElement name="unrestrictedTotalNonCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1033']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTotalNonCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1034']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedTotalNonCurrentLiabilities">
+        <xpath>//input[@id='grid_inputfield_1035']</xpath>
+    </WebElement>
+
+    <!--Due To/(Due From)-->
+
+    <WebElement name="unrestrictedDueToDueFromLiabilities">
+        <xpath>//input[@id='grid_inputfield_1037']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedDueToDueFromLiabilities">
+        <xpath>//input[@id='grid_inputfield_1038']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedTotalDueToDueFromLiabilities">
+        <xpath>//input[@id='grid_inputfield_1039']</xpath>
+    </WebElement>
+
+    <!--Total Liabilities-->
+
+    <WebElement name="unrestrictedTotalLiabilities">
+        <xpath>//input[@id='grid_inputfield_1041']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedTotalLiabilities">
+        <xpath>//input[@id='grid_inputfield_1042']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedTotalLiabilities">
+        <xpath>//input[@id='grid_inputfield_1043']</xpath>
+    </WebElement>
+
+</Elements>
