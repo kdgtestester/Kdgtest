@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Advertising and Promotion-->
+
+    <WebElement name="programAdvertisingPromotionField">
+        <xpath>//input[@id='grid_inputfield_422']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingAdvertisingPromotionField">
+        <xpath>//input[@id='grid_inputfield_423']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeAdvertisingPromotionField">
+        <xpath>//input[@id='grid_inputfield_424']</xpath>
+    </WebElement>
+
+    <!--Conferences and Meetings-->
+
+    <WebElement name="programConferencesMeetingsField">
+        <xpath>//input[@id='grid_inputfield_426']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingConferencesMeetingsField">
+        <xpath>//input[@id='grid_inputfield_427']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeConferencesMeetingsField">
+        <xpath>//input[@id='grid_inputfield_428']</xpath>
+    </WebElement>
+
+    <!--Dues and Subscriptions-->
+
+    <WebElement name="programDuesSubscriptionsField">
+        <xpath>//input[@id='grid_inputfield_430']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingDuesSubscriptionsField">
+        <xpath>//input[@id='grid_inputfield_431']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeDuesSubscriptionsField">
+        <xpath>//input[@id='grid_inputfield_432']</xpath>
+    </WebElement>
+
+    <!--Grant Awards-->
+
+    <WebElement name="programGrantAwardsField">
+        <xpath>//input[@id='grid_inputfield_434']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingGrantAwardsField">
+        <xpath>//input[@id='grid_inputfield_435']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeGrantAwardsField">
+        <xpath>//input[@id='grid_inputfield_436']</xpath>
+    </WebElement>
+
+    <!--Insurance-->
+
+    <WebElement name="programInsuranceField">
+        <xpath>//input[@id='grid_inputfield_438']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingInsuranceField">
+        <xpath>//input[@id='grid_inputfield_439']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeInsuranceField">
+        <xpath>//input[@id='grid_inputfield_440']</xpath>
+    </WebElement>
+
+    <!--Occupancy Costs-->
+
+    <WebElement name="programOccupancyCostsField">
+        <xpath>//input[@id='grid_inputfield_442']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingOccupancyCostsField">
+        <xpath>//input[@id='grid_inputfield_443']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeOccupancyCostsField">
+        <xpath>//input[@id='grid_inputfield_444']</xpath>
+    </WebElement>
+
+    <!--Office and Administration-->
+
+    <WebElement name="programOfficeAdministrationField">
+        <xpath>//input[@id='grid_inputfield_446']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingOfficeAdministrationField">
+        <xpath>//input[@id='grid_inputfield_447']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeOfficeAdministrationField">
+        <xpath>//input[@id='grid_inputfield_448']</xpath>
+    </WebElement>
+
+    <!--Printing, Postage, and Shipping-->
+
+    <WebElement name="programPrintingPostageShippingField">
+        <xpath>//input[@id='grid_inputfield_450']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingPrintingPostageShippingField">
+        <xpath>//input[@id='grid_inputfield_451']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativePrintingPostageShippingField">
+        <xpath>//input[@id='grid_inputfield_452']</xpath>
+    </WebElement>
+
+    <!--Travel-->
+
+    <WebElement name="programTravelField">
+        <xpath>//input[@id='grid_inputfield_454']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingTravelField">
+        <xpath>//input[@id='grid_inputfield_455']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeTravelField">
+        <xpath>//input[@id='grid_inputfield_456']</xpath>
+    </WebElement>
+
+    <!--Production and Event Costs-->
+
+    <WebElement name="programProductionEventCostsField">
+        <xpath>//input[@id='grid_inputfield_474']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingProductionEventCostsField">
+        <xpath>//input[@id='grid_inputfield_475']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeProductionEventCostsField">
+        <xpath>//input[@id='grid_inputfield_476']</xpath>
+    </WebElement>
+
+    <!--Interest Expense-->
+
+    <WebElement name="programInterestExpenseField">
+        <xpath>//input[@id='grid_inputfield_478']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingInterestExpenseField">
+        <xpath>//input[@id='grid_inputfield_479']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeInterestExpenseField">
+        <xpath>//input[@id='grid_inputfield_480']</xpath>
+    </WebElement>
+
+    <!--Depreciation-->
+
+    <WebElement name="programDepreciationField">
+        <xpath>//input[@id='grid_inputfield_482']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingDepreciationField">
+        <xpath>//input[@id='grid_inputfield_483']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeDepreciationField">
+        <xpath>//input[@id='grid_inputfield_484']</xpath>
+    </WebElement>
+
+
+    <!--Other Operating Expenses-->
+
+    <WebElement name="programOtherOperatingExpensesField">
+        <xpath>//input[@id='grid_inputfield_486']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingOtherOperatingExpensesField">
+        <xpath>//input[@id='grid_inputfield_487']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeOtherOperatingExpensesField">
+        <xpath>//input[@id='grid_inputfield_488']</xpath>
+    </WebElement>
+
+    <!--Other Operating Expenses Description-->
+
+    <WebElement name="otherOperatingExpensesDescriptionField">
+        <xpath>//input[@id='grid_inputfield_490']</xpath>
+    </WebElement>
+
+    <!--Non-Operating Expenses-->
+
+    <WebElement name="programNonOperatingExpensesField">
+        <xpath>//textarea[@id='grid_inputfield_491']</xpath>
+    </WebElement>
+
+    <WebElement name="fundraisingNonOperatingExpensesField">
+        <xpath>//input[@id='grid_inputfield_492']</xpath>
+    </WebElement>
+
+    <WebElement name="generalAdministrativeNonOperatingExpensesField">
+        <xpath>//input[@id='grid_inputfield_493']</xpath>
+    </WebElement>
+
+    <!--Other Operating Expenses Description-->
+
+    <WebElement name="nonOperatingExpensesDescriptionField">
+        <xpath>//input[@id='grid_inputfield_495']</xpath>
+    </WebElement>
+
+</Elements>

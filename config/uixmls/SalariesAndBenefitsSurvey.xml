@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="salariesField">
+        <xpath>//input[@id='grid_inputfield_413']</xpath>
+    </WebElement>
+
+    <WebElement name="payrollTaxesField">
+        <xpath>//input[@id='grid_inputfield_414']</xpath>
+    </WebElement>
+
+    <WebElement name="healthBenefitsField">
+        <xpath>//input[@id='grid_inputfield_415']</xpath>
+    </WebElement>
+
+    <WebElement name="disabilityField">
+        <xpath>//input[@id='grid_inputfield_416']</xpath>
+    </WebElement>
+
+    <WebElement name="workersCompField">
+        <xpath>//input[@id='grid_inputfield_417']</xpath>
+    </WebElement>
+
+    <WebElement name="pensionAndRetirementField">
+        <xpath>//input[@id='grid_inputfield_418']</xpath>
+    </WebElement>
+
+    <WebElement name="otherBenefitsField">
+        <xpath>//input[@id='grid_inputfield_419']</xpath>
+    </WebElement>
+
+    <WebElement name="otherBenefitsDescriptionField">
+        <xpath>//input[@id='grid_inputfield_420']</xpath>
+    </WebElement>
+
+
+</Elements>
