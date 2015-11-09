@@ -15,6 +15,10 @@
         <xpath>//label[@for='grid_inputfield_597-0']</xpath>
     </WebElement>
 
+    <WebElement name="noRadioEntermarketingbudget">
+        <xpath>//label[@for='grid_inputfield_597-1']</xpath>
+    </WebElement>
+
     <!--Marketing expense entry method-->
 
     <WebElement name="dollarAmountsRadioMarketingExpenseRntryMethod">
