@@ -1,4 +1,4 @@
-package com.cdpapp.pages.CompleteSurvey.Revenue;
+package com.cdpapp.pages.completesurvey.revenue;
 
 import com.qatestlab.base.BasePage;
 
@@ -8,15 +8,15 @@ import com.qatestlab.base.BasePage;
 public class ContributedRevenueSurvey extends BasePage {
 
     public void setUnrestrictedNonOperatingContributedRevenue(){
-        type("Set unrestricted Non-Operating Contributed Revenue", "1", "unrestrictedFieldNonOperatingContributedRevenue");
+        type("Set unrestricted Non-Operating Contributed revenue", "1", "unrestrictedFieldNonOperatingContributedRevenue");
     }
 
     public void setTemporarilyRestrictedNonOperatingContributedRevenue(){
-        type("Set temporarily restricted Non-Operating Contributed Revenue", "1", "temporarilyRestrictedFieldNonOperatingContributedRevenue");
+        type("Set temporarily restricted Non-Operating Contributed revenue", "1", "temporarilyRestrictedFieldNonOperatingContributedRevenue");
     }
 
     public void setPermanentlyRestrictedNonOperatingContributedRevenue(){
-        type("Set permanently restricted Non-Operating Contributed Revenue", "1", "permanentlyRestrictedFieldNonOperatingContributedRevenue");
+        type("Set permanently restricted Non-Operating Contributed revenue", "1", "permanentlyRestrictedFieldNonOperatingContributedRevenue");
     }
 
     public void setUnrestrictedTrusteeBoardContributions(){
@@ -68,7 +68,7 @@ public class ContributedRevenueSurvey extends BasePage {
     }
 
     public void checkSpecialEventsRevenue(){
-        setCheckboxState("Set \"yes\" Special Events Revenue", true, "yesRadioSpecialEventsRevenue");
+        setCheckboxState("Set \"yes\" Special Events revenue", true, "yesRadioSpecialEventsRevenue");
 
     }
 

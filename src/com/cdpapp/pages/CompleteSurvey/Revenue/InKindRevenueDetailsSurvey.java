@@ -1,4 +1,4 @@
-package com.cdpapp.pages.CompleteSurvey.Revenue;
+package com.cdpapp.pages.completesurvey.revenue;
 
 import com.qatestlab.base.BasePage;
 

@@ -31,7 +31,7 @@
         <xpath>//input[@id='grid_inputfield_1007']</xpath>
     </WebElement>
 
-    <!--Deferred Revenue-->
+    <!--Deferred revenue-->
 
     <WebElement name="unrestrictedDeferredRevenue">
         <xpath>//input[@id='grid_inputfield_1009']</xpath>

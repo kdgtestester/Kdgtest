@@ -45,7 +45,7 @@
         <xpath>//input[@id='grid_inputfield_923']</xpath>
     </WebElement>
 
-    <!--Revenue Lines Containing Endowment Draw-->
+    <!--revenue Lines Containing Endowment Draw-->
 
     <WebElement name="operatingInvestmentIncomeRadio">
         <xpath>//label[@for='grid_inputfield_924-0']</xpath>
@@ -115,7 +115,7 @@
         <xpath>//input[@id='grid_inputfield_940']</xpath>
     </WebElement>
 
-    <!--Revenue Lines Containing Endowment Draw(2)-->
+    <!--revenue Lines Containing Endowment Draw(2)-->
 
     <WebElement name="operatingInvestmentIncomeCheck2">
         <xpath>//label[@for='grid_checkbox_941-0']</xpath>
@@ -201,7 +201,7 @@
         <xpath>//input[@id='grid_inputfield_960']</xpath>
     </WebElement>
 
-    <!--Revenue Lines Containing Endowment Draw(3)-->
+    <!--revenue Lines Containing Endowment Draw(3)-->
 
     <WebElement name="operatingInvestmentIncomeCheck3">
         <xpath>//label[@for='grid_checkbox_961-0']</xpath>
@@ -285,7 +285,7 @@
         <xpath>//input[@id='grid_inputfield_978']</xpath>
     </WebElement>
 
-    <!--Revenue Lines Containing Reserve Draw-->
+    <!--revenue Lines Containing Reserve Draw-->
 
     <WebElement name="operatingInvestmentIncomeCheck4">
         <xpath>//label[@for='grid_checkbox_979-0']</xpath>

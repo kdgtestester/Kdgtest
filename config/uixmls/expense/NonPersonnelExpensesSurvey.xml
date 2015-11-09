@@ -141,7 +141,7 @@
         <xpath>//input[@id='grid_inputfield_476']</xpath>
     </WebElement>
 
-    <!--Interest Expense-->
+    <!--Interest expense-->
 
     <WebElement name="programInterestExpenseField">
         <xpath>//input[@id='grid_inputfield_478']</xpath>

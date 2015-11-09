@@ -1,4 +1,4 @@
-package com.cdpapp.pages.CompleteSurvey.Revenue;
+package com.cdpapp.pages.completesurvey.revenue;
 
 import com.qatestlab.base.BasePage;
 
@@ -32,15 +32,15 @@ public class NonOperatingRevenueSurvey extends BasePage {
     }
 
     public void setUnrestrictedOtherNonOperatingRevenue(){
-        type("Set Unrestricted Other Non-Operating Revenue", "1", "unrestrictedOtherNonOperatingRevenue");
+        type("Set Unrestricted Other Non-Operating revenue", "1", "unrestrictedOtherNonOperatingRevenue");
     }
 
     public void setTemporarilyRestrictedOtherNonOperatingRevenue(){
-        type("Set Temporarily Restricted Other Non-Operating Revenue", "1", "temporarilyRestrictedOtherNonOperatingRevenue");
+        type("Set Temporarily Restricted Other Non-Operating revenue", "1", "temporarilyRestrictedOtherNonOperatingRevenue");
     }
 
     public void setPermanentlyRestrictedOtherNonOperatingRevenue(){
-        type("Set Permanently Restricted Other Non-Operating Revenue", "1", "permanentlyRestrictedOtherNonOperatingRevenue");
+        type("Set Permanently Restricted Other Non-Operating revenue", "1", "permanentlyRestrictedOtherNonOperatingRevenue");
     }
 
     public void setUnrestrictedNonOperatingNetAssetsReleasedFromRestriction(){

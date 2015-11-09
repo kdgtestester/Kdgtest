@@ -1,4 +1,4 @@
-package com.cdpapp.pages.CompleteSurvey.Expense;
+package com.cdpapp.pages.completesurvey.expense;
 
 import com.qatestlab.base.BasePage;
 
@@ -128,15 +128,15 @@ public class NonPersonnelExpensesSurvey extends BasePage {
     }
 
     public void setProgramInterestExpense(){
-        type("Set Program Interest Expense", "1", "programInterestExpenseField");
+        type("Set Program Interest expense", "1", "programInterestExpenseField");
     }
 
     public void setFundraisingInterestExpense(){
-        type("Set Fundraising Interest Expense", "1", "fundraisingInterestExpenseField");
+        type("Set Fundraising Interest expense", "1", "fundraisingInterestExpenseField");
     }
 
     public void setGeneralAndAdministrativeInterestExpense(){
-        type("Set General And Administrative Interest Expense", "1", "generalAdministrativeInterestExpenseField");
+        type("Set General And Administrative Interest expense", "1", "generalAdministrativeInterestExpenseField");
     }
 
     public void setProgramDepreciation(){

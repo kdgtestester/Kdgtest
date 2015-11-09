@@ -1,4 +1,4 @@
-package com.cdpapp.pages.CompleteSurvey.Revenue;
+package com.cdpapp.pages.completesurvey.revenue;
 
 import com.qatestlab.base.BasePage;
 
@@ -8,7 +8,7 @@ import com.qatestlab.base.BasePage;
 public class EarnedRevenue extends BasePage {
 
     public void setFoodAndConcessionsRevenue(){
-        type("Set Food and Concessions Revenue", "1", "foodAndConcessionsRevenueField");
+        type("Set Food and Concessions revenue", "1", "foodAndConcessionsRevenueField");
     }
 
     public void setGiftShopAndMerchandiseFees(){
@@ -20,15 +20,15 @@ public class EarnedRevenue extends BasePage {
     }
 
     public void setAdvertisingRevenue(){
-        type("Set Advertising Revenue", "1", "advertisingRevenueField");
+        type("Set Advertising revenue", "1", "advertisingRevenueField");
     }
 
     public void setSponsorshipRevenue(){
-        type("Set Sponsorship Revenue", "1", "sponsorshipRevenueField");
+        type("Set Sponsorship revenue", "1", "sponsorshipRevenueField");
     }
 
     public void setSpecialEventsRevenue(){
-        type("Set Special Events Revenue", "1", "specialEventsRevenueField");
+        type("Set Special Events revenue", "1", "specialEventsRevenueField");
     }
 
     public void waitSpecialEventsRevenueDescription(){
@@ -36,15 +36,15 @@ public class EarnedRevenue extends BasePage {
     }
 
     public void setSpecialEventsRevenueDescription(){
-        type("Set Special Events Revenue Description", "1", "specialEventsRevenueDescriptionField");
+        type("Set Special Events revenue Description", "1", "specialEventsRevenueDescriptionField");
     }
 
     public void setMembershipRevenueFromIndividuals(){
-        type("Set MembershipSurvey Revenue from Individuals", "1", "membershipRevenueFromIndividualsField");
+        type("Set MembershipSurvey revenue from Individuals", "1", "membershipRevenueFromIndividualsField");
     }
 
     public void setMembershipRevenuefromOrganizations(){
-        type("Set MembershipSurvey Revenue from Organizations", "1", "membershipRevenueFromOrganizationsField");
+        type("Set MembershipSurvey revenue from Organizations", "1", "membershipRevenueFromOrganizationsField");
     }
 
     public void setOtherRentals(){
@@ -76,19 +76,19 @@ public class EarnedRevenue extends BasePage {
     }
 
     public void setOtherProgramRevenue(){
-        type("Set Other Program Revenue", "1", "otherProgramRevenueField");
+        type("Set Other Program revenue", "1", "otherProgramRevenueField");
     }
 
     public void setOtherProgramRevenueDescription(){
-        type("Set Other Program Revenue Description", "1", "otherProgramRevenueDescriptionField");
+        type("Set Other Program revenue Description", "1", "otherProgramRevenueDescriptionField");
     }
 
     public void setOtherEarnedRevenue(){
-        type("Set Other Earned Revenue", "1", "otherEarnedRevenueField");
+        type("Set Other Earned revenue", "1", "otherEarnedRevenueField");
     }
 
     public void setOtherEarnedRevenueDescription(){
-        type("Set Other Earned Revenue Description", "1", "otherEarnedRevenueDescriptionField");
+        type("Set Other Earned revenue Description", "1", "otherEarnedRevenueDescriptionField");
     }
 
 }

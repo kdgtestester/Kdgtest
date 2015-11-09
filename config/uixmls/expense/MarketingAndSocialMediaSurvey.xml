@@ -3,7 +3,7 @@
 
     <!--Marketing and Social Media-->
 
-    <!--Total Marketing Expense-->
+    <!--Total Marketing expense-->
 
     <WebElement name="totalMarketingExpenseField">
         <xpath>//input[@id='grid_inputfield_596']</xpath>

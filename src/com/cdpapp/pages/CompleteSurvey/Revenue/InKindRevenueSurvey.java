@@ -1,4 +1,4 @@
-package com.cdpapp.pages.CompleteSurvey.Revenue;
+package com.cdpapp.pages.completesurvey.revenue;
 
 import com.qatestlab.base.BasePage;
 
@@ -8,27 +8,27 @@ import com.qatestlab.base.BasePage;
 public class InKindRevenueSurvey extends BasePage {
 
     public void setUnrestrictedInKindRevenueOperating(){
-        type("Set unrestricted In-Kind Revenue Operating", "1", "unrestrictedFieldInKindRevenueOperating");
+        type("Set unrestricted In-Kind revenue Operating", "1", "unrestrictedFieldInKindRevenueOperating");
     }
 
     public void setTemporarilyRestrictedInKindRevenueOperating(){
-        type("Set Temporarily Restricted In-Kind Revenue Operating", "1", "temporarilyUnrestrictedFieldInKindRevenueOperating");
+        type("Set Temporarily Restricted In-Kind revenue Operating", "1", "temporarilyUnrestrictedFieldInKindRevenueOperating");
     }
 
     public void setPermanentlyRestrictedInKindRevenueOperating(){
-        type("Set Permanently Restricted In-Kind Revenue Operating", "1", "permanentlyUnrestrictedFieldInKindRevenueOperating");
+        type("Set Permanently Restricted In-Kind revenue Operating", "1", "permanentlyUnrestrictedFieldInKindRevenueOperating");
     }
 
     public void setUnrestrictedInKindRevenueNonOperating(){
-        type("Set unrestricted In-Kind Revenue - Non-Operating", "1", "unrestrictedFieldInKindRevenueNonOperating");
+        type("Set unrestricted In-Kind revenue - Non-Operating", "1", "unrestrictedFieldInKindRevenueNonOperating");
     }
 
     public void setTemporarilyRestrictedInKindRevenueNonOperating(){
-        type("Set Temporarily Restricted In-Kind Revenue - Non-Operating", "1", "temporarilyUnrestrictedFieldInKindRevenueNonOperating");
+        type("Set Temporarily Restricted In-Kind revenue - Non-Operating", "1", "temporarilyUnrestrictedFieldInKindRevenueNonOperating");
     }
 
     public void setPermanentlyRestrictedInKindRevenueNonOperating(){
-        type("Set Permanently Restricted In-Kind Revenue - Non-Operating", "1", "permanentlyUnrestrictedFieldInKindRevenueNonOperating");
+        type("Set Permanently Restricted In-Kind revenue - Non-Operating", "1", "permanentlyUnrestrictedFieldInKindRevenueNonOperating");
     }
 
 }

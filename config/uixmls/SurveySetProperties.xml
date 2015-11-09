@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Elements>
 
-    <!--Revenue: -->
+    <!--revenue: -->
 
-    <!--Earned Revenue -->
+    <!--Earned revenue -->
 
         <WebElement name="unrestrictedFieldFoodConcessionsRevenue">
             <xpath>//input[@id='inputfield_1']</xpath>
@@ -147,7 +147,7 @@
             <xpath>//label[@for='inputfield_77']</xpath>
         </WebElement>
 
-    <!--Contributed Revenue-->
+    <!--Contributed revenue-->
 
         <WebElement name="unrestrictedFieldNonOperatingContributedRevenue">
             <xpath>//input[@id='inputfield_214']</xpath>
@@ -397,7 +397,7 @@
             <xpath>//label[@for='checkbox317-0']</xpath>
         </WebElement>
 
-    <!--In-Kind Revenue-->
+    <!--In-Kind revenue-->
 
         <WebElement name="unrestrictedFieldInKindRevenueOperating">
             <xpath>//input[@id='inputfield_318']</xpath>
@@ -423,7 +423,7 @@
             <xpath>//input[@id='inputfield_324']</xpath>
         </WebElement>
 
-    <!--In-kind Revenue Details-->
+    <!--In-kind revenue Details-->
 
         <WebElement name="inKindIndependentContractorsField">
             <xpath>//input[@id='inputfield_330']</xpath>
@@ -503,7 +503,7 @@
             <xpath>//input[@id='inputfield_346']</xpath>
         </WebElement>
 
-    <!--Non-Operating Revenue-->
+    <!--Non-Operating revenue-->
 
     <WebElement name="unrestrictedTransfersReclassifications">
         <xpath>//input[@id='inputfield_360']</xpath>
@@ -553,7 +553,7 @@
         <xpath>//input[@id='inputfield_374']</xpath>
     </WebElement>
 
-    <!--Expense:-->
+    <!--expense:-->
 
         <!--Personnel Expenses-->
 
@@ -785,7 +785,7 @@
             <xpath>//input[@id="inputfield_476"]</xpath>
         </WebElement>
 
-        <!--Interest Expense-->
+        <!--Interest expense-->
 
         <WebElement name="programInterestExpense">
             <xpath>//input[@id="inputfield_478"]</xpath>
@@ -1147,7 +1147,7 @@
 
         <!--Marketing and Social Media-->
 
-        <!--Total Marketing Expense-->
+        <!--Total Marketing expense-->
 
         <WebElement name="totalMarketingExpenseField">
             <xpath>//input[@id="inputfield_596"]</xpath>
@@ -1625,7 +1625,7 @@
             <xpath>//input[@id="inputfield_923"]</xpath>
         </WebElement>
 
-        <!--Revenue Lines Containing Endowment Draw-->
+        <!--revenue Lines Containing Endowment Draw-->
 
         <WebElement name="operatingInvestmentIncomeRadio">
             <xpath>//label[@for="radio924-0"]</xpath>
@@ -1695,7 +1695,7 @@
             <xpath>//input[@id="inputfield_940"]</xpath>
         </WebElement>
 
-        <!--Revenue Lines Containing Endowment Draw(2)-->
+        <!--revenue Lines Containing Endowment Draw(2)-->
 
         <WebElement name="operatingInvestmentIncomeCheck2">
             <xpath>//label[@for="checkbox941-0"]</xpath>
@@ -1781,7 +1781,7 @@
             <xpath>//input[@id="inputfield_960"]</xpath>
         </WebElement>
 
-        <!--Revenue Lines Containing Endowment Draw(3)-->
+        <!--revenue Lines Containing Endowment Draw(3)-->
 
         <WebElement name="operatingInvestmentIncomeCheck3">
             <xpath>//label[@for="checkbox961-0"]</xpath>
@@ -1865,7 +1865,7 @@
             <xpath>//input[@id="inputfield_978"]</xpath>
         </WebElement>
 
-        <!--Revenue Lines Containing Reserve Draw-->
+        <!--revenue Lines Containing Reserve Draw-->
 
         <WebElement name="operatingInvestmentIncomeCheck4">
             <xpath>//label[@for='checkbox979-0']</xpath>
@@ -1957,7 +1957,7 @@
             <xpath>//input[@id='inputfield_1007']</xpath>
         </WebElement>
 
-        <!--Deferred Revenue-->
+        <!--Deferred revenue-->
 
         <WebElement name="unrestrictedDeferredRevenue">
             <xpath>//input[@id='inputfield_1009']</xpath>

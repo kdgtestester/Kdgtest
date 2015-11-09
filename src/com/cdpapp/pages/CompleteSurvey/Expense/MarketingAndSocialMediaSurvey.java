@@ -1,4 +1,4 @@
-package com.cdpapp.pages.CompleteSurvey.Expense;
+package com.cdpapp.pages.completesurvey.expense;
 
 import com.qatestlab.base.BasePage;
 
@@ -8,7 +8,7 @@ import com.qatestlab.base.BasePage;
 public class MarketingAndSocialMediaSurvey extends BasePage {
 
     public void setTotalMarketingExpense(){
-        type("Total Marketing Expense", "1", "totalMarketingExpenseField");
+        type("Total Marketing expense", "1", "totalMarketingExpenseField");
     }
 
     public void checkEnterMarketingBudget(){
@@ -55,7 +55,7 @@ public class MarketingAndSocialMediaSurvey extends BasePage {
         type("Set Website Sessions/Visits", "1", "websiteSessionsVisitsField");
     }
 
-    
+
     public void setWebsiteUniqueVisitors(){
         type("Set Website Unique Visitors", "1", "websiteUniqueVisitorsField");
     }
