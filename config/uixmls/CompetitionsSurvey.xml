@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Competitions-->
+
+    <!--Competitions Description-->
+
+    <WebElement name="competitionsDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1293']</xpath>
+    </WebElement>
+
+    <!--Competitions Hosted-->
+
+    <WebElement name="competitionsHostedField">
+        <xpath>//input[@id='grid_inputfield_1294']</xpath>
+    </WebElement>
+
+    <!--Competitors-->
+
+    <WebElement name="competitorsField">
+        <xpath>//input[@id='grid_inputfield_1295']</xpath>
+    </WebElement>
+
+    <!--Entry Fee-->
+
+    <WebElement name="entryFeeField">
+        <xpath>//input[@id='grid_inputfield_1296']</xpath>
+    </WebElement>
+
+    <!--Competition Winners-->
+
+    <WebElement name="competitionWinnersField">
+        <xpath>//input[@id='grid_inputfield_1297']</xpath>
+    </WebElement>
+    
+</Elements>

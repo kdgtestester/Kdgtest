@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Loan programs-->
+
+    <!--Loan Programs Description-->
+
+    <WebElement name="loanProgramsDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1087']</xpath>
+    </WebElement>
+
+    <!--Loan Recipients-->
+
+    <WebElement name="loanRecipientsField">
+        <xpath>//input[@id='grid_inputfield_1088']</xpath>
+    </WebElement>
+
+    <!--Loans-->
+
+    <WebElement name="loansField">
+        <xpath>//input[@id='grid_inputfield_1089']</xpath>
+    </WebElement>
+
+    <!--Amount Loaned-->
+
+    <WebElement name="amountLoanedField">
+        <xpath>//input[@id='grid_inputfield_1090']</xpath>
+    </WebElement>
+
+
+</Elements>

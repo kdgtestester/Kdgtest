@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Consulting/Fee-for-Service Work-->
+
+    <!--Consulting Services Description-->
+
+    <WebElement name="consultingServicesDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1225']</xpath>
+    </WebElement>
+
+    <!--Time Period-->
+
+    <WebElement name="loanRecipientsField">
+        <xpath>//label[@for='grid_checkbox_1226-0']</xpath>
+    </WebElement>
+
+    <!--Time Available-->
+
+    <WebElement name="timeAvailableField">
+        <xpath>//input[@id='grid_inputfield_1227']</xpath>
+    </WebElement>
+
+    <!--Time Provided-->
+
+    <WebElement name="timeProvidedField">
+        <xpath>//input[@id='grid_inputfield_1228']</xpath>
+    </WebElement>
+
+    <!--Advice to Entities-->
+
+    <WebElement name="adviceEntitiesField">
+        <xpath>//input[@id='grid_inputfield_1229']</xpath>
+    </WebElement>
+
+    <!--Fee Range-->
+
+    <WebElement name="highFeeRangeField">
+        <xpath>//input[@id='grid_inputfield_1230']</xpath>
+    </WebElement>
+
+    <WebElement name="lowFeeRangeField">
+        <xpath>//input[@id='grid_inputfield_1231']</xpath>
+    </WebElement>
+
+</Elements>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Conferences-->
+
+    <!--Conferences Description-->
+
+    <WebElement name="conferencesDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1298']</xpath>
+    </WebElement>
+
+    <!--Conferences Hosted-->
+
+    <WebElement name="conferencesHostedField">
+        <xpath>//input[@id='grid_inputfield_1299']</xpath>
+    </WebElement>
+
+    <!--Registration Fee-->
+
+    <WebElement name="highRegistrationFeeField">
+        <xpath>//input[@id='grid_inputfield_1300']</xpath>
+    </WebElement>
+
+    <WebElement name="lowRegistrationFeeField">
+        <xpath>//input[@id='grid_inputfield_1301']</xpath>
+    </WebElement>
+
+    <!--Conference Capacity-->
+
+    <WebElement name="conferenceCapacityField">
+        <xpath>//input[@id='grid_inputfield_1302']</xpath>
+    </WebElement>
+
+    <!--Paid Attendees-->
+
+    <WebElement name="paidAttendeesField">
+        <xpath>//input[@id='grid_inputfield_1303']</xpath>
+    </WebElement>
+
+    <!--Free Attendees-->
+
+    <WebElement name="freeAttendeesField">
+        <xpath>//input[@id='grid_inputfield_1304']</xpath>
+    </WebElement>
+
+    <!--"Complete Survey" button-->
+
+    <WebElement name="completeSurveyButton">
+        <xpath>//a[@ng-click="completeSurvey()"]</xpath>
+    </WebElement>
+    
+</Elements>

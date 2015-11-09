@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Fiscal Sponsorship-->
+
+    <!--Fiscal Sponsorship Description-->
+
+    <WebElement name="fiscalSponsorshipDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1082']</xpath>
+    </WebElement>
+
+    <!--Sponsorship Applicants-->
+
+    <WebElement name="sponsorshipApplicantsField">
+        <xpath>//input[@id='grid_inputfield_1083']</xpath>
+    </WebElement>
+
+    <!--New Sponsored Projects-->
+
+    <WebElement name="newSponsoredProjectsField">
+        <xpath>//input[@id='grid_inputfield_1084']</xpath>
+    </WebElement>
+
+    <!--Total Sponsored Projects-->
+
+    <WebElement name="totalSponsoredProjectsField">
+        <xpath>//input[@id='grid_inputfield_1085']</xpath>
+    </WebElement>
+
+    <!--Amount Distributed-->
+
+    <WebElement name="amountDistributedField">
+        <xpath>//input[@id='grid_inputfield_1086']</xpath>
+    </WebElement>
+
+
+</Elements>

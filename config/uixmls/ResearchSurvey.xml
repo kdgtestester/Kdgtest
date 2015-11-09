@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Research-->
+    <!--Research Description-->
+
+    <WebElement name="researchDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_1235']</xpath>
+    </WebElement>
+
+    <!--Surveys-->
+
+    <WebElement name="surveysField">
+        <xpath>//input[@id='grid_inputfield_1236']</xpath>
+    </WebElement>
+
+    <!--Reports-->
+
+    <WebElement name="reportsField">
+        <xpath>//input[@id='grid_inputfield_1237']</xpath>
+    </WebElement>
+    
+</Elements>
