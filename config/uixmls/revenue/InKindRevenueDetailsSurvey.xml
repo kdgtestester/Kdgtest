@@ -61,6 +61,10 @@
         <xpath>//input[@id='grid_inputfield_344']</xpath>
     </WebElement>
 
+    <WebElement name="inKindLeaseholdImprovementsField">
+        <xpath>//input[@id='grid_inputfield_344']</xpath>
+    </WebElement>
+
     <WebElement name="inKindOtherCapitalizedAssetsField">
         <xpath>//input[@id='grid_inputfield_346']</xpath>
     </WebElement>

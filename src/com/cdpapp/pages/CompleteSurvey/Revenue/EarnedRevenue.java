@@ -1,4 +1,4 @@
-package com.cdpapp.pages;
+package com.cdpapp.pages.CompleteSurvey.Revenue;
 
 import com.qatestlab.base.BasePage;
 
@@ -51,8 +51,8 @@ public class EarnedRevenue extends BasePage {
         type("Set Other Rentals", "1", "otherRentalsField");
     }
 
-    public void checkCostumesProps(){
-        setCheckboxState("Check Costumes Props Item", true, "checkCostumesPropsItem");
+    public void checkSetsCostumesProps(){
+        setCheckboxState("Check Sets/Costumes/Props Item", true, "checkCostumesPropsItem");
     }
 
     public void setContractedServices(){
