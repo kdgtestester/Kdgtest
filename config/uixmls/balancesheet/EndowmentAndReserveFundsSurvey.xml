@@ -17,7 +17,7 @@
 
     <!--Board-Designated Assets - Investments-->
 
-    <WebElement name="boardDesignatedAssetsCashField">
+    <WebElement name="boardDesignatedAssetsInvestmentsField">
         <xpath>//input[@id='grid_inputfield_919']</xpath>
     </WebElement>
 
@@ -99,7 +99,7 @@
 
     <!--Original Term Endowment Corpus-->
 
-    <WebElement name="unrestrictedOriginalTermEndowmentCorpus">
+    <WebElement name="originalTermEndowmentCorpusField">
         <xpath>//input[@id='grid_inputfield_935']</xpath>
     </WebElement>
 
@@ -215,7 +215,7 @@
 
     <!--Total Reserve Funds-->
 
-    <WebElement name="unrestrictedTotalReserveFunds">
+    <WebElement name="totalReserveFundsField">
         <xpath>//input[@id='grid_inputfield_963']</xpath>
     </WebElement>
 
