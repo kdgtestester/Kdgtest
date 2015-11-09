@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <WebElement name="foodAndConcessionsRevenueField">
+        <xpath>//input[@id='grid_inputfield_1']</xpath>
+    </WebElement>
+
+    <WebElement name="giftShopAndMerchandiseFeesField">
+        <xpath>//input[@id='grid_inputfield_3']</xpath>
+    </WebElement>
+
+    <WebElement name="parkingFeesField">
+        <xpath>//input[@id='grid_inputfield_5']</xpath>
+    </WebElement>
+
+    <WebElement name="advertisingRevenueField">
+        <xpath>//input[@id='grid_inputfield_7']</xpath>
+    </WebElement>
+
+    <WebElement name="sponsorshipRevenueField">
+        <xpath>//input[@id='grid_inputfield_9']</xpath>
+    </WebElement>
+
+    <WebElement name="specialEventsRevenueField">
+        <xpath>//input[@id='grid_inputfield_11']</xpath>
+    </WebElement>
+
+    <WebElement name="specialEventsRevenueDescriptionField">
+        <xpath>//input[@id='grid_inputfield_13']</xpath>
+    </WebElement>
+
+    <WebElement name="membershipRevenueFromIndividualsField">
+        <xpath>//input[@id='grid_inputfield_14']</xpath>
+    </WebElement>
+
+    <WebElement name="membershipRevenueFromOrganizationsField">
+        <xpath>//input[@id='grid_inputfield_16']</xpath>
+    </WebElement>
+
+    <WebElement name="otherRentalsField">
+        <xpath>//input[@id='grid_inputfield_44']</xpath>
+    </WebElement>
+
+    <WebElement name="setsCostumesPropsCheck">
+        <xpath>//label[@for='grid_checkbox_46-0']</xpath>
+    </WebElement>
+
+    <WebElement name="contractedServicesField">
+        <xpath>//input[@id='grid_inputfield_47']</xpath>
+    </WebElement>
+
+    <WebElement name="loanInterestField">
+        <xpath>//input[@id='grid_inputfield_49']</xpath>
+    </WebElement>
+
+    <WebElement name="applicationFeesField">
+        <xpath>//input[@id='grid_inputfield_51']</xpath>
+    </WebElement>
+
+    <WebElement name="fiscalSponsorshipAdministrationFeesField">
+        <xpath>//input[@id='grid_inputfield_53']</xpath>
+    </WebElement>
+
+    <WebElement name="tuitionAndRegistrationFeesField">
+        <xpath>//input[@id='grid_inputfield_55']</xpath>
+    </WebElement>
+
+    <WebElement name="otherProgramRevenueField">
+        <xpath>//input[@id='grid_inputfield_57']</xpath>
+    </WebElement>
+
+    <WebElement name="otherProgramRevenueDescriptionField">
+        <xpath>//input[@id='grid_inputfield_59']</xpath>
+    </WebElement>
+
+    <WebElement name="otherEarnedRevenueField">
+        <xpath>//input[@id='grid_inputfield_60']</xpath>
+    </WebElement>
+
+    <WebElement name="otherEarnedRevenueDescriptionField">
+        <xpath>//input[@id='grid_inputfield_62']</xpath>
+    </WebElement>
+
+</Elements>
