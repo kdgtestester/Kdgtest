@@ -57,6 +57,10 @@
         <xpath>//label[@for='grid_inputfield_562-0']</xpath>
     </WebElement>
 
+    <WebElement name="noRadioAdditionalWorkspaces">
+        <xpath>//label[@for='grid_inputfield_562-1']</xpath>
+    </WebElement>
+
     <!--Additional Workspaces (How many additional workspaces do you have?)-->
 
     <WebElement name="firstRadioAdditionalWorkspaces">
