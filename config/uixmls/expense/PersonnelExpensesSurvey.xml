@@ -13,15 +13,15 @@
         <xpath>//input[@id='grid_inputfield_385']</xpath>
     </WebElement>
 
-    <WebElement name="independentContractorsFild_1">
+    <WebElement name="programIndependentContractorsField">
         <xpath>//input[@id='grid_inputfield_387']</xpath>
     </WebElement>
 
-    <WebElement name="independentContractorsField_2">
+    <WebElement name="fundraisingIndependentContractors">
         <xpath>//input[@id='grid_inputfield_388']</xpath>
     </WebElement>
 
-    <WebElement name="independentContractorsField_3">
+    <WebElement name="generalAdministrativeIndependentContractors">
         <xpath>//input[@id='grid_inputfield_389']</xpath>
     </WebElement>
 
