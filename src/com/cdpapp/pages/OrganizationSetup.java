@@ -1,7 +1,7 @@
 package com.cdpapp.pages;
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.utils.Random;
+import com.testmatick.base.BasePage;
+import com.testmatick.utils.Random;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class OrganizationSetup extends BasePage {

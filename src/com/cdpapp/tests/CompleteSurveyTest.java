@@ -1,7 +1,7 @@
 package com.cdpapp.tests;
 
 import com.cdpapp.control.Actions;
-import com.qatestlab.base.BaseTest;
+import com.testmatick.base.BaseTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

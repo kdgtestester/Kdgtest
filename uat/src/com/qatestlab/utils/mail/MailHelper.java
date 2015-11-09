@@ -1,20 +1,8 @@
-package com.qatestlab.utils.mail;
+package com.testmatick.utils.mail;
 
 
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.XMLParser;
-import sun.misc.IOUtils;
-
-import javax.activation.DataHandler;
 import javax.mail.*;
-import javax.mail.internet.MimeMessage;
-import javax.mail.search.FlagTerm;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Properties;
 
 public class MailHelper {

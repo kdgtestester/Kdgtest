@@ -1,6 +1,6 @@
 package com.cdpapp.pages;
 
-import com.qatestlab.base.BasePage;
+import com.testmatick.base.BasePage;
 
 /**
  * Created by Petro on 09.11.2015.

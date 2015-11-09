@@ -1,7 +1,7 @@
 package com.mediaspectrum.pages.webadmin;
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;

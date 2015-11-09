@@ -1,9 +1,9 @@
 package com.mediaspectrum.pages.contracts;
 
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Random;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
+import com.testmatick.utils.Random;
 import org.openqa.selenium.WebElement;
 
 import java.util.Calendar;

@@ -1,7 +1,6 @@
 package com.cdpapp.actions;
 
 import com.cdpapp.control.Pages;
-import com.qatestlab.base.BasePage;
 
 public class LoginWithGoogleActions {
 

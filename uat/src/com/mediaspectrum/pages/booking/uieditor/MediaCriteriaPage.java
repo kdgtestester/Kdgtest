@@ -1,8 +1,8 @@
 package com.mediaspectrum.pages.booking.uieditor;
 
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 
 public class MediaCriteriaPage extends BasePage{
 

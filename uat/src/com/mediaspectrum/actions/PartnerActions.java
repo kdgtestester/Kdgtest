@@ -5,8 +5,8 @@ import com.mediaspectrum.control.PartnersPages;
 import com.mediaspectrum.pages.partners.PartnersPage;
 import com.mediaspectrum.utils.Address;
 import com.mediaspectrum.utils.CustomerData;
-import com.qatestlab.base.BaseActions;
-import com.qatestlab.utils.Random;
+import com.testmatick.base.BaseActions;
+import com.testmatick.utils.Random;
 import org.testng.Assert;
 
 public class PartnerActions extends BaseActions {

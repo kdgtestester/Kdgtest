@@ -1,10 +1,8 @@
 package com.cdpapp.pages;
 
 import com.cdpapp.control.DataArtsConstans;
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 
 public class LoginPage extends BasePage {
 

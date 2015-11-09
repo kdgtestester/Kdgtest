@@ -1,14 +1,12 @@
 package com.cdpapp.tests;
 
-import com.cdpapp.actions.CreatingNewSurveyActions;
 import com.cdpapp.control.Actions;
 import com.cdpapp.control.Pages;
-import com.qatestlab.base.BaseTest;
+import com.testmatick.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import javax.swing.*;
 import java.io.File;
 
 public class NewSurveyTest extends BaseTest {

@@ -3,16 +3,14 @@ package com.mediaspectrum.tests.approvals;
 import com.mediaspectrum.control.Actions;
 import com.mediaspectrum.control.Pages;
 import com.mediaspectrum.utils.*;
-import com.qatestlab.base.BaseTest;
-import com.qatestlab.utils.Constants;
-import com.qatestlab.utils.DataFactory;
-import com.qatestlab.utils.Random;
+import com.testmatick.base.BaseTest;
+import com.testmatick.utils.Constants;
+import com.testmatick.utils.DataFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.util.Calendar;
 
 /**
  * Created by alex on 15.10.2015.

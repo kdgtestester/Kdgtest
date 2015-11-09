@@ -6,8 +6,8 @@ import com.mediaspectrum.utils.AdvancedOrderData;
 import com.mediaspectrum.utils.CustomerData;
 import com.mediaspectrum.utils.OrderInformationData;
 import com.mediaspectrum.utils.ProductData;
-import com.qatestlab.base.BaseTest;
-import com.qatestlab.utils.Constants;
+import com.testmatick.base.BaseTest;
+import com.testmatick.utils.Constants;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

@@ -1,7 +1,7 @@
 package com.mediaspectrum.utils;
 
 
-import com.qatestlab.utils.Constants;
+import com.testmatick.utils.Constants;
 
 public class OrderInformationData {
 

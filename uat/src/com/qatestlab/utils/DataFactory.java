@@ -1,4 +1,4 @@
-package com.qatestlab.utils;
+package com.testmatick.utils;
 
 import com.mediaspectrum.utils.*;
 

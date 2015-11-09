@@ -1,11 +1,11 @@
-package com.qatestlab.base;
+package com.testmatick.base;
 
 import com.google.common.base.Function;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Constants;
-import com.qatestlab.utils.Random;
-import com.qatestlab.webelements.ElementData;
-import com.qatestlab.webelements.LocatorsParser;
+import com.testmatick.reporting.Reporter;
+import com.testmatick.utils.Constants;
+import com.testmatick.utils.Random;
+import com.testmatick.webelements.ElementData;
+import com.testmatick.webelements.LocatorsParser;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.interactions.Actions;

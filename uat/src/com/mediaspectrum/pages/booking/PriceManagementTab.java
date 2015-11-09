@@ -1,14 +1,13 @@
 package com.mediaspectrum.pages.booking;
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Constants;
-import com.qatestlab.utils.ListHelper;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
+import com.testmatick.utils.Constants;
+import com.testmatick.utils.ListHelper;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class PriceManagementTab extends BasePage{

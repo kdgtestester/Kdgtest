@@ -3,7 +3,7 @@ package com.mediaspectrum.actions;
 
 import com.mediaspectrum.control.*;
 import com.mediaspectrum.utils.*;
-import com.qatestlab.base.BaseActions;
+import com.testmatick.base.BaseActions;
 import org.testng.Assert;
 
 import java.util.LinkedList;

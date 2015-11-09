@@ -3,8 +3,8 @@ package com.mediaspectrum.actions;
 
 import com.mediaspectrum.control.WebAdminPages;
 import com.mediaspectrum.utils.UserData;
-import com.qatestlab.base.BaseActions;
-import com.qatestlab.utils.Constants;
+import com.testmatick.base.BaseActions;
+import com.testmatick.utils.Constants;
 
 public class WebAdminActions extends BaseActions{
 

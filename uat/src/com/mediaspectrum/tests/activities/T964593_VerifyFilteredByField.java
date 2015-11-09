@@ -2,8 +2,8 @@ package com.mediaspectrum.tests.activities;
 
 import com.mediaspectrum.control.Actions;
 import com.mediaspectrum.control.Pages;
-import com.qatestlab.base.BaseTest;
-import com.qatestlab.utils.Constants;
+import com.testmatick.base.BaseTest;
+import com.testmatick.utils.Constants;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

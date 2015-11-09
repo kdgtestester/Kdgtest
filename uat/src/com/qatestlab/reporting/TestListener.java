@@ -1,8 +1,8 @@
-package com.qatestlab.reporting;
+package com.testmatick.reporting;
 
 import br.eti.kinoshita.testlinkjavaapi.constants.ExecutionStatus;
-import com.qatestlab.utils.Constants;
-import com.qatestlab.base.BaseTest;
+import com.testmatick.utils.Constants;
+import com.testmatick.base.BaseTest;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

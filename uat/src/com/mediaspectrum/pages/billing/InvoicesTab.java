@@ -1,6 +1,6 @@
 package com.mediaspectrum.pages.billing;
 
-import com.qatestlab.base.BasePage;
+import com.testmatick.base.BasePage;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;

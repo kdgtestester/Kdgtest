@@ -1,7 +1,6 @@
 package com.cdpapp.pages;
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
+import com.testmatick.base.BasePage;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class Dashboard extends BasePage {

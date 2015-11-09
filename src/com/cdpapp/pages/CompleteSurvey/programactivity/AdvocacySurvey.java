@@ -1,6 +1,6 @@
 package com.cdpapp.pages.completesurvey.programactivity;
 
-import com.qatestlab.base.BasePage;
+import com.testmatick.base.BasePage;
 
 /**
  * Created by Petr on 09.11.2015.

@@ -1,9 +1,9 @@
-package com.qatestlab.base;
+package com.testmatick.base;
 
 import com.mediaspectrum.control.*;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Constants;
-import com.qatestlab.utils.Formatter;
+import com.testmatick.reporting.Reporter;
+import com.testmatick.utils.Constants;
+import com.testmatick.utils.Formatter;
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -145,7 +145,7 @@ public class BaseTest {
 	 * 
 	 * @param xlFilePath
 	 *            the path of XL file/workbook containing the data, the path is
-	 *            relative to java qatestlab
+	 *            relative to java testmatick
 	 * @param sheetName
 	 *            name of the xls sheet that contains the table
 	 * @param tableName

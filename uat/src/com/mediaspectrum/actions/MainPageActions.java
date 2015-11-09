@@ -5,7 +5,7 @@ import com.mediaspectrum.control.ContractPages;
 import com.mediaspectrum.control.Pages;
 import com.mediaspectrum.control.PartnersPages;
 import com.mediaspectrum.utils.ContractData;
-import com.qatestlab.base.BaseActions;
+import com.testmatick.base.BaseActions;
 import org.testng.Assert;
 
 public class MainPageActions extends BaseActions {

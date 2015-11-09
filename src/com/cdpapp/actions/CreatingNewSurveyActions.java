@@ -1,7 +1,6 @@
 package com.cdpapp.actions;
 
 import com.cdpapp.control.Pages;
-import com.qatestlab.reporting.Reporter;
 import org.openqa.selenium.TimeoutException;
 
 public class CreatingNewSurveyActions {

@@ -1,6 +1,6 @@
 package com.cdpapp.utils;
 
-import com.qatestlab.utils.Persistence;
+import com.testmatick.utils.Persistence;
 
 import java.util.List;
 

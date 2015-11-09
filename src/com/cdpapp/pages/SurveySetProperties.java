@@ -1,7 +1,6 @@
 package com.cdpapp.pages;
 
-import com.qatestlab.base.BasePage;
-import org.openqa.selenium.JavascriptExecutor;
+import com.testmatick.base.BasePage;
 
 public class SurveySetProperties extends BasePage {
 

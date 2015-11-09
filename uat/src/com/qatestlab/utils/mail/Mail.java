@@ -1,8 +1,8 @@
-package com.qatestlab.utils.mail;
+package com.testmatick.utils.mail;
 
 
-import com.qatestlab.utils.Constants;
-import com.qatestlab.reporting.Reporter;
+import com.testmatick.utils.Constants;
+import com.testmatick.reporting.Reporter;
 
 import javax.mail.*;
 import java.io.IOException;

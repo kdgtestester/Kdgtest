@@ -1,6 +1,6 @@
 package com.mediaspectrum.utils;
 
-import com.qatestlab.utils.Persistence;
+import com.testmatick.utils.Persistence;
 
 public class Address extends Persistence{
 

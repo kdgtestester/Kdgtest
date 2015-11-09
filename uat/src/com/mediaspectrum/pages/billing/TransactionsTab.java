@@ -1,8 +1,7 @@
 package com.mediaspectrum.pages.billing;
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Constants;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 
 public class TransactionsTab extends BasePage {
 

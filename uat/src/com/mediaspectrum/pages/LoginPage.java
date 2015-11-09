@@ -2,8 +2,8 @@ package com.mediaspectrum.pages;
 
 
 import com.mediaspectrum.control.AdSalesConstants;
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 
 
 public class LoginPage extends BasePage {

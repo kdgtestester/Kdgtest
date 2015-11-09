@@ -1,9 +1,9 @@
 package com.mediaspectrum.pages;
 
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Constants;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
+import com.testmatick.utils.Constants;
 
 
 public class MainPage extends BasePage {

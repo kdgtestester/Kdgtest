@@ -1,7 +1,7 @@
 package com.cdpapp.pages;
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class ProfileWizard extends BasePage {

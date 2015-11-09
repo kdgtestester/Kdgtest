@@ -2,9 +2,9 @@ package com.mediaspectrum.pages.booking;
 
 import com.mediaspectrum.utils.Address;
 import com.mediaspectrum.utils.ProductData;
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Constants;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
+import com.testmatick.utils.Constants;
 import org.testng.Assert;
 
 public class OrderInformationTab extends BasePage {

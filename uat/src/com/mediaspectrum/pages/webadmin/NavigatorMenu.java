@@ -1,7 +1,7 @@
 package com.mediaspectrum.pages.webadmin;
 
 
-import com.qatestlab.base.BasePage;
+import com.testmatick.base.BasePage;
 
 public class NavigatorMenu extends BasePage{
 

@@ -2,10 +2,8 @@ package com.mediaspectrum.pages.contracts;
 
 
 import com.mediaspectrum.utils.CustomerData;
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-
-import java.util.Base64;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 
 public class SearchContractPage extends BasePage{
     public void waitForPageToLoad(){

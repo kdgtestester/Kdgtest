@@ -284,7 +284,7 @@
                 haltOnfailure="false"
                 delegateCommandSystemProperties="true"
                 useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
+                listeners="com.testmatick.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
             <xmlfileset dir="${testng.dir}" includes="AdvancedSuite.xml"/>
 
@@ -325,7 +325,7 @@
                 haltOnfailure="false"
                 delegateCommandSystemProperties="true"
                 useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
+                listeners="com.testmatick.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
             <xmlfileset dir="${testng.dir}" includes="LoginSuite.xml"/>
 
@@ -367,7 +367,7 @@
                 haltOnfailure="false"
                 delegateCommandSystemProperties="true"
                 useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
+                listeners="com.testmatick.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
             <xmlfileset dir="${testng.dir}" includes="NewSurveySuite.xml"/>
 
@@ -410,7 +410,7 @@
                 haltOnfailure="false"
                 delegateCommandSystemProperties="true"
                 useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
+                listeners="com.testmatick.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
             <xmlfileset dir="${testng.dir}" includes="JoinOrCreateNewOrganizationSuite.xml"/>
 
@@ -453,7 +453,7 @@
                 haltOnfailure="false"
                 delegateCommandSystemProperties="true"
                 useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
+                listeners="com.testmatick.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
             <xmlfileset dir="${testng.dir}" includes="StartSurveySuite.xml"/>
 
@@ -496,7 +496,7 @@
                 haltOnfailure="false"
                 delegateCommandSystemProperties="true"
                 useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
+                listeners="com.testmatick.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
             <xmlfileset dir="${testng.dir}" includes="CompleteSurveySuite.xml"/>
 
@@ -539,7 +539,7 @@
                 haltOnfailure="false"
                 delegateCommandSystemProperties="true"
                 useDefaultListeners="false"
-                listeners="com.qatestlab.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
+                listeners="com.testmatick.reporting.TestListener, org.uncommons.reportng.HTMLReporter, wb.highlevelreporter.PieChartGenerator">
 
             <xmlfileset dir="${testng.dir}" includes="RunReportSuite.xml"/>
 

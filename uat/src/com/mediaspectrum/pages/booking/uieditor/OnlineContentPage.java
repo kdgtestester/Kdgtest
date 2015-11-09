@@ -1,7 +1,7 @@
 package com.mediaspectrum.pages.booking.uieditor;
 
 
-import com.qatestlab.base.BasePage;
+import com.testmatick.base.BasePage;
 
 public class OnlineContentPage extends BasePage{
     public void switchToUIEditorFrame(){

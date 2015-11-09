@@ -3,10 +3,10 @@ package com.mediaspectrum.tests.advancedbooking;
 
 import com.mediaspectrum.control.Actions;
 import com.mediaspectrum.utils.*;
-import com.qatestlab.base.BaseTest;
-import com.qatestlab.utils.Constants;
-import com.qatestlab.utils.DataFactory;
-import com.qatestlab.utils.SerializeHelper;
+import com.testmatick.base.BaseTest;
+import com.testmatick.utils.Constants;
+import com.testmatick.utils.DataFactory;
+import com.testmatick.utils.SerializeHelper;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

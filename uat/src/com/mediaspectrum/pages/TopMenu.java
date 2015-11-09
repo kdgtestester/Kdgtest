@@ -1,6 +1,6 @@
 package com.mediaspectrum.pages;
 
-import com.qatestlab.base.BasePage;
+import com.testmatick.base.BasePage;
 
 public class TopMenu extends BasePage {
 

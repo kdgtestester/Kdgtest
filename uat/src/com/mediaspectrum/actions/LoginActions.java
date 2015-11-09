@@ -2,7 +2,7 @@ package com.mediaspectrum.actions;
 
 
 import com.mediaspectrum.control.Pages;
-import com.qatestlab.base.BaseActions;
+import com.testmatick.base.BaseActions;
 
 
 public class LoginActions extends BaseActions {

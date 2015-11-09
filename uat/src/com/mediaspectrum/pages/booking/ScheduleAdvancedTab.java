@@ -1,9 +1,9 @@
 package com.mediaspectrum.pages.booking;
 
-import com.qatestlab.base.BasePage;
-import com.qatestlab.reporting.Reporter;
-import com.qatestlab.utils.Constants;
-import com.qatestlab.utils.Random;
+import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
+import com.testmatick.utils.Constants;
+import com.testmatick.utils.Random;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

@@ -1,6 +1,6 @@
 package com.cdpapp.pages;
 
-import com.qatestlab.base.BasePage;
+import com.testmatick.base.BasePage;
 
 public class GoogleAuthPage extends BasePage {
 
