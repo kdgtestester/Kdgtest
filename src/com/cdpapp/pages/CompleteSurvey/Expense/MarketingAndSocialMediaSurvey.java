@@ -55,6 +55,7 @@ public class MarketingAndSocialMediaSurvey extends BasePage {
         type("Set Website Sessions/Visits", "1", "websiteSessionsVisitsField");
     }
 
+    
     public void setWebsiteUniqueVisitors(){
         type("Set Website Unique Visitors", "1", "websiteUniqueVisitorsField");
     }
