@@ -5,6 +5,7 @@
         <xpath>//h1</xpath>
     </WebElement>
 
+
     <WebElement name="runReportsButton">
         <xpath>//a[@ng-click="goto('/reports/run')"]</xpath>
     </WebElement>
