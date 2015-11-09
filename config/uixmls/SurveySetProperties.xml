@@ -89,7 +89,7 @@
             <xpath>//a[@ng-click="incrementContentSubGroupIndex()"]</xpath>
         </WebElement>
 
-    <!--Membership-->
+    <!--MembershipSurvey-->
 
         <WebElement name="highFieldPriceRangeOrgMembership">
             <xpath>//input[@id='inputfield_63']</xpath>

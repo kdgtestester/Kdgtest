@@ -13,6 +13,7 @@ public class Actions {
     private RunReportsActions runReportsActions;
     private SetSurveyPropertiesActions setSurveyPropertiesActions;
     private StartSurveyActions startSurveyActions;
+    private SetMembershipSurvey setMembershipSurvey;
 
     private Actions() {
         this.loginWithGoogleActions = new LoginWithGoogleActions();
@@ -22,6 +23,7 @@ public class Actions {
         this.runReportsActions = new RunReportsActions();
         this.setSurveyPropertiesActions = new SetSurveyPropertiesActions();
         this.startSurveyActions = new StartSurveyActions();
+        this.setMembershipSurvey = new SetMembershipSurvey();
     }
 
     public static void setupActions() {
@@ -42,5 +44,6 @@ public class Actions {
 
     public static SetSurveyPropertiesActions setSurveyPropertiesActions(){return actions.setSurveyPropertiesActions;}
     public static StartSurveyActions startSurveyActions(){return actions.startSurveyActions;}
+    public static SetMembershipSurvey setMembershipSurvey(){return actions.setMembershipSurvey;}
 
 }

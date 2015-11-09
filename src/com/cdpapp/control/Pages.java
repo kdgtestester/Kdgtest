@@ -14,6 +14,7 @@ public class Pages {
     private Reports reports;
     private ReportsRun reportsRun;
     private SurveySetProperties surveySetProperties;
+    private MembershipSurvey membershipSurvey;
 
     private Pages() {
         this.loginPage = new LoginPage();
@@ -24,6 +25,7 @@ public class Pages {
         this.reports = new Reports();
         this.reportsRun = new ReportsRun();
         this.surveySetProperties = new SurveySetProperties();
+        this.membershipSurvey = new MembershipSurvey();
     }
 
     public static void setupPages() {
@@ -48,5 +50,6 @@ public class Pages {
     public static Reports reports(){return pages.reports;}
     public static ReportsRun reportsRun(){return pages.reportsRun;}
     public static SurveySetProperties surveySetSetting(){return pages.surveySetProperties;}
+    public static MembershipSurvey membership(){return pages.membershipSurvey;}
 
 }

@@ -40,11 +40,11 @@ public class EarnedRevenue extends BasePage {
     }
 
     public void setMembershipRevenueFromIndividuals(){
-        type("Set Membership Revenue from Individuals", "1", "membershipRevenueFromIndividualsField");
+        type("Set MembershipSurvey Revenue from Individuals", "1", "membershipRevenueFromIndividualsField");
     }
 
     public void setMembershipRevenuefromOrganizations(){
-        type("Set Membership Revenue from Organizations", "1", "membershipRevenueFromOrganizationsField");
+        type("Set MembershipSurvey Revenue from Organizations", "1", "membershipRevenueFromOrganizationsField");
     }
 
     public void setOtherRentals(){
