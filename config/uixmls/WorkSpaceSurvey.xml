@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Work Space-->
+
+    <!--Workspace Name (Optional)-->
+
+    <WebElement name="workspaceNameOptionalField">
+        <xpath>//input[@id='grid_inputfield_554']</xpath>
+    </WebElement>
+
+    <!--Street Address-->
+
+    <WebElement name="streetAddressField">
+        <xpath>//input[@id='grid_inputfield_555']</xpath>
+    </WebElement>
+
+    <!--Street Address (cont'd)-->
+
+    <WebElement name="streetAddressContDField">
+        <xpath>//input[@id='grid_inputfield_556']</xpath>
+    </WebElement>
+
+    <!--Zip Code-->
+
+    <WebElement name="zipCodeDField">
+        <xpath>//input[@id='grid_inputfield_557']</xpath>
+    </WebElement>
+
+    <!--Workplace Status-->
+
+    <WebElement name="ownRadioWorkplaceStatus">
+        <xpath>//label[@for='grid_inputfield_558-0']</xpath>
+    </WebElement>
+
+    <!--Workplace Type-->
+
+    <WebElement name="administrativeRadioWorkplaceType">
+        <xpath>//label[@for='grid_inputfield_559-0']</xpath>
+    </WebElement>
+
+    <!--ADA Compliance-->
+
+    <WebElement name="yesRadioADACompliance">
+        <xpath>//label[@for='grid_inputfield_560-0']</xpath>
+    </WebElement>
+
+    <!--Total Gross Square Footage-->
+
+    <WebElement name="totalGrossSquareFootageField">
+        <xpath>//input[@id='grid_inputfield_561']</xpath>
+    </WebElement>
+
+    <!--Additional Workspaces-->
+
+    <WebElement name="yesRadioAdditionalWorkspaces">
+        <xpath>//label[@for='grid_inputfield_562-0']</xpath>
+    </WebElement>
+
+    <!--Additional Workspaces (How many additional workspaces do you have?)-->
+
+    <WebElement name="firstRadioAdditionalWorkspaces">
+        <xpath>//label[@for='grid_inputfield_563-0']</xpath>
+    </WebElement>
+
+    <!--Workspace Name (Optional)-->
+
+    <WebElement name="workspaceNameOptionalField">
+        <xpath>//input[@id='grid_inputfield_564']</xpath>
+    </WebElement>
+
+    <!--Street Address (2)-->
+
+    <WebElement name="streetAddressField">
+        <xpath>//input[@id='grid_inputfield_565']</xpath>
+    </WebElement>
+
+    <!--Street Address (cont'd) (2)-->
+
+    <WebElement name="streetAddressContDField">
+        <xpath>//input[@id='grid_inputfield_566']</xpath>
+    </WebElement>
+
+    <!--Zip Code (2)-->
+
+    <WebElement name="zipCodeDField">
+        <xpath>//input[@id='grid_inputfield_567']</xpath>
+    </WebElement>
+
+    <!--Workplace Status (2)-->
+
+    <WebElement name="ownRadioWorkplaceStatus2">
+        <xpath>//label[@for='grid_inputfield_568-0']</xpath>
+    </WebElement>
+
+    <!--Workplace Type (2)-->
+
+    <WebElement name="administrativeRadioWorkplaceType2">
+        <xpath>//label[@for='grid_inputfield_569-0']</xpath>
+    </WebElement>
+
+    <!--ADA Compliance (2)-->
+
+    <WebElement name="yesRadioADACompliance2">
+        <xpath>//label[@for='grid_inputfield_570-0']</xpath>
+    </WebElement>
+
+    <!--Total Gross Square Footage2-->
+
+    <WebElement name="totalGrossSquareFootageField2">
+        <xpath>//input[@id='grid_inputfield_571']</xpath>
+    </WebElement>
+
+</Elements>

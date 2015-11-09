@@ -1,6 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Elements>
 
+    <!--Paid Staff-->
 
-    
+    <WebElement name="paidStaffYesRadio">
+        <xpath>//label[@for="grid_inputfield_501-0']</xpath>
+    </WebElement>
+
+    <!--Full-Time Permanent Employees-->
+
+    <WebElement name="fullTimePermanentEmployeesField">
+        <xpath>//input[@id='grid_grid_inputfield_502']</xpath>
+    </WebElement>
+
+    <WebElement name="fullTimePermanentEmployeesFieldEstimateCheck">
+        <xpath>//label[@for="grid_inputfield_503']</xpath>
+    </WebElement>
+
+    <!--Workforce Entry Preferences-->
+
+    <WebElement name="workforceEntryPreferencesHourRadio">
+        <xpath>//label[@for='grid_inputfield_504-0']</xpath>
+    </WebElement>
+
+    <!--Full-Time Seasonal Employees (number Employees)-->
+
+    <WebElement name="numberEmployeesfullTimePermanentEmployeesField">
+        <xpath>//input[@id='grid_inputfield_505']</xpath>
+    </WebElement>
+
+    <WebElement name="numberEmployeesfullTimePermanentEmployeesFieldEstimateCheck">
+        <xpath>//label[@for="inputfield_506']</xpath>
+    </WebElement>
+
+    <!--Full-Time Seasonal Employees (Hours Worked)-->
+
+    <WebElement name="hoursWorkedfullTimePermanentEmployeesField">
+        <xpath>//input[@id='grid_inputfield_507']</xpath>
+    </WebElement>
+
+    <WebElement name="hoursWorkedFullTimePermanentEmployeesFieldEstimateCheck">
+        <xpath>//label[@for="inputfield_508']</xpath>
+    </WebElement>
+
+    <!--Full-Time Artists-->
+
+    <WebElement name="numberEmployeesfullTimeArtists">
+        <xpath>//input[@id='grid_inputfield_512']</xpath>
+    </WebElement>
+
+    <WebElement name="fullTimeArtistsEstimateCheck">
+        <xpath>//label[@for="inputfield_513']</xpath>
+    </WebElement>
+
+    <!--Part-Time Permanent Employees (numberEmployees)-->
+
+    <WebElement name="numberEmployeesPartTimePermanentEmployees">
+        <xpath>//input[@id='grid_inputfield_514']</xpath>
+    </WebElement>
+
+    <WebElement name="numberEmployeesPartTimePermanentEmployeesEstimateCheck">
+        <xpath>//label[@for="inputfield_515']</xpath>
+    </WebElement>
+
+    <!--Part-Time Permanent Employees-->
+
+    <WebElement name="partTimePermanentEmployeesField">
+        <xpath>//input[@id='grid_inputfield_516']</xpath>
+    </WebElement>
+
+    <WebElement name="partTimePermanentEmployeesEstimateCheck">
+        <xpath>//label[@for="inputfield_517']</xpath>
+    </WebElement>
+
+    <!--Part-Time Seasonal Employees (number Employees)-->
+
+    <WebElement name="numberEmployeesPartTimeSeasonalEmployees">
+        <xpath>//input[@id='grid_inputfield_521']</xpath>
+    </WebElement>
+
+    <WebElement name="numberEmployeesPartTimeSeasonalEmployeesEstimateCheck">
+        <xpath>//label[@for="inputfield_522']</xpath>
+    </WebElement>
+
+    <!--Part-Time Seasonal Employees (Hours Worked)-->
+
+    <WebElement name="hoursWorkedPartTimeSeasonalEmployees">
+        <xpath>//input[@id='grid_inputfield_523']</xpath>
+    </WebElement>
+
+    <WebElement name="hoursWorkedPartTimeSeasonalEmployeesEstimateCheck">
+        <xpath>//label[@for="inputfield_524']</xpath>
+    </WebElement>
+
+    <!--Part-Time Artists-->
+
+    <WebElement name="numberEmployeesPartTimeArtists">
+        <xpath>//input[@id='grid_inputfield_528']</xpath>
+    </WebElement>
+
+    <WebElement name="numberEmployeesPartTimeArtistsEstimateCheck">
+        <xpath>//label[@for="inputfield_529']</xpath>
+    </WebElement>
+
+    <!--Full-Time Volunteers (Number of Volunteers)-->
+
+    <WebElement name="numberEmployeesFullTimeVolunteers">
+        <xpath>//input[@id='grid_inputfield_530']</xpath>
+    </WebElement>
+
+    <WebElement name="numberEmployeesFullTimeVolunteersEstimateCheck">
+        <xpath>//label[@for="inputfield_531']</xpath>
+    </WebElement>
+
+    <!--Part-Time Volunteers (Number of Volunteers)-->
+
+    <WebElement name="numberEmployeesPartTimeVolunteers">
+        <xpath>//input[@id='grid_inputfield_532']</xpath>
+    </WebElement>
+
+    <WebElement name="numberEmployeesPartTimeVolunteersEstimateCheck">
+        <xpath>//label[@for="inputfield_533']</xpath>
+    </WebElement>
+
+    <!--Part-Time Volunteers (Hours Contributed)-->
+
+    <WebElement name="hoursContributedPartTimeVolunteers">
+        <xpath>//input[@id='grid_inputfield_534']</xpath>
+    </WebElement>
+
+    <WebElement name="hoursContributedPartTimeVolunteersEstimateCheck">
+        <xpath>//label[@for="inputfield_535']</xpath>
+    </WebElement>
+
+    <!--Interns and Apprentices (Number of Volunteers)-->
+
+    <WebElement name="numberEmployeesInternsApprentices">
+        <xpath>//input[@id='grid_inputfield_539']</xpath>
+    </WebElement>
+
+    <WebElement name="numberEmployeesInternsApprenticesEstimateCheck">
+        <xpath>//label[@for="inputfield_540']</xpath>
+    </WebElement>
+
+    <!--Interns and Apprentices (Hours Worked)-->
+
+    <WebElement name="hoursWorkedInternsApprentices">
+        <xpath>//input[@id='grid_inputfield_541']</xpath>
+    </WebElement>
+
+    <WebElement name="hoursWorkedInternsApprenticesEstimateCheck">
+        <xpath>//label[@for="inputfield_542']</xpath>
+    </WebElement>
+
+    <!--Independent Contractors (Number of Contractors)-->
+
+    <WebElement name="numberContractorsIndependentContractors">
+        <xpath>//input[@id='grid_inputfield_546']</xpath>
+    </WebElement>
+
+    <WebElement name="numberContractorsIndependentContractorsEstimateCheck">
+        <xpath>//label[@for="inputfield_547']</xpath>
+    </WebElement>
+
+    <!--Independent Contractors (Hours Worked)-->
+
+    <WebElement name="hoursWorkedIndependentContractors">
+        <xpath>//input[@id='grid_inputfield_548']</xpath>
+    </WebElement>
+
+    <WebElement name="hoursWorkedIndependentContractorsEstimateCheck">
+        <xpath>//label[@for="inputfield_549']</xpath>
+    </WebElement>
+
+    <!--Independent Contractors - Artists-->
+
+    <WebElement name="independentContractorsArtistField">
+        <xpath>//input[@id='grid_inputfield_553']</xpath>
+    </WebElement>
+
 </Elements>

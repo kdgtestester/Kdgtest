@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Marketing and Social Media-->
+
+    <!--Total Marketing Expense-->
+
+    <WebElement name="totalMarketingExpenseField">
+        <xpath>//input[@id='grid_inputfield_596']</xpath>
+    </WebElement>
+
+    <!--Enter marketing budget-->
+
+    <WebElement name="yesRadioEntermarketingbudget">
+        <xpath>//label[@for='grid_inputfield_597-0']</xpath>
+    </WebElement>
+
+    <!--Marketing expense entry method-->
+
+    <WebElement name="dollarAmountsRadioMarketingExpenseRntryMethod">
+        <xpath>//label[@for='grid_inputfield_598-0']</xpath>
+    </WebElement>
+
+    <!--Marketing Personnel Expenses-->
+
+    <WebElement name="marketingPersonnelExpensesField">
+        <xpath>//input[@id='grid_inputfield_599']</xpath>
+    </WebElement>
+
+    <!--Marketing Consultants/Agencies-->
+
+    <WebElement name="marketingConsultantsAgenciesField">
+        <xpath>//input[@id='grid_inputfield_601']</xpath>
+    </WebElement>
+
+    <!--Advertising-->
+
+    <WebElement name="advertisingField">
+        <xpath>//input[@id='grid_inputfield_603']</xpath>
+    </WebElement>
+
+    <!--Print Advertisting-->
+
+    <WebElement name="printAdvertistingField">
+        <xpath>//input[@id='grid_inputfield_605']</xpath>
+    </WebElement>
+
+    <!--Digital Advertsiting-->
+
+    <WebElement name="digitalAdvertsitingField">
+        <xpath>//input[@id='grid_inputfield_607']</xpath>
+    </WebElement>
+
+    <!--Radio Advertising-->
+
+    <WebElement name="radioAdvertisingField">
+        <xpath>//input[@id='grid_inputfield_609']</xpath>
+    </WebElement>
+
+    <!--TV Advertising-->
+
+    <WebElement name="tvAdvertisingField">
+        <xpath>//input[@id='grid_inputfield_611']</xpath>
+    </WebElement>
+
+    <!--Outdoor Advertising-->
+
+    <WebElement name="outdoorAdvertisingField">
+        <xpath>//input[@id='grid_inputfield_613']</xpath>
+    </WebElement>
+
+    <!--Direct Mail-->
+
+    <WebElement name="directMailField">
+        <xpath>//input[@id='grid_inputfield_615']</xpath>
+    </WebElement>
+
+    <!--Telemarketing/Call Center-->
+
+    <WebElement name="telemarketingCallCenterField">
+        <xpath>//input[@id='grid_inputfield_617']</xpath>
+    </WebElement>
+
+    <!--Public Relations-->
+
+    <WebElement name="publicRelationsField">
+        <xpath>//input[@id='grid_inputfield_619']</xpath>
+    </WebElement>
+
+    <!--Events-->
+
+    <WebElement name="eventsField">
+        <xpath>//input[@id='grid_inputfield_621']</xpath>
+    </WebElement>
+
+    <!--Merchandise-->
+
+    <WebElement name="merchandiseField">
+        <xpath>//input[@id='grid_inputfield_623']</xpath>
+    </WebElement>
+
+    <!--Other-->
+
+    <WebElement name="otherField">
+        <xpath>//input[@id='grid_inputfield_625']</xpath>
+    </WebElement>
+
+    <!--Marketing Personnel-->
+
+    <WebElement name="marketingPersonnelField">
+        <xpath>//input[@id='grid_inputfield_628']</xpath>
+    </WebElement>
+
+    <!--Marketing Consultants/Agencies(2)-->
+
+    <WebElement name="marketingConsultantsAgenciesField2">
+        <xpath>//input[@id='grid_inputfield_630']</xpath>
+    </WebElement>
+
+    <!--Advertising(2)-->
+
+    <WebElement name="advertisingField2">
+        <xpath>//input[@id='grid_inputfield_632']</xpath>
+    </WebElement>
+
+    <!--Marketing Print Advertisting-->
+
+    <WebElement name="marketingPrintAdvertistingField">
+        <xpath>//input[@id='grid_inputfield_634']</xpath>
+    </WebElement>
+
+    <!--Digital Advertsiting(2)-->
+
+    <WebElement name="digitalAdvertsitingField2">
+        <xpath>//input[@id='grid_inputfield_636']</xpath>
+    </WebElement>
+
+    <!--Radio Advertising(2)-->
+
+    <WebElement name="radioAdvertisingField2">
+        <xpath>//input[@id='grid_inputfield_638']</xpath>
+    </WebElement>
+
+    <!--TV Advertising(2)-->
+
+    <WebElement name="tvAdvertisingField2">
+        <xpath>//input[@id='grid_inputfield_640']</xpath>
+    </WebElement>
+
+    <!--Outdoor Advertising(2)-->
+
+    <WebElement name="outdoorAdvertisingField2">
+        <xpath>//input[@id='grid_inputfield_642']</xpath>
+    </WebElement>
+
+    <!--Direct Mail(2)-->
+
+    <WebElement name="directMailField2">
+        <xpath>//input[@id='grid_inputfield_644']</xpath>
+    </WebElement>
+
+    <!--Email Marketing-->
+
+    <WebElement name="emailMarketingField">
+        <xpath>//input[@id='grid_inputfield_646']</xpath>
+    </WebElement>
+
+    <!--Telemarketing/Call Center (2)-->
+
+    <WebElement name="telemarketingCallCenterField2">
+        <xpath>//input[@id='grid_inputfield_648']</xpath>
+    </WebElement>
+
+    <!--Public Relations2-->
+
+    <WebElement name="publicRelationsField2">
+        <xpath>//input[@id='grid_inputfield_648']</xpath>
+    </WebElement>
+
+    <!--Events (2)-->
+
+    <WebElement name="eventsField2">
+        <xpath>//input[@id='grid_inputfield_652']</xpath>
+    </WebElement>
+
+    <!--Merchandise (2)-->
+
+    <WebElement name="merchandiseField2">
+        <xpath>//input[@id='grid_inputfield_654']</xpath>
+    </WebElement>
+
+    <!--Other (2)-->
+
+    <WebElement name="otherField2">
+        <xpath>//input[@id='grid_inputfield_656']</xpath>
+    </WebElement>
+
+    <!--Direct Mail Recipients-->
+
+    <WebElement name="directMailRecipientsField">
+        <xpath>//input[@id='grid_inputfield_657']</xpath>
+    </WebElement>
+
+    <!--Direct Mail Campaigns-->
+
+    <WebElement name="directMailCampaignsField">
+        <xpath>//input[@id='grid_inputfield_658']</xpath>
+    </WebElement>
+
+    <!--Email Recipients-->
+
+    <WebElement name="emailRecipientsField">
+        <xpath>//input[@id='grid_inputfield_659']</xpath>
+    </WebElement>
+
+    <!--Eblasts Sent-->
+
+    <WebElement name="eblastsSentField">
+        <xpath>//input[@id='grid_inputfield_660']</xpath>
+    </WebElement>
+
+    <!--Average Click Through Rate-->
+
+    <WebElement name="averageClickThroughRateField">
+        <xpath>//input[@id='grid_inputfield_661']</xpath>
+    </WebElement>
+
+    <!--Average Conversion Rate-->
+
+    <WebElement name="averageConversionRateField">
+        <xpath>//input[@id='grid_inputfield_662']</xpath>
+    </WebElement>
+
+    <!--Social Media Platforms-->
+
+    <WebElement name="socialMediaPlatformsFacebookCheck">
+        <xpath>//label[@for='grid_checkbox_663-0']</xpath>
+    </WebElement>
+
+    <!--Other Social Media Platform Description-->
+
+    <WebElement name="otherSocialMediaPlatformDescriptionArea">
+        <xpath>//textarea[@id='grid_inputfield_664']</xpath>
+    </WebElement>
+
+    <!--Facebook Fans/Followers-->
+
+    <WebElement name="facebookFansFollowersField">
+        <xpath>//input[@id='grid_inputfield_665']</xpath>
+    </WebElement>
+
+    <!--Facebook Post Frequency-->
+
+    <WebElement name="facebookPostFrequencyField">
+        <xpath>//input[@id='grid_inputfield_666']</xpath>
+    </WebElement>
+
+    <!--Facebook Interactions-->
+
+    <WebElement name="facebookInteractionsField">
+        <xpath>//input[@id='grid_inputfield_667']</xpath>
+    </WebElement>
+
+    <!--Website Page Views-->
+
+    <WebElement name="websitePageViewsField">
+        <xpath>//input[@id='grid_inputfield_695']</xpath>
+    </WebElement>
+
+    <!--Website Sessions/Visits-->
+
+    <WebElement name="websiteSessionsVisitsField">
+        <xpath>//input[@id='grid_inputfield_696']</xpath>
+    </WebElement>
+
+    <!--Website Unique Visitors-->
+
+    <WebElement name="websiteUniqueVisitorsField">
+        <xpath>//input[@id='grid_inputfield_697']</xpath>
+    </WebElement>
+
+</Elements>
