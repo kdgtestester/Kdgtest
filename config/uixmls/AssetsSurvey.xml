@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+
+    <!--Assets-->
+
+    <!--Cash and Cash Equivalents-->
+
+    <WebElement name="unrestrictedCashAndCashEquivalents">
+        <xpath>//input[@id='grid_inputfield_861']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedCashAndCashEquivalents">
+        <xpath>//input[@id='grid_inputfield_862']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedCashAndCashEquivalents">
+        <xpath>//input[@id='grid_inputfield_863']</xpath>
+    </WebElement>
+
+    <!--Accounts Receivable-->
+
+    <WebElement name="unrestrictedAccountsReceivable">
+        <xpath>//input[@id='grid_inputfield_865']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedAccountsReceivable">
+        <xpath>//input[@id='grid_inputfield_866']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedAccountsReceivable">
+        <xpath>//input[@id='grid_inputfield_867']</xpath>
+    </WebElement>
+
+    <!--Grants and Pledges Receivable - Current-->
+
+    <WebElement name="unrestrictedGrantsPledgesReceivableCurrent">
+        <xpath>//input[@id='grid_inputfield_869']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedGrantsPledgesReceivableCurrent">
+        <xpath>//input[@id='grid_inputfield_870']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedGrantsPledgesReceivableCurrent">
+        <xpath>//input[@id='grid_inputfield_871']</xpath>
+    </WebElement>
+
+    <!--Prepaid Expenses-->
+
+    <WebElement name="unrestrictedPrepaidExpenses">
+        <xpath>//input[@id='grid_inputfield_873']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedPrepaidExpenses">
+        <xpath>//input[@id='grid_inputfield_874']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedPrepaidExpenses">
+        <xpath>//input[@id='grid_inputfield_875']</xpath>
+    </WebElement>
+
+    <!--Investments - Current-->
+
+    <WebElement name="unrestrictedInvestmentsCurren">
+        <xpath>//input[@id='grid_inputfield_877']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedInvestmentsCurren">
+        <xpath>//input[@id='grid_inputfield_878']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedInvestmentsCurren">
+        <xpath>//input[@id='grid_inputfield_879']</xpath>
+    </WebElement>
+
+    <!--Other Current Assets-->
+
+    <WebElement name="unrestrictedOtherCurrentAssets">
+        <xpath>//input[@id='grid_inputfield_881']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedOtherCurrentAssets">
+        <xpath>//input[@id='grid_inputfield_882']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedOtherCurrentAssets">
+        <xpath>//input[@id='grid_inputfield_883']</xpath>
+    </WebElement>
+
+    <!--Grants and Pledges Receivable - Non-Current-->
+
+    <WebElement name="unrestrictedGrantsPledgesReceivableNonCurrent">
+        <xpath>//input[@id='grid_inputfield_889']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedGrantsPledgesReceivableNonCurrent">
+        <xpath>//input[@id='grid_inputfield_890']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedGrantsPledgesReceivableNonCurrent">
+        <xpath>//input[@id='grid_inputfield_891']</xpath>
+    </WebElement>
+
+    <!--Investments - Non-Current-->
+
+    <WebElement name="unrestrictedInvestmentsNonCurrent">
+        <xpath>//input[@id='grid_inputfield_893']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedInvestmentsNonCurrent">
+        <xpath>//input[@id='grid_inputfield_894']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedInvestmentsNonCurrent">
+        <xpath>//input[@id='grid_inputfield_895']</xpath>
+    </WebElement>
+
+    <!--Fixed Assets - Net-->
+
+    <WebElement name="unrestrictedFixedAssetsNet">
+        <xpath>//input[@id='grid_inputfield_897']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedFixedAssetsNet">
+        <xpath>//input[@id='grid_inputfield_898']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedFixedAssetsNet">
+        <xpath>//input[@id='grid_inputfield_899']</xpath>
+    </WebElement>
+
+    <!--Other Non-Current Assets-->
+
+    <WebElement name="unrestrictedOtherNonCurrentAssets">
+        <xpath>//input[@id='grid_inputfield_901']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedOtherNonCurrentAssets">
+        <xpath>//input[@id='grid_inputfield_902']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedOtherNonCurrentAssets">
+        <xpath>//input[@id='grid_inputfield_903']</xpath>
+    </WebElement>
+
+    <!--Due To/(Due From)-->
+
+    <WebElement name="unrestrictedDueToDueFrom">
+        <xpath>//input[@id='grid_inputfield_909']</xpath>
+    </WebElement>
+
+    <WebElement name="temporarilyRestrictedDueToDueFrom">
+        <xpath>//input[@id='grid_inputfield_910']</xpath>
+    </WebElement>
+
+    <WebElement name="permanentlyRestrictedDueToDueFrom">
+        <xpath>//input[@id='grid_inputfield_911']</xpath>
+    </WebElement>
+
+</Elements>
