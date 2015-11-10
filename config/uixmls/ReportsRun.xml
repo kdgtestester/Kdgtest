@@ -6,19 +6,23 @@
     </WebElement>
 
     <WebElement name="annualReportType">
-        <xpath>//label[@id='pick-annual']</xpath>
+        <xpath>//div[@class="form-group"][1]//label[@class="toggle" and @for="annual-report-type"]</xpath>
+    </WebElement>
+
+    <WebElement name="annualReportType">
+        <xpath>//div[@class="form-group"][1]//label[@class="toggle" and @for="annual-report-type"]</xpath>
     </WebElement>
 
     <WebElement name="trendReportType">
-        <xpath>//label[@ng-click="reportRun.type.set('trend')"]</xpath>
+        <xpath>//div[@class="form-group"][1]//label[@ng-click="reportRun.type.set('trend')"]</xpath>
     </WebElement>
 
     <WebElement name="comparisonReportType">
-        <xpath>//label[@ng-click="reportRun.type.set('comparison')"]</xpath>
+        <xpath>//div[@class="form-group"][1]//label[@ng-click="reportRun.type.set('comparison')"]</xpath>
     </WebElement>
 
     <WebElement name="checkTypeReport">
-        <xpath>//div[@class='checkbox org-type']/input[@checked='checked']</xpath>
+        <xpath>//div[@class='form-group'][1]//input[@checked='checked']</xpath>
     </WebElement>
 
 

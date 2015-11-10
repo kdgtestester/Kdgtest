@@ -10,6 +10,7 @@ public class CreatingNewSurveyActions {
     }
 
     public void clickNewSurveyButton(){
+        Pages.dashboard().waitModalBody();
         Pages.dashboard().waitNewSurveyButton();
         Pages.dashboard().clickNewSurveyButton();
     }
@@ -43,6 +44,7 @@ public class CreatingNewSurveyActions {
         Pages.profileWizard().waitStartSurveyButton();
         Pages.profileWizard().clickStartSurveyButton();
 
+        Pages.profileWizard().acceptAlert();
         Pages.profileWizard().waitModalBody();
         waitAndClickGoToDashboardLink();
 

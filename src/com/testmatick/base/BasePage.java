@@ -574,4 +574,11 @@ public class BasePage {
             throw wd;
         }
     }
+
+    protected void alertAccept(){
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+    }
+
+
 }

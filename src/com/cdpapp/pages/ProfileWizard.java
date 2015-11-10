@@ -2,6 +2,7 @@ package com.cdpapp.pages;
 
 import com.testmatick.base.BasePage;
 import com.testmatick.reporting.Reporter;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class ProfileWizard extends BasePage {
@@ -159,6 +160,10 @@ public class ProfileWizard extends BasePage {
 
     public void clickSaveFinishButton(){
         click("Click \"Save & Finish\" button", "saveFinisButton");
+    }
+
+    public void acceptAlert(){
+        alertAccept();
     }
 
     public void waitContinueButton(){
