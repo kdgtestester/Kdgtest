@@ -1,6 +1,8 @@
 package com.cdpapp.control;
 
 import com.cdpapp.actions.*;
+import com.cdpapp.actions.completesurvey.revenue.SetContributedRevenueSurvey;
+import com.cdpapp.actions.completesurvey.revenue.SetEarnedRevenueSurvey;
 
 public class Actions {
 
@@ -13,7 +15,11 @@ public class Actions {
     private RunReportsActions runReportsActions;
     private SetSurveyPropertiesActions setSurveyPropertiesActions;
     private StartSurveyActions startSurveyActions;
+
     private SetMembershipSurvey setMembershipSurvey;
+    private SetEarnedRevenueSurvey setEarnedRevenueSurvey;
+    private SetContributedRevenueSurvey setContributedRevenueSurvey;
+    private SetContributedRevenueSurvey setContributedRevenueSurvey;
 
     private Actions() {
         this.loginWithGoogleActions = new LoginWithGoogleActions();
@@ -24,6 +30,8 @@ public class Actions {
         this.setSurveyPropertiesActions = new SetSurveyPropertiesActions();
         this.startSurveyActions = new StartSurveyActions();
         this.setMembershipSurvey = new SetMembershipSurvey();
+        this.setEarnedRevenueSurvey = new SetEarnedRevenueSurvey();
+        this.setContributedRevenueSurvey = new SetContributedRevenueSurvey();
     }
 
     public static void setupActions() {
@@ -45,5 +53,7 @@ public class Actions {
     public static SetSurveyPropertiesActions setSurveyPropertiesActions(){return actions.setSurveyPropertiesActions;}
     public static StartSurveyActions startSurveyActions(){return actions.startSurveyActions;}
     public static SetMembershipSurvey setMembershipSurvey(){return actions.setMembershipSurvey;}
+    public static SetEarnedRevenueSurvey setEarnedRevenueSurvey(){return actions.setEarnedRevenueSurvey;}
+    public static SetContributedRevenueSurvey setContributedRevenueSurvey(){return actions.setContributedRevenueSurvey;}
 
 }

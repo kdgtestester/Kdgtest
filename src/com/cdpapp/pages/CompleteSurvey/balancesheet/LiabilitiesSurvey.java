@@ -32,15 +32,15 @@ public class LiabilitiesSurvey extends BasePage {
     }
 
     public void setUnrestrictedDeferredRevenue(){
-        type("Set Unrestricted Deferred Revenue", "1", "unrestrictedDeferredRevenue");
+        type("Set Unrestricted Deferred revenue", "1", "unrestrictedDeferredRevenue");
     }
 
     public void setTemporarilyRestrictedDeferredRevenue(){
-        type("Set Temporarily Restricted Deferred Revenue", "1", "temporarilyRestrictedDeferredRevenue");
+        type("Set Temporarily Restricted Deferred revenue", "1", "temporarilyRestrictedDeferredRevenue");
     }
 
     public void setPermanentlyRestrictedDeferredRevenue(){
-        type("Set Permanently Restricted Deferred Revenue", "1", "permanentlyRestrictedDeferredRevenue");
+        type("Set Permanently Restricted Deferred revenue", "1", "permanentlyRestrictedDeferredRevenue");
     }
 
     public void setUnrestrictedLoansCurrent(){

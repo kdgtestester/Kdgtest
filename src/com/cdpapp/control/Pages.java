@@ -1,6 +1,7 @@
 package com.cdpapp.control;
 
 import com.cdpapp.pages.*;
+import com.cdpapp.pages.completesurvey.revenue.*;
 
 
 public class Pages {
@@ -15,6 +16,12 @@ public class Pages {
     private ReportsRun reportsRun;
     private SurveySetProperties surveySetProperties;
 
+    private EarnedRevenueSurvey earnedRevenueSurvey;
+    private MembershipSurvey membershipSurvey;
+    private ContributedRevenueSurvey contributedRevenueSurvey;
+    private ContributorsSurvey contributorsSurvey;
+    private SpecialEventsSurvey specialEventsSurvey;
+
     private Pages() {
         this.loginPage = new LoginPage();
         this.googleAuthPage = new GoogleAuthPage();
@@ -24,6 +31,12 @@ public class Pages {
         this.reports = new Reports();
         this.reportsRun = new ReportsRun();
         this.surveySetProperties = new SurveySetProperties();
+
+        this.earnedRevenueSurvey = new EarnedRevenueSurvey();
+        this.membershipSurvey = new MembershipSurvey();
+        this.contributedRevenueSurvey = new ContributedRevenueSurvey();
+        this.contributorsSurvey = new ContributorsSurvey();
+        this.specialEventsSurvey = new SpecialEventsSurvey();
     }
 
     public static void setupPages() {
@@ -48,4 +61,10 @@ public class Pages {
     public static Reports reports(){return pages.reports;}
     public static ReportsRun reportsRun(){return pages.reportsRun;}
     public static SurveySetProperties surveySetSetting(){return pages.surveySetProperties;}
+
+    public static EarnedRevenueSurvey earnedRevenueSurvey(){return pages.earnedRevenueSurvey;}
+    public static MembershipSurvey membershipSurvey(){return pages.membershipSurvey;}
+    public static ContributedRevenueSurvey contributedRevenueSurvey(){return pages.contributedRevenueSurvey;}
+    public static SpecialEventsSurvey specialEventsSurvey(){return pages.specialEventsSurvey;}
+    public static ContributorsSurvey contributorsSurvey(){return pages.contributorsSurvey;}
 }

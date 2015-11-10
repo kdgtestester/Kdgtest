@@ -5,7 +5,7 @@ import com.testmatick.base.BasePage;
 /**
  * Created by Petr on 05.11.2015.
  */
-public class EarnedRevenue extends BasePage {
+public class EarnedRevenueSurvey extends BasePage {
 
     public void setFoodAndConcessionsRevenue(){
         type("Set Food and Concessions revenue", "1", "foodAndConcessionsRevenueField");
@@ -79,12 +79,20 @@ public class EarnedRevenue extends BasePage {
         type("Set Other Program revenue", "1", "otherProgramRevenueField");
     }
 
+    public void waitOtherProgramRevenueDescription(){
+        waitForElementVisibility("otherProgramRevenueDescriptionField");
+    }
+
     public void setOtherProgramRevenueDescription(){
         type("Set Other Program revenue Description", "1", "otherProgramRevenueDescriptionField");
     }
 
     public void setOtherEarnedRevenue(){
         type("Set Other Earned revenue", "1", "otherEarnedRevenueField");
+    }
+
+    public void waitOtherEarnedRevenueDescription(){
+        waitForElementVisibility("otherEarnedRevenueDescriptionField");
     }
 
     public void setOtherEarnedRevenueDescription(){

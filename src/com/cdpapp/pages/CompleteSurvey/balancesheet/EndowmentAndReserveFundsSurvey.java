@@ -157,7 +157,7 @@ public class EndowmentAndReserveFundsSurvey extends BasePage {
     }
 
     public void checkRevenueLinesContainingEndowmentDraw3(){
-        setCheckboxState("Check Revenue Lines Containing Endowment Draw", true, "operatingInvestmentIncomeCheck3");
+        setCheckboxState("Check revenue Lines Containing Endowment Draw", true, "operatingInvestmentIncomeCheck3");
     }
 
     public void setNotes3(){
@@ -213,7 +213,7 @@ public class EndowmentAndReserveFundsSurvey extends BasePage {
     }
 
     public void checkRevenueLinesContainingReserveDraw(){
-        setCheckboxState("Check Revenue Lines Containing Reserve Draw", true, "operatingInvestmentIncomeCheck4");
+        setCheckboxState("Check revenue Lines Containing Reserve Draw", true, "operatingInvestmentIncomeCheck4");
     }
 
     public void setNotes4(){
