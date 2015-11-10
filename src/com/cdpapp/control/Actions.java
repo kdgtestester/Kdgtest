@@ -2,6 +2,7 @@ package com.cdpapp.control;
 
 import com.cdpapp.actions.*;
 import com.cdpapp.actions.SetMembershipSurvey;
+import com.cdpapp.actions.completesurvey.expense.SetPersonnelExpensesSurvey;
 import com.cdpapp.actions.completesurvey.revenue.*;
 
 public class Actions {
@@ -26,6 +27,8 @@ public class Actions {
     private SetInvestmentIncomeSurvey setInvestmentIncomeSurvey;
     private SetNonOperatingRevenueSurvey setNonOperatingRevenueSurvey;
 
+    private SetPersonnelExpensesSurvey setPersonnelExpensesSurvey;
+
     private Actions() {
         this.loginWithGoogleActions = new LoginWithGoogleActions();
         this.creatingNewOrganizationActions = new CreatingNewOrganizationActions();
@@ -44,6 +47,7 @@ public class Actions {
         this.setInKindRevenueDetailsSurvey = new SetInKindRevenueDetailsSurvey();
         this.setInvestmentIncomeSurvey = new SetInvestmentIncomeSurvey();
         this.setNonOperatingRevenueSurvey = new SetNonOperatingRevenueSurvey();
+        this.setPersonnelExpensesSurvey = new SetPersonnelExpensesSurvey();
     }
 
     public static void setupActions() {
@@ -73,5 +77,6 @@ public class Actions {
     public static SetInKindRevenueDetailsSurvey setInKindRevenueDetails(){return actions.setInKindRevenueDetailsSurvey;}
     public static SetInvestmentIncomeSurvey setInvestmentIncomeSurvey(){return actions.setInvestmentIncomeSurvey;}
     public static SetNonOperatingRevenueSurvey setNonOperatingRevenueSurvey(){return actions.setNonOperatingRevenueSurvey;}
+    public static SetPersonnelExpensesSurvey setPersonnelExpensesSurvey(){return actions.setPersonnelExpensesSurvey;}
 
 }

@@ -1,6 +1,7 @@
 package com.cdpapp.control;
 
 import com.cdpapp.pages.*;
+import com.cdpapp.pages.completesurvey.expense.PersonnelExpensesSurvey;
 import com.cdpapp.pages.completesurvey.revenue.*;
 
 
@@ -25,6 +26,7 @@ public class Pages {
     private InKindRevenueDetailsSurvey inKindRevenueDetailsSurvey;
     private InvestmentIncomeSurvey investmentIncomeSurvey;
     private NonOperatingRevenueSurvey nonOperatingRevenueSurvey;
+    private PersonnelExpensesSurvey personnelExpensesSurvey;
 
     private Pages() {
         this.loginPage = new LoginPage();
@@ -45,6 +47,8 @@ public class Pages {
         this.inKindRevenueDetailsSurvey = new InKindRevenueDetailsSurvey();
         this.investmentIncomeSurvey = new InvestmentIncomeSurvey();
         this.nonOperatingRevenueSurvey = new NonOperatingRevenueSurvey();
+
+        this.personnelExpensesSurvey = new PersonnelExpensesSurvey();
     }
 
     public static void setupPages() {
@@ -79,5 +83,7 @@ public class Pages {
     public static InKindRevenueDetailsSurvey inKindRevenueDetailsSurvey(){return pages.inKindRevenueDetailsSurvey;}
     public static InvestmentIncomeSurvey investmentIncomeSurvey(){return pages.investmentIncomeSurvey;}
     public static NonOperatingRevenueSurvey nonOperatingRevenueSurvey(){return pages.nonOperatingRevenueSurvey;}
+
+    public static PersonnelExpensesSurvey personnelExpensesSurvey(){return pages.personnelExpensesSurvey;}
 
 }
