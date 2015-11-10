@@ -1,8 +1,8 @@
 package com.cdpapp.control;
 
 import com.cdpapp.actions.*;
-import com.cdpapp.actions.completesurvey.revenue.SetContributedRevenueSurvey;
-import com.cdpapp.actions.completesurvey.revenue.SetEarnedRevenueSurvey;
+import com.cdpapp.actions.SetMembershipSurvey;
+import com.cdpapp.actions.completesurvey.revenue.*;
 
 public class Actions {
 
@@ -19,7 +19,12 @@ public class Actions {
     private SetMembershipSurvey setMembershipSurvey;
     private SetEarnedRevenueSurvey setEarnedRevenueSurvey;
     private SetContributedRevenueSurvey setContributedRevenueSurvey;
-    private SetContributedRevenueSurvey setContributedRevenueSurvey;
+    private SetContributorsSurvey setContributorsSurvey;
+    private SetSpecialEventsSurvey setSpecialEventsSurvey;
+    private SetInKindRevenueSurvey setInKindRevenueSurvey;
+    private SetInKindRevenueDetailsSurvey setInKindRevenueDetailsSurvey;
+    private SetInvestmentIncomeSurvey setInvestmentIncomeSurvey;
+    private SetNonOperatingRevenueSurvey setNonOperatingRevenueSurvey;
 
     private Actions() {
         this.loginWithGoogleActions = new LoginWithGoogleActions();
@@ -29,9 +34,16 @@ public class Actions {
         this.runReportsActions = new RunReportsActions();
         this.setSurveyPropertiesActions = new SetSurveyPropertiesActions();
         this.startSurveyActions = new StartSurveyActions();
+
         this.setMembershipSurvey = new SetMembershipSurvey();
         this.setEarnedRevenueSurvey = new SetEarnedRevenueSurvey();
         this.setContributedRevenueSurvey = new SetContributedRevenueSurvey();
+        this.setContributorsSurvey = new SetContributorsSurvey();
+        this.setSpecialEventsSurvey = new SetSpecialEventsSurvey();
+        this.setInKindRevenueSurvey = new SetInKindRevenueSurvey();
+        this.setInKindRevenueDetailsSurvey = new SetInKindRevenueDetailsSurvey();
+        this.setInvestmentIncomeSurvey = new SetInvestmentIncomeSurvey();
+        this.setNonOperatingRevenueSurvey = new SetNonOperatingRevenueSurvey();
     }
 
     public static void setupActions() {
@@ -55,5 +67,11 @@ public class Actions {
     public static SetMembershipSurvey setMembershipSurvey(){return actions.setMembershipSurvey;}
     public static SetEarnedRevenueSurvey setEarnedRevenueSurvey(){return actions.setEarnedRevenueSurvey;}
     public static SetContributedRevenueSurvey setContributedRevenueSurvey(){return actions.setContributedRevenueSurvey;}
+    public static SetContributorsSurvey setContributorsSurvey(){return actions.setContributorsSurvey;}
+    public static SetSpecialEventsSurvey setSpecialEventsSurvey(){return actions.setSpecialEventsSurvey;}
+    public static SetInKindRevenueSurvey setInKindRevenueSurvey(){return actions.setInKindRevenueSurvey;}
+    public static SetInKindRevenueDetailsSurvey setInKindRevenueDetails(){return actions.setInKindRevenueDetailsSurvey;}
+    public static SetInvestmentIncomeSurvey setInvestmentIncomeSurvey(){return actions.setInvestmentIncomeSurvey;}
+    public static SetNonOperatingRevenueSurvey setNonOperatingRevenueSurvey(){return actions.setNonOperatingRevenueSurvey;}
 
 }

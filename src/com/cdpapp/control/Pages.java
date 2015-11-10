@@ -21,6 +21,10 @@ public class Pages {
     private ContributedRevenueSurvey contributedRevenueSurvey;
     private ContributorsSurvey contributorsSurvey;
     private SpecialEventsSurvey specialEventsSurvey;
+    private InKindRevenueSurvey inKindRevenueSurvey;
+    private InKindRevenueDetailsSurvey inKindRevenueDetailsSurvey;
+    private InvestmentIncomeSurvey investmentIncomeSurvey;
+    private NonOperatingRevenueSurvey nonOperatingRevenueSurvey;
 
     private Pages() {
         this.loginPage = new LoginPage();
@@ -37,6 +41,10 @@ public class Pages {
         this.contributedRevenueSurvey = new ContributedRevenueSurvey();
         this.contributorsSurvey = new ContributorsSurvey();
         this.specialEventsSurvey = new SpecialEventsSurvey();
+        this.inKindRevenueSurvey = new InKindRevenueSurvey();
+        this.inKindRevenueDetailsSurvey = new InKindRevenueDetailsSurvey();
+        this.investmentIncomeSurvey = new InvestmentIncomeSurvey();
+        this.nonOperatingRevenueSurvey = new NonOperatingRevenueSurvey();
     }
 
     public static void setupPages() {
@@ -65,6 +73,11 @@ public class Pages {
     public static EarnedRevenueSurvey earnedRevenueSurvey(){return pages.earnedRevenueSurvey;}
     public static MembershipSurvey membershipSurvey(){return pages.membershipSurvey;}
     public static ContributedRevenueSurvey contributedRevenueSurvey(){return pages.contributedRevenueSurvey;}
-    public static SpecialEventsSurvey specialEventsSurvey(){return pages.specialEventsSurvey;}
     public static ContributorsSurvey contributorsSurvey(){return pages.contributorsSurvey;}
+    public static SpecialEventsSurvey specialEventsSurvey(){return pages.specialEventsSurvey;}
+    public static InKindRevenueSurvey inKindRevenueSurvey(){return pages.inKindRevenueSurvey;}
+    public static InKindRevenueDetailsSurvey inKindRevenueDetailsSurvey(){return pages.inKindRevenueDetailsSurvey;}
+    public static InvestmentIncomeSurvey investmentIncomeSurvey(){return pages.investmentIncomeSurvey;}
+    public static NonOperatingRevenueSurvey nonOperatingRevenueSurvey(){return pages.nonOperatingRevenueSurvey;}
+
 }

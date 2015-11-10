@@ -48,6 +48,10 @@ public class InKindRevenueDetailsSurvey extends BasePage {
     }
 
     public void waitInKindOtherExpensesDescription(){
+        waitForElementVisibility("inKindOtherExpensesDescriptionField");
+    }
+
+    public void setInKindOtherExpensesDescription(){
         type("Set In-Kind Other Expenses Description", "1", "inKindOtherExpensesDescriptionField");
     }
 

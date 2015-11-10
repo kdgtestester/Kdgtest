@@ -7,10 +7,13 @@ import com.cdpapp.control.Pages;
  */
 public class SetSpecialEventsSurvey {
 
-
     public void setSpecialEventsSurvey(){
+        Pages.specialEventsSurvey().setDescriptionOfSpecialEvents();
 
+        Pages.specialEventsSurvey().setIndividualContributorsUnderwritersSponsors();
+        Pages.specialEventsSurvey().setCorporateContributorsUnderwritersSponsors();
+        Pages.specialEventsSurvey().setOtherContributorsUnderwritersSponsors();
 
-
+        Pages.specialEventsSurvey().checkTrusteesBoard();
     }
 }
