@@ -11,6 +11,19 @@ public class SetPersonnelExpensesSurvey {
         Pages.personnelExpensesSurvey().setEmployeesProgram();
         Pages.personnelExpensesSurvey().setEmployeesFundraising();
         Pages.personnelExpensesSurvey().setEmployeesGeneralAndAdministrative();
+
+        Pages.personnelExpensesSurvey().setIndependentContractorsProgram();
+        Pages.personnelExpensesSurvey().setIndependentContractorsFundraising();
+        Pages.personnelExpensesSurvey().setIndependentContractorsGeneralAndAdministrative();
+
+        Pages.personnelExpensesSurvey().setProfessionalFeesProgram();
+        Pages.personnelExpensesSurvey().setProfessionalFeesFundraising();
+        Pages.personnelExpensesSurvey().setProfessionalFeesGeneralAndAdministrative();
+
+        Pages.personnelExpensesSurvey().setTotalPersonnelExpenses();
+
+        Pages.personnelExpensesSurvey().checkArtistPayments();
+
     }
 
 }
