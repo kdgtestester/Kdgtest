@@ -1,6 +1,7 @@
 package com.cdpapp.control;
 
 import com.cdpapp.pages.*;
+import com.cdpapp.pages.completesurvey.balancesheet.*;
 import com.cdpapp.pages.completesurvey.expense.*;
 import com.cdpapp.pages.completesurvey.revenue.*;
 
@@ -35,6 +36,13 @@ public class Pages {
     private WorkSpaceSurvey workSpaceSurvey;
     private MarketingAndSocialMediaSurvey marketingAndSocialMediaSurvey;
 
+    private AssetsSurvey assetsSurvey;
+    private EndowmentAndReserveFundsSurvey endowmentAndReserveFundsSurvey;
+    private LiabilitiesSurvey liabilitiesSurvey;
+    private LoanDetailsSurvey loanDetailsSurvey;
+    private NetAssetsSurvey netAssetsSurvey;
+    private BalanceSheetSummarySurvey balanceSheetSummarySurvey;
+
     private Pages() {
         this.loginPage = new LoginPage();
         this.googleAuthPage = new GoogleAuthPage();
@@ -62,6 +70,13 @@ public class Pages {
         this.workforceSurvey = new WorkforceSurvey();
         this.workSpaceSurvey = new WorkSpaceSurvey();
         this.marketingAndSocialMediaSurvey = new MarketingAndSocialMediaSurvey();
+
+        this.assetsSurvey = new AssetsSurvey();
+        this.endowmentAndReserveFundsSurvey = new EndowmentAndReserveFundsSurvey();
+        this.liabilitiesSurvey = new LiabilitiesSurvey();
+        this.loanDetailsSurvey = new LoanDetailsSurvey();
+        this.netAssetsSurvey = new NetAssetsSurvey();
+        this.balanceSheetSummarySurvey = new BalanceSheetSummarySurvey();
     }
 
     public static void setupPages() {
@@ -104,5 +119,12 @@ public class Pages {
     public static WorkforceSurvey workforceSurvey(){return pages.workforceSurvey;}
     public static WorkSpaceSurvey workSpaceSurvey(){return pages.workSpaceSurvey;}
     public static MarketingAndSocialMediaSurvey marketingAndSocialMediaSurvey(){return pages.marketingAndSocialMediaSurvey;}
+
+    public static AssetsSurvey assetsSurvey(){return pages.assetsSurvey;}
+    public static EndowmentAndReserveFundsSurvey endowmentAndReserveFundsSurvey(){return pages.endowmentAndReserveFundsSurvey;}
+    public static LiabilitiesSurvey liabilitiesSurvey(){return pages.liabilitiesSurvey;}
+    public static LoanDetailsSurvey loanDetailsSurvey(){return pages.loanDetailsSurvey;}
+    public static NetAssetsSurvey netAssetsSurvey(){return pages.netAssetsSurvey;}
+    public static BalanceSheetSummarySurvey balanceSheetSummarySurvey(){return pages.balanceSheetSummarySurvey;}
 
 }

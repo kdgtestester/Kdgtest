@@ -2,6 +2,7 @@ package com.cdpapp.control;
 
 import com.cdpapp.actions.*;
 import com.cdpapp.actions.SetMembershipSurvey;
+import com.cdpapp.actions.completesurvey.balancesheet.*;
 import com.cdpapp.actions.completesurvey.expense.*;
 import com.cdpapp.actions.completesurvey.revenue.*;
 
@@ -35,6 +36,13 @@ public class Actions {
     private SetWorkSpaceSurvey setWorkSpaceSurvey;
     private SetMarketingAndSocialMediaSurvey setMarketingAndSocialMediaSurvey;
 
+    private SetAssetsSurvey setAssetsSurvey;
+    private SetEndowmentAndReserveFundsSurvey setEndowmentAndReserveFundsSurvey;
+    private SetLiabilitiesSurvey setLiabilitiesSurvey;
+    private SetLoanDetailsSurvey setLoanDetailsSurvey;
+    private SetNetAssetsSurvey setNetAssetsSurvey;
+    private SetBalanceSheetSummarySurvey setBalanceSheetSummarySurvey;
+
     private Actions() {
         this.loginWithGoogleActions = new LoginWithGoogleActions();
         this.creatingNewOrganizationActions = new CreatingNewOrganizationActions();
@@ -61,6 +69,13 @@ public class Actions {
         this.setWorkforceSurvey = new SetWorkforceSurvey();
         this.setWorkSpaceSurvey = new SetWorkSpaceSurvey();
         this.setMarketingAndSocialMediaSurvey = new SetMarketingAndSocialMediaSurvey();
+
+        this.setAssetsSurvey = new SetAssetsSurvey();
+        this.setEndowmentAndReserveFundsSurvey = new SetEndowmentAndReserveFundsSurvey();
+        this.setLiabilitiesSurvey = new SetLiabilitiesSurvey();
+        this.setLoanDetailsSurvey = new SetLoanDetailsSurvey();
+        this.setNetAssetsSurvey = new SetNetAssetsSurvey();
+        this.setBalanceSheetSummarySurvey = new SetBalanceSheetSummarySurvey();
     }
 
     public static void setupActions() {
@@ -98,5 +113,12 @@ public class Actions {
     public static SetWorkforceSurvey setWorkforceSurvey(){return actions.setWorkforceSurvey;}
     public static SetWorkSpaceSurvey setWorkSpaceSurvey(){return actions.setWorkSpaceSurvey;}
     public static SetMarketingAndSocialMediaSurvey setMarketingAndSocialMediaSurvey(){return actions.setMarketingAndSocialMediaSurvey;}
+
+    public static SetAssetsSurvey setAssetsSurvey(){return actions.setAssetsSurvey;}
+    public static SetEndowmentAndReserveFundsSurvey setEndowmentAndReserveFundsSurvey(){return actions.setEndowmentAndReserveFundsSurvey;}
+    public static SetLiabilitiesSurvey setLiabilitiesSurvey(){return actions.setLiabilitiesSurvey;}
+    public static SetLoanDetailsSurvey setLoanDetailsSurvey(){return actions.setLoanDetailsSurvey;}
+    public static SetNetAssetsSurvey setNetAssetsSurvey(){return actions.setNetAssetsSurvey;}
+    public static SetBalanceSheetSummarySurvey setBalanceSheetSummarySurvey(){return actions.setBalanceSheetSummarySurvey;}
 
 }
