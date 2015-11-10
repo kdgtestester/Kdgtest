@@ -2,7 +2,7 @@ package com.cdpapp.control;
 
 import com.cdpapp.actions.*;
 import com.cdpapp.actions.SetMembershipSurvey;
-import com.cdpapp.actions.completesurvey.expense.SetPersonnelExpensesSurvey;
+import com.cdpapp.actions.completesurvey.expense.*;
 import com.cdpapp.actions.completesurvey.revenue.*;
 
 public class Actions {
@@ -28,6 +28,12 @@ public class Actions {
     private SetNonOperatingRevenueSurvey setNonOperatingRevenueSurvey;
 
     private SetPersonnelExpensesSurvey setPersonnelExpensesSurvey;
+    private SetPaymentsArtistsAndPerformersSurvey setPaymentsArtistsAndPerformersSurvey;
+    private SetSalariesAndBenefitsSurvey setSalariesAndBenefitsSurvey;
+    private SetNonPersonnelExpensesSurvey setNonPersonnelExpensesSurvey;
+    private SetWorkforceSurvey setWorkforceSurvey;
+    private SetWorkSpaceSurvey setWorkSpaceSurvey;
+    private SetMarketingAndSocialMediaSurvey setMarketingAndSocialMediaSurvey;
 
     private Actions() {
         this.loginWithGoogleActions = new LoginWithGoogleActions();
@@ -47,7 +53,14 @@ public class Actions {
         this.setInKindRevenueDetailsSurvey = new SetInKindRevenueDetailsSurvey();
         this.setInvestmentIncomeSurvey = new SetInvestmentIncomeSurvey();
         this.setNonOperatingRevenueSurvey = new SetNonOperatingRevenueSurvey();
+
         this.setPersonnelExpensesSurvey = new SetPersonnelExpensesSurvey();
+        this.setPaymentsArtistsAndPerformersSurvey = new SetPaymentsArtistsAndPerformersSurvey();
+        this.setSalariesAndBenefitsSurvey = new SetSalariesAndBenefitsSurvey();
+        this.setNonPersonnelExpensesSurvey = new SetNonPersonnelExpensesSurvey();
+        this.setWorkforceSurvey = new SetWorkforceSurvey();
+        this.setWorkSpaceSurvey = new SetWorkSpaceSurvey();
+        this.setMarketingAndSocialMediaSurvey = new SetMarketingAndSocialMediaSurvey();
     }
 
     public static void setupActions() {
@@ -77,6 +90,13 @@ public class Actions {
     public static SetInKindRevenueDetailsSurvey setInKindRevenueDetails(){return actions.setInKindRevenueDetailsSurvey;}
     public static SetInvestmentIncomeSurvey setInvestmentIncomeSurvey(){return actions.setInvestmentIncomeSurvey;}
     public static SetNonOperatingRevenueSurvey setNonOperatingRevenueSurvey(){return actions.setNonOperatingRevenueSurvey;}
+
     public static SetPersonnelExpensesSurvey setPersonnelExpensesSurvey(){return actions.setPersonnelExpensesSurvey;}
+    public static SetPaymentsArtistsAndPerformersSurvey setPaymentsArtistsAndPerformersSurvey(){return actions.setPaymentsArtistsAndPerformersSurvey;}
+    public static SetSalariesAndBenefitsSurvey setSalariesAndBenefitsSurvey(){return actions.setSalariesAndBenefitsSurvey;}
+    public static SetNonPersonnelExpensesSurvey setNonPersonnelExpensesSurvey(){return actions.setNonPersonnelExpensesSurvey;}
+    public static SetWorkforceSurvey setWorkforceSurvey(){return actions.setWorkforceSurvey;}
+    public static SetWorkSpaceSurvey setWorkSpaceSurvey(){return actions.setWorkSpaceSurvey;}
+    public static SetMarketingAndSocialMediaSurvey setMarketingAndSocialMediaSurvey(){return actions.setMarketingAndSocialMediaSurvey;}
 
 }

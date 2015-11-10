@@ -1,8 +1,7 @@
 package com.cdpapp.control;
 
 import com.cdpapp.pages.*;
-import com.cdpapp.pages.completesurvey.expense.PaymentsArtistsAndPerformersSurvey;
-import com.cdpapp.pages.completesurvey.expense.PersonnelExpensesSurvey;
+import com.cdpapp.pages.completesurvey.expense.*;
 import com.cdpapp.pages.completesurvey.revenue.*;
 
 
@@ -30,6 +29,11 @@ public class Pages {
 
     private PersonnelExpensesSurvey personnelExpensesSurvey;
     private PaymentsArtistsAndPerformersSurvey paymentsArtistsAndPerformersSurvey;
+    private SalariesAndBenefitsSurvey salariesAndBenefitsSurvey;
+    private NonPersonnelExpensesSurvey nonPersonnelExpensesSurvey;
+    private WorkforceSurvey workforceSurvey;
+    private WorkSpaceSurvey workSpaceSurvey;
+    private MarketingAndSocialMediaSurvey marketingAndSocialMediaSurvey;
 
     private Pages() {
         this.loginPage = new LoginPage();
@@ -53,6 +57,11 @@ public class Pages {
 
         this.personnelExpensesSurvey = new PersonnelExpensesSurvey();
         this.paymentsArtistsAndPerformersSurvey = new PaymentsArtistsAndPerformersSurvey();
+        this.salariesAndBenefitsSurvey = new SalariesAndBenefitsSurvey();
+        this.nonPersonnelExpensesSurvey = new NonPersonnelExpensesSurvey();
+        this.workforceSurvey = new WorkforceSurvey();
+        this.workSpaceSurvey = new WorkSpaceSurvey();
+        this.marketingAndSocialMediaSurvey = new MarketingAndSocialMediaSurvey();
     }
 
     public static void setupPages() {
@@ -90,5 +99,10 @@ public class Pages {
 
     public static PersonnelExpensesSurvey personnelExpensesSurvey(){return pages.personnelExpensesSurvey;}
     public static PaymentsArtistsAndPerformersSurvey paymentsArtistsAndPerformersSurvey(){return pages.paymentsArtistsAndPerformersSurvey;}
+    public static SalariesAndBenefitsSurvey salariesAndBenefitsSurvey(){return pages.salariesAndBenefitsSurvey;}
+    public static NonPersonnelExpensesSurvey nonPersonnelExpensesSurvey(){return pages.nonPersonnelExpensesSurvey;}
+    public static WorkforceSurvey workforceSurvey(){return pages.workforceSurvey;}
+    public static WorkSpaceSurvey workSpaceSurvey(){return pages.workSpaceSurvey;}
+    public static MarketingAndSocialMediaSurvey marketingAndSocialMediaSurvey(){return pages.marketingAndSocialMediaSurvey;}
 
 }
