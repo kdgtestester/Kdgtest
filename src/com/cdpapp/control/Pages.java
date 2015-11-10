@@ -3,6 +3,7 @@ package com.cdpapp.control;
 import com.cdpapp.pages.*;
 import com.cdpapp.pages.completesurvey.balancesheet.*;
 import com.cdpapp.pages.completesurvey.expense.*;
+import com.cdpapp.pages.completesurvey.programactivity.*;
 import com.cdpapp.pages.completesurvey.revenue.*;
 
 
@@ -43,6 +44,15 @@ public class Pages {
     private NetAssetsSurvey netAssetsSurvey;
     private BalanceSheetSummarySurvey balanceSheetSummarySurvey;
 
+    private AdvocacySurvey advocacySurvey;
+    private GrantmakingSurvey grantmakingSurvey;
+    private FiscalSponsorshipSurvey fiscalSponsorshipSurvey;
+    private LoanProgramsSurvey loanProgramsSurvey;
+    private ConsultingFeeForServiceWorkSurvey consultingFeeForServiceWorkSurvey;
+    private ResearchSurvey researchSurvey;
+    private CompetitionsSurvey competitionsSurvey;
+    private ConferencesSurvey conferencesSurvey;
+
     private Pages() {
         this.loginPage = new LoginPage();
         this.googleAuthPage = new GoogleAuthPage();
@@ -77,6 +87,15 @@ public class Pages {
         this.loanDetailsSurvey = new LoanDetailsSurvey();
         this.netAssetsSurvey = new NetAssetsSurvey();
         this.balanceSheetSummarySurvey = new BalanceSheetSummarySurvey();
+
+        this.advocacySurvey = new AdvocacySurvey();
+        this.grantmakingSurvey = new GrantmakingSurvey();
+        this.fiscalSponsorshipSurvey = new FiscalSponsorshipSurvey();
+        this.loanProgramsSurvey = new LoanProgramsSurvey();
+        this.consultingFeeForServiceWorkSurvey = new ConsultingFeeForServiceWorkSurvey();
+        this.researchSurvey = new ResearchSurvey();
+        this.competitionsSurvey = new CompetitionsSurvey();
+        this.conferencesSurvey = new ConferencesSurvey();
     }
 
     public static void setupPages() {
@@ -126,5 +145,14 @@ public class Pages {
     public static LoanDetailsSurvey loanDetailsSurvey(){return pages.loanDetailsSurvey;}
     public static NetAssetsSurvey netAssetsSurvey(){return pages.netAssetsSurvey;}
     public static BalanceSheetSummarySurvey balanceSheetSummarySurvey(){return pages.balanceSheetSummarySurvey;}
+
+    public static AdvocacySurvey advocacySurvey(){return pages.advocacySurvey;}
+    public static GrantmakingSurvey grantmakingSurvey(){return pages.grantmakingSurvey;}
+    public static FiscalSponsorshipSurvey fiscalSponsorshipSurvey(){return pages.fiscalSponsorshipSurvey;}
+    public static LoanProgramsSurvey loanProgramsSurvey(){return pages.loanProgramsSurvey;}
+    public static ConsultingFeeForServiceWorkSurvey consultingFeeForServiceWorkSurvey(){return pages.consultingFeeForServiceWorkSurvey;}
+    public static ResearchSurvey researchSurvey(){return pages.researchSurvey;}
+    public static CompetitionsSurvey competitionsSurvey(){return pages.competitionsSurvey;}
+    public static ConferencesSurvey conferencesSurvey(){return pages.conferencesSurvey;}
 
 }

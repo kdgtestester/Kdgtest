@@ -4,6 +4,7 @@ import com.cdpapp.actions.*;
 import com.cdpapp.actions.SetMembershipSurvey;
 import com.cdpapp.actions.completesurvey.balancesheet.*;
 import com.cdpapp.actions.completesurvey.expense.*;
+import com.cdpapp.actions.completesurvey.programactivity.*;
 import com.cdpapp.actions.completesurvey.revenue.*;
 
 public class Actions {
@@ -43,6 +44,15 @@ public class Actions {
     private SetNetAssetsSurvey setNetAssetsSurvey;
     private SetBalanceSheetSummarySurvey setBalanceSheetSummarySurvey;
 
+    private SetAdvocacySurvey setAdvocacySurvey;
+    private SetGrantmakingSurvey setGrantmakingSurvey;
+    private SetFiscalSponsorshipSurvey setFiscalSponsorshipSurvey;
+    private SetLoanProgramsSurvey setLoanProgramsSurvey;
+    private SetConsultingFeeForServiceWorkSurvey setConsultingFeeForServiceWorkSurvey;
+    private SetResearchSurvey setResearchSurvey;
+    private SetCompetitionsSurvey setCompetitionsSurvey;
+    private SetConferencesSurvey setConferencesSurvey;
+
     private Actions() {
         this.loginWithGoogleActions = new LoginWithGoogleActions();
         this.creatingNewOrganizationActions = new CreatingNewOrganizationActions();
@@ -76,6 +86,15 @@ public class Actions {
         this.setLoanDetailsSurvey = new SetLoanDetailsSurvey();
         this.setNetAssetsSurvey = new SetNetAssetsSurvey();
         this.setBalanceSheetSummarySurvey = new SetBalanceSheetSummarySurvey();
+
+        this.setAdvocacySurvey = new SetAdvocacySurvey();
+        this.setGrantmakingSurvey = new SetGrantmakingSurvey();
+        this.setFiscalSponsorshipSurvey = new SetFiscalSponsorshipSurvey();
+        this.setLoanProgramsSurvey = new SetLoanProgramsSurvey();
+        this.setConsultingFeeForServiceWorkSurvey = new SetConsultingFeeForServiceWorkSurvey();
+        this.setResearchSurvey = new SetResearchSurvey();
+        this.setCompetitionsSurvey = new SetCompetitionsSurvey();
+        this.setConferencesSurvey = new SetConferencesSurvey();
     }
 
     public static void setupActions() {
@@ -120,5 +139,14 @@ public class Actions {
     public static SetLoanDetailsSurvey setLoanDetailsSurvey(){return actions.setLoanDetailsSurvey;}
     public static SetNetAssetsSurvey setNetAssetsSurvey(){return actions.setNetAssetsSurvey;}
     public static SetBalanceSheetSummarySurvey setBalanceSheetSummarySurvey(){return actions.setBalanceSheetSummarySurvey;}
+
+    public static SetAdvocacySurvey setAdvocacySurvey(){return actions.setAdvocacySurvey;}
+    public static SetGrantmakingSurvey setGrantmakingSurvey(){return actions.setGrantmakingSurvey;}
+    public static SetFiscalSponsorshipSurvey setFiscalSponsorshipSurvey(){return actions.setFiscalSponsorshipSurvey;}
+    public static SetLoanProgramsSurvey setLoanProgramsSurvey(){return actions.setLoanProgramsSurvey;}
+    public static SetConsultingFeeForServiceWorkSurvey setConsultingFeeForServiceWorkSurvey(){return actions.setConsultingFeeForServiceWorkSurvey;}
+    public static SetResearchSurvey setResearchSurvey(){return actions.setResearchSurvey;}
+    public static SetCompetitionsSurvey setCompetitionsSurvey(){return actions.setCompetitionsSurvey;}
+    public static SetConferencesSurvey setConferencesSurvey(){return actions.setConferencesSurvey;}
 
 }
