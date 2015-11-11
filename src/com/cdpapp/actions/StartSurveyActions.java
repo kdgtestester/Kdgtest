@@ -78,7 +78,7 @@ public class StartSurveyActions {
         Pages.profileWizard().waitSaveFinishButton();
         Pages.profileWizard().clickSaveFinishButton();
 
-        Pages.profileWizard().acceptAlert();
+        //Pages.profileWizard().acceptAlert();
 
         Pages.profileWizard().waitModalBody();
     }
