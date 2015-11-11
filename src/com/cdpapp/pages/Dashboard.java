@@ -38,6 +38,8 @@ public class Dashboard extends BasePage {
     }
 
     public void waitJoinOrCreateNewOrgItem(){
+//        ((JavascriptExecutor) driver)
+//                .executeScript("window.scrollTo(0, $('.container-fluid .dropdown-menu')[0].scrollHeight)");
         ((JavascriptExecutor) driver)
                 .executeScript("window.scrollTo(0, $('.container-fluid .dropdown-menu')[0].scrollHeight)");
         waitForElementToBeClickable("joinOrCreateNewOrgItem");

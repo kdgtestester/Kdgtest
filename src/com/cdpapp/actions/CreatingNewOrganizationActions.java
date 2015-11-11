@@ -1,7 +1,9 @@
 package com.cdpapp.actions;
 
 import com.cdpapp.control.Pages;
+import com.cdpapp.pages.Reports;
 import com.gargoylesoftware.htmlunit.Page;
+import com.testmatick.reporting.Reporter;
 import sun.security.krb5.internal.PAData;
 
 public class CreatingNewOrganizationActions {
@@ -54,7 +56,15 @@ public class CreatingNewOrganizationActions {
 
     public void setupAddressContactInformation(){
         Pages.organizationSetup().waitAddressContactInformationForm();
+        if (Pages.organizationSetup().checkCanadaSelected()){
+            setAddressContactInformationCanada();
+        } else {
+            setAddressContactInformationUSA();
+        }
 
+    }
+
+    public void setAddressContactInformationUSA(){
         Pages.organizationSetup().setStreetAddressOrganization();
         Pages.organizationSetup().setCityOrganization();
 //        Pages.organizationSetup().waitStateList();
@@ -62,6 +72,18 @@ public class CreatingNewOrganizationActions {
         Pages.organizationSetup().setZipCodeOrganization();
         Pages.organizationSetup().setCountryOrganization();
         //Pages.organizationSetup().setCountry2Organization();
+        Pages.organizationSetup().setPhoneOrganization();
+        Pages.organizationSetup().waitNextButton();
+        Pages.organizationSetup().clickNextButton();
+    }
+
+    public void setAddressContactInformationCanada(){
+        Pages.organizationSetup().setStreetAddressOrganization();
+        Pages.organizationSetup().setCityOrganization();
+//        Pages.organizationSetup().waitStateList();
+//        Pages.organizationSetup().setStateOrganization();
+        Pages.organizationSetup().setZipCodeOrganization();
+        Pages.organizationSetup().setCountry2Organization();
         Pages.organizationSetup().setPhoneOrganization();
         Pages.organizationSetup().waitNextButton();
         Pages.organizationSetup().clickNextButton();

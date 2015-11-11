@@ -55,6 +55,20 @@
         <xpath>//select[@id='county']</xpath>
     </WebElement>
 
+    <WebElement name="orgSetupCountry2Select">
+        <xpath>//select[@id='org-setup-addr_country']</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupCountryCanadaSelected">
+        <xpath>//*[@id='org-setup-addr_country']/option[2]</xpath>
+    </WebElement>
+
+    <WebElement name="orgSetupCountry2Field">
+        <xpath>//input[@id='country']</xpath>
+    </WebElement>
+
+
+
     <WebElement name="orgSetupAddressCountryField">
         <xpath>//form[@name='orgSetupForm2']//select[@id='org-setup-addr_country']</xpath>
     </WebElement>

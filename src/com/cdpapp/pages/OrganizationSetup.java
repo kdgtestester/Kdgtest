@@ -1,6 +1,7 @@
 package com.cdpapp.pages;
 
 import com.testmatick.base.BasePage;
+import com.testmatick.reporting.Reporter;
 import com.testmatick.utils.Random;
 import org.openqa.selenium.JavascriptExecutor;
 
@@ -16,7 +17,7 @@ public class OrganizationSetup extends BasePage {
     }
 
     public void selectStateOrProvinceOrganization(){
-        selectDropDownListRandomOption("Select State or Province organization", 3, 10 /*getDropDownListItemsCount("Get count State or Province", "organizationStateOrProvince")*/, "organizationStateOrProvince");
+        selectDropDownListRandomOption("Select State or Province organization", 2, 7 /*getDropDownListItemsCount("Get count State or Province", "organizationStateOrProvince")*/, "organizationStateOrProvince");
     }
 
     public void clicFindMyOrganizationButton(){
@@ -97,14 +98,21 @@ public class OrganizationSetup extends BasePage {
         type("Set Zip code organization", "" + Random.genInt(10000, 99999), "orgSetupAddressZipField");
     }
 
+    public boolean checkCanadaSelected(){
+        return isElementPresent("orgSetupCountry2Field");
+    }
+
     public void setCountryOrganization(){
         selectDropDownListRandomOption("Set country organization", 2, getDropDownListItemsCount("Get count country", "orgSetupCountryField"), "orgSetupCountryField");
     }
 
-//    public void setCountry2Organization(){
-//        //selectDropDownListRandomOption("Set country2 organization", "orgSetupAddressCountryField");
-//
-//    }
+    public void setCountry2Organization(){
+        type("Set country", "Canada", "orgSetupCountry2Field");
+    }
+
+    public void setUSACountryOrganization(){
+        selectDropDownListOptionByIndex("Set USA country", 2, "orgSetupCountry2Select");
+    }
 
     public void setPhoneOrganization(){
         type("Set phone organization", Random.genPhone(), "orgSetupPhoneField");
